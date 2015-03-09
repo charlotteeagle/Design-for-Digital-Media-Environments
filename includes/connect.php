@@ -1,5 +1,6 @@
 <?php
-    define("DB_SERVER", "localhost");
+/*
+        define("DB_SERVER", "localhost");
     define("DB_USER", "YOUR USERNAME");
     define("DB_PASS", "YOUR DATABASE PASSWORD");
     define("DB_NAME", "NAME OF DATABSE"); 
@@ -12,4 +13,25 @@
         " (" . mysqli_connect_errno() . ")"
         );
     }
+    */
+?>
+
+<?php
+
+$user = 'root';
+$password = 'root';
+$db = 'property';
+$host = 'localhost';
+$port = 8889;
+
+$link = mysqli_init();
+$success = mysqli_real_connect(
+   $link, 
+   $host, 
+   $user, 
+   $password, 
+   $db,
+   $port
+);
+
 ?>

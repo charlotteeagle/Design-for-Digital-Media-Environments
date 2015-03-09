@@ -1,0 +1,54 @@
+.head {
+    background-color: #E8E8E8;
+    height: 82px;
+    width: 100%;
+    
+}
+    
+.navigation {
+    font-size: 22px;
+    text-align: center;
+    background-color: #62A9FF;
+    height: 65px;
+    position: absolute;
+    width: 100%;
+    min-width: 500px;
+ }
+  
+.logo {
+    float:left; 
+    margin:15px;
+    
+}
+
+.login_button { 
+    float: right; 
+    /*margin-right: 20px;*/
+    
+}
+
+.navigation ul {
+    display: inline-block;
+    list-style: none; 
+    padding: 0;
+}
+
+.navigation ul li {
+    /* border-right: 1px solid #000000; put lines between links*/
+    float: left;
+    
+}
+
+.navigation ul li a {
+    letter-spacing: 1px; 
+    padding: 20px;
+    margin-right: 5px;
+    color: #000; 
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    background: #0E6DFF;
+    color: #fff;
+    height: 50px;
+}
