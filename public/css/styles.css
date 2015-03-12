@@ -24,13 +24,13 @@ body {
 
 /* -------------------------------------------Menu/buttons -----------------------------------------------*/
 
-.menu, .main {
+.menu, .main, .footer {
 	margin:auto; /* center div in the page */
 	width: 750px;	
 }
 
 .menu {
-	padding-bottom:5px;
+	/* padding-bottom:5px; */
     background-color: #fff;
 }
 
