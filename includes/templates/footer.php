@@ -10,7 +10,7 @@
     </div>
     <div class="sign-up">
         <div class="signup-icon">
-            <a href="signup.php"></a><img src="images/Add%20User-50.png"></a>
+            <a href="..//..//public/signup.php"><img src="images/Add%20User-50.png"></a>
         </div> 
     </div>
     <div class="our-service">
