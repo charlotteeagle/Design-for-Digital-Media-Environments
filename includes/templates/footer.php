@@ -1,5 +1,3 @@
-        
-
 <body>
   <div class="footer">
     <div class="social-media">

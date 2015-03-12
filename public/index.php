@@ -6,11 +6,6 @@
     include_once("../includes/templates/nav.php"); 
 
 ?>
-        
-        
-
-
-
 
 <!DOCTYPE html>
 <html lang="en">

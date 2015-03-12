@@ -31,13 +31,14 @@ body {
 
 .menu {
 	padding-bottom:5px;
+    background-color: #fff;
 }
 
 .buttons>a {
 	/* select <a> hyperlinks within the .menu element */
     float: left;
 	display:inline-block;
-	background-color: #F0F0F0;
+	background-color: #fff;
 	border-radius:3px;
 	padding:25px;
 	font-size:1.2em;
@@ -46,7 +47,7 @@ body {
 }
 
 .buttons>a:hover {
-	background-color: #D9D9D9; /* hover colour */
+	background-color: #F0F0F0; /* hover colour */
 	color: black;
 }
 
