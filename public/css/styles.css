@@ -32,7 +32,7 @@ body {
 .menu {
 	background-repeat:no-repeat;
 	background-position: bottom right;
-	/* background-image: url(); */
+	background-color: #33A1DE ;
 	background-size: auto 100%;
 	padding-bottom:5px;
 }
@@ -41,7 +41,7 @@ body {
 	/* select <a> hyperlinks within the .menu element */
     float: left;
 	display:inline-block;
-	background-color: #33A1DE ;
+	background-color: #fff ;
 	border-radius:3px;
 	padding:25px;
 	font-size:1.2em;
@@ -51,7 +51,7 @@ body {
 
 .buttons>a:hover {
 	background-color:#000;
-	color:#fff;
+	color: black;
 }
 
 .buttons>a.on {
