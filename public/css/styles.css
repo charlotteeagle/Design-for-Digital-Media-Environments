@@ -117,8 +117,9 @@ body {
 
 .footer {
     width: 100%;
+    height: 50px;
 	font-size:0.9em;
-	font-family: 'Bree Serif', serif;
+	font-family: 'Play', sans-serif;
     display: -webkit-flex;       /* Places elements next to eachother */
     -webkit-align-items: center; /* Places elements next to eachother */
     align-items: center;
