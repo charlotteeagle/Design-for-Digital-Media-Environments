@@ -2,10 +2,10 @@
   <div class="footer">
     <div class="social-media">
         <div class="social-icon">
-            <img src="images/facebooklogo.png">
+            <a href="https://en-gb.facebook.com/login"><img src="images/facebooklogo.png"></a>
         </div>
         <div class="social-icon">
-            <img src="images/twitterlogo.png">
+            <a href="https://twitter.com/?lang=en-gb"><img src="images/twitterlogo.png"></a>
         </div>
     </div>
     <div class="sign-up">
