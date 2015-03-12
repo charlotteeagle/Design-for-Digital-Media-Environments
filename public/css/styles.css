@@ -30,9 +30,8 @@ body {
 }
 
 .menu {
-	background-repeat:no-repeat;
-	background-position: bottom right;
-	background-size: auto 100%;
+    border-style: solid; 
+    border-color: white; 
 	padding-bottom:5px;
 }
 
