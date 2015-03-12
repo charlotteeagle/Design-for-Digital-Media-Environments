@@ -3,6 +3,8 @@ body {
     font-family: 'Play', sans-serif;
 }
 
+/* -------------------------------------------Header -----------------------------------------------*/
+
 .header {
 	background-color: #33A1DE;
 	font-family: 'Play', sans-serif;
@@ -19,6 +21,8 @@ body {
    /* border-color: white; */
     
 }
+
+/* -------------------------------------------Menu/buttons -----------------------------------------------*/
 
 .menu, .main {
 	margin:auto; /* center div in the page */
@@ -57,11 +61,15 @@ body {
 	font-weight:bold;
 }
 
+/* -------------------------------------------Login -----------------------------------------------*/
+
 .login {
     float: right;
     border-style: solid;
     border-color: black;
 }
+
+/* -------------------------------------------Body -----------------------------------------------*/
 
 .main {
 	font-size:0.9em;
@@ -72,6 +80,43 @@ body {
     background-color: #FAFAFA; 
     
 }
+
+
+.background-position {
+    margin: auto;
+    background-image: url(../images/search-background.jpg);
+	display:inline-block;
+	width:100%;	
+	vertical-align: top;
+	font-size:0.95em;
+    height: 476px;
+    background-repeat:no-repeat;
+}
+
+.background-position img {
+	width:100%;			
+}
+
+.search-box {
+    margin-top: center;
+    margin: 150px 50px 0px 250px;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 4em;
+     display: -webkit-flex;       /* Places elements next to eachother */
+    -webkit-align-items: center; /* Places elements next to eachother */
+}
+
+.search-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* -------------------------------------------Footer -----------------------------------------------*/
 
 .footer {
     width: 100%;
@@ -122,51 +167,12 @@ body {
     margin-right: 25%;
 }
 
-
-
-/* dog */
-
-.background-position {
-    margin: auto;
-    background-image: url(../images/search-background.jpg);
-	display:inline-block;
-	width:100%;	
-	vertical-align: top;
-	font-size:0.95em;
-    height: 476px;
-    background-repeat:no-repeat;
-}
-
-.background-position img {
-	width:100%;			
-}
-
-.search-box {
-    margin-top: center;
-    margin: 150px 50px 0px 250px;
-    padding-top: 20px;
-    padding-left: 10%;
-    padding-bottom: 20px;
-    width: 50%;
-    background-color: white;
-    opacity: 0.8;
-    font-size: 4em;
-     display: -webkit-flex;       /* Places elements next to eachother */
-    -webkit-align-items: center; /* Places elements next to eachother */
-}
-
-.search-icon {
-    width: 50px;
-    height: 50px;
-}
-
-/* responsiveness */
+/* -------------------------------------------responsiveness -----------------------------------------------*/
 
 @media all and (max-width: 1024px) {
 
-	/* the rules within these curly brackets apply when the window size is less than 1024px. This could be a 
-	   smaller window on a desktop or a tablet */
-
+	/* applied when the window size is less than 1024px. Used for a smaller desktop type. */
+    
 	.header, .main, .footer>div  {
 	margin:none;
 	width:auto;
@@ -182,10 +188,10 @@ body {
 
 }
 
-
 @media all and (max-width: 640px) {
 
-    /* these rules apply when the window size is less than 640px. It is safe to assume this is a mobile device */
+    /* applied when the window size is less than 640px. */
+    
     .button {
     	margin-top:10px;
     }
