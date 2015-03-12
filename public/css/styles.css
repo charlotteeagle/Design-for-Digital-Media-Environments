@@ -37,16 +37,16 @@ body {
 	/* select <a> hyperlinks within the .menu element */
     float: left;
 	display:inline-block;
-	background-color: #fff ;
+	background-color: #F0F0F0;
 	border-radius:3px;
 	padding:25px;
 	font-size:1.2em;
 	text-decoration:none; /* remove underline */
-	margin-right:5px;
+	margin-right:5px; /* button space */
 }
 
 .buttons>a:hover {
-	background-color: #fff; /* headerbackground colour */
+	background-color: #EBEBEB; /* hover colour */
 	color: black;
 }
 
@@ -123,7 +123,7 @@ body {
     align-items: center;
      /*border-style: solid; */
     /*border-color: black; */
-    background-color: #F0F0F0; 
+    background-color: #F0F0F0; /*Light Grey */
 }
 
 .social-media {
