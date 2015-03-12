@@ -43,4 +43,8 @@
   </body>
 </html>
 
-<?php include_once("../includes/templates/footer.php"); ?>        
+<!-- Begin Footer -->
+
+<?php include_once("../includes/templates/footer.php"); ?>   
+
+<!-- End Footer -->

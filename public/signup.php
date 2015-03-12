@@ -12,5 +12,8 @@
 
 </body>
 
+<!-- Begin Footer -->
 
 <?php include_once("../includes/templates/footer.php"); ?>   
+
+<!-- End Footer -->
