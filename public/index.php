@@ -12,7 +12,6 @@
   <head>
     <meta charset="utf-8">
     <title>BH Homes</title>
-    <link rel="stylesheet" href="css/stylesheet.css" type="text/css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
   </head>
