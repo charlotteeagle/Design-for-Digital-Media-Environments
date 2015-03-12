@@ -19,7 +19,7 @@
 <?php
 
 $user = 'root';
-$password = 'root';
+$password = 'Cl54008382';
 $db = 'property';
 $host = 'localhost';
 $port = 8889;
