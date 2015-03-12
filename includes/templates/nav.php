@@ -1,5 +1,7 @@
-<div class="menu">
-    <div class="buttons">
+<!doctype html>
+<html>
+    <div class="menu">
+        <div class="buttons">
         <a href="../../public/index.php" class="on">Home</a>
         <a href="../../public/about.php">About Us</a>
         <a href="../../public/help.php">Help</a>
@@ -8,5 +10,5 @@
         <a href="../../public/login.php">Login</a>
         </div>
         
+        </div>
     </div>
-</div>
