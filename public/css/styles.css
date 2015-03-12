@@ -46,7 +46,7 @@ body {
 }
 
 .buttons>a:hover {
-	background-color: #EBEBEB; /* hover colour */
+	background-color: #D9D9D9; /* hover colour */
 	color: black;
 }
 
@@ -73,7 +73,7 @@ body {
     width: 100%;
     /*border-style: solid; */
     /*border-color: black; */
-    background-color: #FAFAFA; 
+    background-color: #fff; /* body background colour*/
     
 }
 
