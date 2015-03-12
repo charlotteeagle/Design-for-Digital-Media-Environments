@@ -39,8 +39,8 @@ body {
     float: left;
 	display:inline-block;
 	background-color: #fff;
-	/* border-radius:3px; */
-	padding:25px;
+	border-radius: 5px; /* button roundness */
+	padding:20px;
 	font-size:1.2em;
 	text-decoration:none; /* remove underline */
 	margin-right:10px; /* button space */
