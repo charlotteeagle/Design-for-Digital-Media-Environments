@@ -1,54 +1,217 @@
-.head {
-    background-color: #ffffff;
-    height: 82px;
-    width: 100%;
-    
+body {
+	margin:auto;
+    font-family: 'Play', sans-serif;
 }
-    
-.navigation {
-    font-size: 22px;
-    text-align: center;
-    background-color: #62A9FF;
-    height: 65px;
-    position: absolute;
-    width: 100%;
-    min-width: 500px;
- }
-  
-.logo {
-    float:left; 
-    margin:15px;
+
+.header {
+	background-color: #33A1DE;
+	font-family: 'Play', sans-serif;
+    display: -webkit-flex; 
+    -webkit-align-items: center;
+    align-items: center;
+    /*border-style: solid; */
+    /*border-color: white; */ 
+}
+
+.logo-box {
+    padding-top: 40px;   
+   /* border-style: solid; */
+   /* border-color: white; */
     
 }
 
-.login_button { 
-    float: right; 
-    /*margin-right: 20px;*/
-    
+.menu, .main {
+	margin:auto; /* center div in the page */
+	width: 750px;	
 }
 
-.navigation ul {
-    display: inline-block;
-    list-style: none; 
-    padding: 0;
+.menu {
+	background-repeat:no-repeat;
+	background-position: bottom right;
+	/* background-image: url(); */
+	background-size: auto 100%;
+	padding-bottom:5px;
 }
 
-.navigation ul li {
-    /* border-right: 1px solid #000000; put lines between links*/
+.buttons>a {
+	/* select <a> hyperlinks within the .menu element */
     float: left;
+	display:inline-block;
+	background-color:#fff;
+	border-radius:3px;
+	padding:25px;
+	font-size:1.2em;
+	text-decoration:none; /* remove underline */
+	margin-right:5px;
+}
+
+.buttons>a:hover {
+	background-color:#000;
+	color:#fff;
+}
+
+.buttons>a.on {
+	/* when the hyperlink has the class 'on' */
+	background-color:#000;
+	color:#fff;
+	font-weight:bold;
+}
+
+.login {
+    float: right;
+    border-style: solid;
+    border-color: black;
+}
+
+.main {
+	font-size:0.9em;
+	padding: 0px 0px;
+    width: 100%;
+    /*border-style: solid; */
+    /*border-color: black; */
+    background-color: #FAFAFA; 
     
 }
 
-.navigation ul li a {
-    letter-spacing: 1px; 
-    padding: 20px;
-    margin-right: 5px;
-    color: #000; 
-    text-decoration: none;
+.footer {
+    width: 100%;
+	font-size:0.9em;
+	font-family: 'Bree Serif', serif;
+    display: -webkit-flex;       /* Places elements next to eachother */
+    -webkit-align-items: center; /* Places elements next to eachother */
+    align-items: center;
+     /*border-style: solid; */
+    /*border-color: black; */
+    background-color: #F5F5F5; 
 }
 
-.navigation ul li a:hover {
-    background: #0E6DFF;
-    color: #fff;
+.social-media {
+    padding: 25px;
+    margin-right: 25%;
+    /* border-style: solid; */
+    /*border-color: black; */ 
+    display: -webkit-flex;       /* Places elements next to eachother */
+    -webkit-align-items: center; /* Places elements next to eachother */
+    -webkit-align-items: center; /* Places elements next to eachother */
+}
+
+.social-icon {
+    padding-right: 80px;
+    width: 50px;
     height: 50px;
+}
+
+.sign-up {
+    padding: 25px;
+    margin-right: 25%;
+}
+
+.signup-icon{
+    padding-right: 80px;
+    width: 50px;
+    height: 50px;
+}
+
+.our-service {
+    padding: 25px;
+    margin-right: 25%;
+}
+
+.service-icon {
+    padding: 25px;
+    margin-right: 25%;
+}
+
+
+
+/* dog */
+
+.background-position {
+    margin: auto;
+    background-image: url(../images/search-background.jpg);
+	display:inline-block;
+	width:100%;	
+	vertical-align: top;
+	font-size:0.95em;
+    height: 476px;
+    background-repeat:no-repeat;
+}
+
+.background-position img {
+	width:100%;			
+}
+
+.search-box {
+    margin-top: center;
+    margin: 150px 50px 0px 250px;
+    padding-top: 20px;
+    padding-left: 10%;
+    padding-bottom: 20px;
+    width: 50%;
+    background-color: white;
+    opacity: 0.8;
+    font-size: 4em;
+     display: -webkit-flex;       /* Places elements next to eachother */
+    -webkit-align-items: center; /* Places elements next to eachother */
+}
+
+.search-icon {
+    width: 50px;
+    height: 50px;
+}
+
+/* responsiveness */
+
+@media all and (max-width: 1024px) {
+
+	/* the rules within these curly brackets apply when the window size is less than 1024px. This could be a 
+	   smaller window on a desktop or a tablet */
+
+	.header, .main, .footer>div  {
+	margin:none;
+	width:auto;
+	}
+
+	.menu, .button {
+		padding:0px 10px;
+	}
+
+	.main {
+		padding: 10px;
+	}
+
+}
+
+
+@media all and (max-width: 640px) {
+
+    /* these rules apply when the window size is less than 640px. It is safe to assume this is a mobile device */
+    .button {
+    	margin-top:10px;
+    }
+
+    .button>a {
+    	display:block;
+    	width:50%;
+    	background-color:inherit;
+    }
+    .button>a:hover {
+    	background-color:inherit;
+    	color:inherit;
+    }
+    .button>a.on {
+    	background-color: #000;
+    	color:#fff;
+    }
+
+    .search-box {
+    	display:block;
+    	width:auto;
+    	margin:10px;
+    }
+    .search-box img {
+    	margin-top:5px;
+    	width:100%;
+    }
+
 }

@@ -1,15 +1,12 @@
-<div class="navigation">
-            
-    <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="help.php">Help</a></li>
-    </ul>
-    
- <div class="login_button">
-    <ul>
-        <li><a href="login.php">Login</a></li>
-    </ul>
-     
+<div class="menu">
+    <div class="buttons">
+        <a href="" class="on">Home</a>
+        <a href="../public/aboutus.html">About Us</a>
+        <a href="./help.html">Help</a>
+        <a href="">Wiki</a>
+        <div class="login"> 
+        <a href="../includes/login.html">Login</a>
+        </div>
+        
     </div>
 </div>
