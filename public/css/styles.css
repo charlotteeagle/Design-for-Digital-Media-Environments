@@ -6,7 +6,7 @@ body {
 /* -------------------------------------------Header -----------------------------------------------*/
 
 .header {
-	background-color: #fff ;
+	background-color: #33A1DE ;
 	font-family: 'Play', sans-serif;
     display: -webkit-flex; 
     -webkit-align-items: center;
@@ -41,7 +41,7 @@ body {
 	/* select <a> hyperlinks within the .menu element */
     float: left;
 	display:inline-block;
-	background-color: #33A1DE;
+	background-color: #fff ;
 	border-radius:3px;
 	padding:25px;
 	font-size:1.2em;
