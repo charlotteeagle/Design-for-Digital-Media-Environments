@@ -51,7 +51,7 @@ body {
 	margin-right:10px; /* button space */
 }
 
-.buttons, .login, .register>a:hover {
+.buttons>a:hover, .login>a:hover, .register>a:hover {
 	background-color: #F0F0F0; /* hover colour */
 	color: black;
 }
