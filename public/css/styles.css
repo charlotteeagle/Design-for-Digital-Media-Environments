@@ -127,12 +127,13 @@ body {
 }
 
 .social-media {
+    float: left;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
     border-style: solid;
     border-color: black; 
-    display: -webkit-flex;       /* Places elements next to eachother */
-    -webkit-align-items: center; /* Places elements next to eachother */
+   /* display: -webkit-flex;  */     /* Places elements next to eachother */
+   /* -webkit-align-items: center; */ /* Places elements next to eachother */
 }
 
 /*.social-icon {
