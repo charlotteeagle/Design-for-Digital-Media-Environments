@@ -66,6 +66,7 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up>a {
+    float: left;
     margin-top: 10px;
 	display:inline-block;
 	background-color: #fff;
