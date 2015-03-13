@@ -68,11 +68,9 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login {
-    border-style: solid;
-    border-color: black;
     margin-top: 10px;
     float: right;
-	/*display:inline-block;*/
+	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
 	padding:20px;
@@ -89,8 +87,6 @@ body {
 /* -------------------------------------------Register -----------------------------------------------*/
 
 .register {
-     border-style: solid;
-    border-color: black;
     margin-top: 10px;
     float: right;
 	display:inline-block;
