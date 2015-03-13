@@ -25,9 +25,9 @@ body {
 
 /* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
-.buttons, login {
+.buttons, .login, .register {
 	margin:auto; /* center div in the page */
-	width: 600px;	
+	width: 650px;	
     border-style: solid;
     border-color: black;
 }
