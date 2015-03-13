@@ -111,7 +111,7 @@ body {
 
 .footer {
 	margin:auto; /* center div in the page */
-	width: 400px;	
+	width: 500px;	
 }
 
 .footer>a {
@@ -128,7 +128,7 @@ body {
 
 .icon-container>a {
     float: left;
-    padding-right: 80px;
+    padding-right: 60px;
     border-style: solid; 
     border-color: black; 
 } 
