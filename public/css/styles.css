@@ -66,7 +66,7 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up>a {
-    float: right;
+    float: left;
     margin-top: 10px;
 	display:inline-block;
 	background-color: #fff;
@@ -86,8 +86,6 @@ body {
 
 .login>a {
     float: left;
-    border-style: solid; 
-    border-color: black;
     text-decoration: none; /* remove underline */
     margin-top: 10px;
 	display:inline-block;
