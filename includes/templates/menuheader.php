@@ -15,14 +15,14 @@
                 <a href="../../public/about.php">About Us</a>
                 <a href="../../public/help.php">Help</a>
                 <a href="http://dakar.bournemouth.ac.uk/~ceagle/wiki/dokuwiki/doku.php?id=start">Wiki</a>
-                </div>
+            </div>
         
             <div class="login"> 
                 <a href="../../public/login.php">Login</a>
             </div>
                 
             <div class="register"> 
-                <a href="">Register</a>
+                <a href="../../public/signup.php">Sign Up</a>
             </div>
      </div> 
 </body>    

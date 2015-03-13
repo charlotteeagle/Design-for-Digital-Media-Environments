@@ -28,8 +28,6 @@ body {
 .buttons {
 	margin:auto; /* center div in the page */
 	width: 430px;	
-    border-style: solid;
-    border-color: black;
 }
 
 .menu-header {
@@ -68,6 +66,7 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login {
+    text-decoration: none; /* remove underline */
     margin-top: 10px;
     float: right;
 	display:inline-block;
@@ -75,7 +74,6 @@ body {
 	border-radius: 5px; /* button roundness */
 	padding:20px;
 	font-size:1.2em;
-	text-decoration: none; /* remove underline */
 	margin-right: 30px; /* button space */
 }
     
