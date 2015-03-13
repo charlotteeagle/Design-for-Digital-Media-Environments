@@ -85,6 +85,8 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login>a {
+    border-style: solid; 
+    border-color: black;
     text-decoration: none; /* remove underline */
     margin-top: 10px;
     float: right;
