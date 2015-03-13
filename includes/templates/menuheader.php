@@ -9,6 +9,7 @@
 <!--Menu Header -->
 <body>
     <div class="menu-header">   
+        
         <div class="buttons">
             <a href="../../public/index.php" class="on">Home</a>
             <a href="../../public/about.php">About Us</a>

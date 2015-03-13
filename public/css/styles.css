@@ -28,6 +28,8 @@ body {
 .buttons {
 	margin:auto; /* center div in the page */
 	width: 450px;	
+    border-style: solid; 
+    border-color: black;
 }
 
 .menu-header {
@@ -36,7 +38,6 @@ body {
     border-style: solid; 
     border-color: black;
     height: 80px;
-    width: 100%;
 }
 
 .buttons>a {
