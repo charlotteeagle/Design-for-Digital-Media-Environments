@@ -220,7 +220,7 @@ body {
 
     /* applied when the window size is less than 640px. */
     
-    .button {
+    .button, .sign-up, .login {
     	margin-top:10px;
     }
 
@@ -247,5 +247,5 @@ body {
     	margin-top:5px;
     	width:100%;
     }
-
+    
 }
