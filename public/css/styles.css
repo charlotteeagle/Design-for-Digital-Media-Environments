@@ -110,8 +110,8 @@ body {
 /* -------------------------------------------Footer -----------------------------------------------*/
 
 .footer {
-	margin:center; /* center div in the page */
-	width: 700px;	
+	margin:auto; /* center div in the page */
+	width: 800px;	
 }
 
 .footer>a {
