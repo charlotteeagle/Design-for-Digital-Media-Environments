@@ -63,30 +63,11 @@ body {
 	font-weight:bold;
 }
 
-/* -------------------------------------------Login -----------------------------------------------*/
-
-.login>a {
-    text-decoration: none; /* remove underline */
-    margin-top: 10px;
-    float: right;
-	display:inline-block;
-	background-color: #fff;
-	border-radius: 5px; /* button roundness */
-	padding:20px;
-	font-size:1.2em;
-	margin-right: 10px; /* button space */
-}
-    
-.login>a:hover {
-	background-color: #F0F0F0; /* hover colour */
-	color: black;
-}
-
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up>a {
     margin-top: 10px;
-    float: right;
+    float: left;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
@@ -101,7 +82,24 @@ body {
 	color: black;
 }
 
+/* -------------------------------------------Login -----------------------------------------------*/
 
+.login>a {
+    text-decoration: none; /* remove underline */
+    margin-top: 10px;
+    float: left;
+	display:inline-block;
+	background-color: #fff;
+	border-radius: 5px; /* button roundness */
+	padding:20px;
+	font-size:1.2em;
+	margin-right: 10px; /* button space */
+}
+    
+.login>a:hover {
+	background-color: #F0F0F0; /* hover colour */
+	color: black;
+}
 
 /* -------------------------------------------Body -----------------------------------------------*/
 
