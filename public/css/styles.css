@@ -66,9 +66,18 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login {
-    float: right;
     border-style: solid;
     border-color: black;
+    margin-top: 10px;
+    float: right;
+	display:inline-block;
+	background-color: #fff;
+	border-radius: 5px; /* button roundness */
+	padding:20px;
+	font-size:1.2em;
+	text-decoration:none; /* remove underline */
+	margin-right:10px; /* button space */
+    
 }
 
 /* -------------------------------------------Body -----------------------------------------------*/
