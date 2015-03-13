@@ -135,9 +135,8 @@ body {
 }
 */
 .icon-container>a {
-    padding-right: 150px;
-    width: 50px;
-    height: 50px;
+    float: left;
+    padding-right: 200px;
     border-style: solid; 
     border-color: black; 
 } 
