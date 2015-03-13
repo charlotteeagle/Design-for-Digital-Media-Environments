@@ -25,11 +25,7 @@ body {
 /* -------------------------------------------Menu-Header -----------------------------------------------*/
 
 .menu-header {
-	background-color: #fff;
-    align-items: center;
-    border-style: solid; 
-    border-color: black; 
-    
+	background-color: blue;
 }
 
 /* -------------------------------------------Menu/buttons -----------------------------------------------*/
