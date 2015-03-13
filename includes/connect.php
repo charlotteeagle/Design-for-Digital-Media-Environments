@@ -16,7 +16,7 @@
     */
 ?>
 
-<?php
+<?php   /*
 
 $user = 'root';
 $password = 'Cl54008382';
@@ -32,6 +32,25 @@ $success = mysqli_real_connect(
    $password, 
    $db,
    $port
-);
+);*/
 
 ?>
+<?php
+
+$user = 'root';
+$password = 'root';
+$db = 'property';
+$host = 'localhost';
+$port = 8889;
+
+$link = mysqli_init();
+$success = mysqli_real_connect(
+   $link, 
+   $host, 
+   $user, 
+   $password, 
+   $db,
+   $port
+);
+?>
+
