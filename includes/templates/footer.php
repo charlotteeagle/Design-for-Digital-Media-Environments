@@ -12,8 +12,7 @@
             </div>
             <div class="our-service">
                 <div class="service-icon">
-                    <img src="images/Info-50.png">
-                    <a> Site Information </a>
+                    <a img src="images/Info-50.png"> </a>
                 </div> 
             </div>
       </div>
