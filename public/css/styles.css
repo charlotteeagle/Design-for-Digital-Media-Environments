@@ -34,7 +34,7 @@ body {
 }
 
 .buttons, .sign-up, .login {
-	margin:left; /* makes div left of the page */
+	margin:center; /* makes div left of the page */
 	width: 100%;	
     border-style: solid; 
     border-color: black;
@@ -89,7 +89,7 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login>a {
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     float: left;
 	display:inline-block;
 	background-color: #fff;
