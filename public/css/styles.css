@@ -74,7 +74,7 @@ body {
 	border-radius: 5px; /* button roundness */
 	padding:20px;
 	font-size:1.2em;
-	margin-right: 30px; /* button space */
+	margin-right: 10px; /* button space */
 }
     
 .login>a:hover {
