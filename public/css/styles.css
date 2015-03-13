@@ -32,7 +32,7 @@ body {
 
 .menu-header {
 	/* padding-bottom:5px; */
-    background-color: blue;
+    background-color: 009ACD;
     border-style: solid; 
     border-color: white;
     height: 80px;
@@ -78,7 +78,7 @@ body {
     width: 100%;
     /*border-style: solid; */
     /*border-color: black; */
-    background-color: #009ACD; /* body background colour*/
+    background-color: #fff; /* body background colour*/
     
 }
 
