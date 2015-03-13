@@ -44,11 +44,12 @@ body {
     float: left;
 	display:inline-block;
 	background-color: #fff;
-	border-radius: 5px; /* button roundness */
+	border-radius: 2px; /* button roundness */
 	padding:20px;
 	font-size:1.4em;
 	text-decoration:none; /* remove underline */
 	margin-right:10px; /* button space */
+    margin-bottom: 3px;
 }
 
 .buttons>a:hover {
