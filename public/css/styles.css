@@ -110,11 +110,11 @@ body {
 /* -------------------------------------------Footer -----------------------------------------------*/
 
 .footer {
-	margin:auto; /* center div in the page */
+	margin:center; /* center div in the page */
 	width: 700px;	
 }
 
-.footer {
+.footer>a {
     width: 100%;
 	font-size:0.9em;
 	font-family: 'Play', sans-serif;
@@ -134,7 +134,7 @@ body {
    
 }
 */
-.icon-container {
+.icon-container>a {
     float: right;
     padding-right: 80px;
     width: 50px;
