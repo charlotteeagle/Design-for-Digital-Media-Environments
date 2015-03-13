@@ -32,7 +32,9 @@ body {
 
 .menu-header {
 	/* padding-bottom:5px; */
-    background-color: #fff;
+    background-color: black;
+    border-style: solid; 
+    border-color: white; 
 }
 
 .buttons>a {
@@ -177,11 +179,11 @@ body {
 	width:auto;
 	}
 
-	.menu, .button {
+	.menu-header, .button {
 		padding:0px 10px;
 	}
 
-	.main {
+	.main-header {
 		padding: 10px;
 	}
 
