@@ -47,7 +47,7 @@ body {
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
-	padding:20px;
+	padding:15px;
 	font-size:1.2em;
 	text-decoration:none; /* remove underline */
 	margin-right:10px; /* button space */
