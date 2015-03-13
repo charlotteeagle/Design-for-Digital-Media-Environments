@@ -51,7 +51,7 @@ body {
 	margin-right:10px; /* button space */
 }
 
-.buttons>a:hover {
+.buttons, .login, .register>a:hover {
 	background-color: #F0F0F0; /* hover colour */
 	color: black;
 }
@@ -77,11 +77,11 @@ body {
 	margin-right: 30px; /* button space */
 }
     
-.login>a:hover {
+/*.login>a:hover {
 	background-color: #F0F0F0; /* hover colour */
 	color: black;
 }
-
+/*
 /* -------------------------------------------Register -----------------------------------------------*/
 
 .register {
@@ -96,11 +96,11 @@ body {
 	margin-right: 10px; /* button space */
 }
     
-.login>a:hover {
+/*.login>a:hover {
 	background-color: #F0F0F0; /* hover colour */
 	color: black;
 }
-
+/*
 
 
 /* -------------------------------------------Body -----------------------------------------------*/
