@@ -67,7 +67,7 @@ body {
 
 .sign-up>a {
     margin-top: 10px;
-    float: left;
+    float: right;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
