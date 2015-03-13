@@ -110,7 +110,7 @@ body {
 /* -------------------------------------------Footer -----------------------------------------------*/
 
 .footer {
-	margin:center; /* center div in the page */
+	margin:auto; /* center div in the page */
 	width: 700px;	
 }
 
