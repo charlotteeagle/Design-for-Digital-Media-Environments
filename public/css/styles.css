@@ -35,7 +35,7 @@ body {
 
 .buttons, .sign-up, .login {
 	margin:auto; /* center div in the page */
-	width: 650px;	
+	width: 700px;	
 }
 
 .buttons>a {
