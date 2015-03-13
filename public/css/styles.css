@@ -26,8 +26,8 @@ body {
 /* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
 .buttons {
-	margin: 50%; /* center div in the page */
-	
+	margin:auto; /* center div in the page */
+	width: 990px;	
 }
 
 .menu-header {
