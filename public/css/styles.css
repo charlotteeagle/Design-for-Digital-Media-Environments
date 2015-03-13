@@ -30,7 +30,7 @@ body {
     background-color: #009ACD;
     border-style: solid; 
     border-color: black;
-    height: 80px;
+    height: 2000px;
 }
 
 .buttons {
@@ -68,7 +68,7 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up, .login {
-	margin:right; /* center div in the page */
+	margin:left; /* center div in the page */
 	width: 350px;	
     border-style: solid; 
     border-color: black;
