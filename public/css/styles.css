@@ -89,7 +89,6 @@ body {
     border-color: black;
     text-decoration: none; /* remove underline */
     margin-top: 10px;
-    float: right;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
