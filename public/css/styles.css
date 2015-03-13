@@ -25,7 +25,7 @@ body {
 
 /* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
-.main, .footer {
+.buttons {
 	margin:auto; /* center div in the page */
 	width: 750px;	
 }
@@ -40,8 +40,6 @@ body {
 
 .buttons>a {
 	/* select <a> hyperlinks within the .menu element */
-    padding-top: 5px;
-    margin-right: 100px;
     float: left;
 	display:inline-block;
 	background-color: #fff;
