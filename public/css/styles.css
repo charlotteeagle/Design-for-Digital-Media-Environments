@@ -33,9 +33,9 @@ body {
     height: 80px;
 }
 
-.buttons {
+.buttons, .sign-up, .login {
 	margin:auto; /* center div in the page */
-	width: 750px;	
+	width: 950px;	
     border-style: solid; 
     border-color: black;
 }
@@ -68,7 +68,6 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 
-
 .sign-up>a {
     margin-top: 4px;
     float: left;
@@ -79,7 +78,6 @@ body {
 	font-size:1.2em;
 	text-decoration:none; /* remove underline */
 	margin-right:10px; /* button space */
-    margin-left:40%; 
 }
     
 .sign-up>a:hover {
