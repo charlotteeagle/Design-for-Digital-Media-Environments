@@ -1,4 +1,11 @@
 <?php 
+    require_once("../includes/connect.php");
+    require_once("../includes/functions.php"); 
+    include_once("../includes/templates/header.php");
+    include_once("../includes/templates/menuheader.php");  /* THE NEW NAV*/ 
+
+?>
+<?php 
     
     if(isset($_POST["submit"])) {
         $house_title = ucfirst($_POST["house_title"]);
@@ -129,4 +136,9 @@
         </div>
     </body>
 </html>
+<!-- Begin Footer -->
+
+<?php include_once("../includes/templates/footer.php"); ?>   
+
+<!-- End Footer -->
                     
