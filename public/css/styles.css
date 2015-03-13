@@ -26,12 +26,9 @@ body {
 
 .menu-header {
 	background-color: #fff;
-	font-family: 'Play', sans-serif;
-    display: -webkit-flex; 
-    -webkit-align-items: center;
     align-items: center;
     border-style: solid; 
-    border-color: white; 
+    border-color: black; 
 }
 
 /* -------------------------------------------Menu/buttons -----------------------------------------------*/
