@@ -67,7 +67,8 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up>a {
-    left: 20px;
+    display: -webkit-flex; 
+    -webkit-align-items: center;
     margin-top: 10px;
 	display:inline-block;
 	background-color: #fff;
@@ -86,7 +87,8 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login>a {
-    float: left;
+    display: -webkit-flex; 
+    -webkit-align-items: center;
     text-decoration: none; /* remove underline */
     margin-top: 10px;
 	display:inline-block;
