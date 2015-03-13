@@ -67,16 +67,15 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up>a {
-    display: -webkit-flex; 
-    -webkit-align-items: center;
     margin-top: 10px;
+    float: left;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
 	padding:20px;
 	font-size:1.2em;
-	text-decoration: none; /* remove underline */
-	margin-right: 10px; /* button space */
+	text-decoration:none; /* remove underline */
+	margin-right:10px; /* button space */
 }
     
 .sign-up>a:hover {
@@ -87,14 +86,15 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login>a {
-    text-decoration: none; /* remove underline */
     margin-top: 10px;
+    float: left;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
 	padding:20px;
 	font-size:1.2em;
-	margin-right: 10px; /* button space */
+	text-decoration:none; /* remove underline */
+	margin-right:10px; /* button space */
 }
     
 .login>a:hover {
