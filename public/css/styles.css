@@ -33,9 +33,8 @@ body {
     height: 80px;
 }
 
-.buttons, .sign-up, .login {
-	margin:center; /* makes div left of the page */
-	width: 100%;	
+.buttons{
+	margin:center; /* makes div left of the page */	
     border-style: solid; 
     border-color: black;
 }
