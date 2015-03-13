@@ -87,8 +87,6 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login>a {
-    display: -webkit-flex; 
-    -webkit-align-items: center;
     text-decoration: none; /* remove underline */
     margin-top: 10px;
 	display:inline-block;
