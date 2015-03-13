@@ -114,7 +114,7 @@ body {
 	width: 450px;	
 }
 
-.footer>a {
+.footer {
     width: 100%;
 	font-size:0.9em;
 	font-family: 'Play', sans-serif;
@@ -126,11 +126,9 @@ body {
     background-color: #F0F0F0; /*Light Grey */
 }
 
-.icon-container>a {
+.icon-container {
     float: left;
     padding-right: 60px;
-    border-style: solid; 
-    border-color: black; 
 } 
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
