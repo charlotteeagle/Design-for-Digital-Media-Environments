@@ -28,6 +28,8 @@ body {
 .buttons {
 	margin:auto; /* center div in the page */
 	width: 450px;	
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 .menu-header {
