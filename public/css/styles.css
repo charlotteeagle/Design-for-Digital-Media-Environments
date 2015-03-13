@@ -82,9 +82,9 @@ body {
 	color: black;
 }
 
-/* -------------------------------------------Register -----------------------------------------------*/
+/* -------------------------------------------Sign Up -----------------------------------------------*/
 
-.register>a {
+.sign-up>a {
     margin-top: 10px;
     float: right;
 	display:inline-block;
@@ -96,7 +96,7 @@ body {
 	margin-right: 10px; /* button space */
 }
     
-.login>a:hover {
+.sign-up>a:hover {
 	background-color: #F0F0F0; /* hover colour */
 	color: black;
 }

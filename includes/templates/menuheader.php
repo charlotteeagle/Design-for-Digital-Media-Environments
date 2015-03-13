@@ -21,7 +21,7 @@
                 <a href="../../public/login.php">Login</a>
             </div>
                 
-            <div class="register"> 
+            <div class="sign-up"> 
                 <a href="../../public/signup.php">Sign Up</a>
             </div>
      </div> 
