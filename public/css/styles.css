@@ -66,6 +66,12 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login {
+	margin:auto; /* center div in the page */
+	width: 500px;	
+}
+
+
+.login {
     border-style: solid;
     border-color: black;
     margin-top: 10px;
@@ -75,8 +81,8 @@ body {
 	border-radius: 5px; /* button roundness */
 	padding:20px;
 	font-size:1.2em;
-	text-decoration:none; /* remove underline */
-	margin-right:10px; /* button space */
+	text-decoration: none; /* remove underline */
+	margin-right: 10px; /* button space */
 }
     
 .login>a:hover {
