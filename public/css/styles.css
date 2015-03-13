@@ -40,6 +40,7 @@ body {
 
 .buttons>a {
 	/* select <a> hyperlinks within the .menu element */
+    top: 10px;
     float: left;
 	display:inline-block;
 	background-color: #fff;
