@@ -127,8 +127,8 @@ body {
 }
 
 .social-media {
-    padding: 25px;
-    margin-right: 25%;
+    padding: 10px;
+    margin-right: 10px;
     border-style: solid;
     border-color: black; 
     display: -webkit-flex;       /* Places elements next to eachother */
@@ -143,12 +143,12 @@ body {
     border-color: black; 
 } */
 
-.our-service {
+/*.our-service {
     padding: 25px;
     margin-right: 25%;
     border-style: solid; 
     border-color: black; 
-}
+} */
 
 .service-icon {
     padding: 25px;
