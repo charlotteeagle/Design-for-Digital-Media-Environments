@@ -27,7 +27,7 @@ body {
 
 .buttons {
 	margin:auto; /* center div in the page */
-	width: 750px;	
+	width: 800px;	
     border-style: solid;
     border-color: black;
 }
@@ -72,7 +72,7 @@ body {
     border-color: black;
     margin-top: 10px;
     float: right;
-	display:inline-block;
+	/*display:inline-block;*/
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
 	padding:20px;
