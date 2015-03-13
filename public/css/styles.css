@@ -25,19 +25,19 @@ body {
 
 /* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
-.buttons {
-	margin:auto; /* center div in the page */
-	width: 450px;	
-    border-style: solid; 
-    border-color: black;
-}
-
 .menu-header {
 	/* padding-bottom:5px; */
     background-color: #009ACD;
     border-style: solid; 
     border-color: black;
     height: 80px;
+}
+
+.buttons {
+	margin:auto; /* center div in the page */
+	width: 450px;	
+    border-style: solid; 
+    border-color: black;
 }
 
 .buttons>a {
