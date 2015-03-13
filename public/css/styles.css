@@ -34,10 +34,11 @@ body {
 }
 
 .buttons, .sign-up, .login {
-	margin:left; /* makes div right of the page */
+	margin:left; /* makes div left of the page */
 	width: 100%;	
     border-style: solid; 
     border-color: black;
+    height: 0px;
 }
 
 .buttons>a {
