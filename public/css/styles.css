@@ -27,7 +27,7 @@ body {
 
 .buttons {
 	margin:auto; /* center div in the page */
-	width: 650px;	
+	width: 500px;	
     border-style: solid;
     border-color: black;
 }
