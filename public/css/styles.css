@@ -68,7 +68,7 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up, .login {
-	margin:right; /* makes div in the page go to right */
+	margin:auto; /* makes div in the page go to right */
 	width: 200px;	
     border-style: solid; 
     border-color: black;
