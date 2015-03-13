@@ -8,15 +8,13 @@ body {
 .header {
 	background-color: #fff;
 	font-family: 'Play', sans-serif;
-    display: -webkit-flex; 
-    -webkit-align-items: center;
-    align-items: center;
     /*border-style: solid; */
     /*border-color: white; */ 
 }
 
 .logo-box {
-    padding-top: 5px;   
+    padding-top: 2px;   
+    
    /* border-style: solid; */
    /* border-color: white; */
     
@@ -28,8 +26,6 @@ body {
 .menu-header {
 	/* padding-bottom:5px; */
     background-color: #009ACD;
-    border-style: solid; 
-    border-color: black;
     height: 80px;
 }
 
