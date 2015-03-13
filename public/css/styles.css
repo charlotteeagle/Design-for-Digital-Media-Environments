@@ -77,9 +77,8 @@ body {
 	padding:20px;
 	font-size:1.2em;
 	text-decoration:none; /* remove underline */
-	margin-left:40%;
-    margin-right:10px; /* button space */
-    margin-bottom: 2px;
+	margin-right:10px; /* button space */
+    margin-left:40%; 
 }
     
 .sign-up>a:hover {
@@ -99,7 +98,6 @@ body {
 	font-size:1.2em;
 	text-decoration:none; /* remove underline */
 	margin-right:10px; /* button space */
-    margin-bottom: 2px;
 }
     
 .login>a:hover {
