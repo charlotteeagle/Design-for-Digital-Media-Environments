@@ -38,7 +38,6 @@ body {
 	width: 100%;	
     border-style: solid; 
     border-color: black;
-    height: 0px;
 }
 
 .buttons>a {
@@ -90,7 +89,6 @@ body {
 /* -------------------------------------------Login -----------------------------------------------*/
 
 .login>a {
-    margin-top: 10px;
     float: left;
 	display:inline-block;
 	background-color: #fff;
