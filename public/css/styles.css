@@ -22,18 +22,17 @@ body {
     
 }
 
-/* -------------------------------------------Menu-Header -----------------------------------------------*/
 
-.menu-header {
-	background-color: blue;
-    height: auto;
-}
+/* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
-/* -------------------------------------------Menu/buttons -----------------------------------------------*/
-
-.main, .footer {
+.menu-header, .main, .footer {
 	margin:auto; /* center div in the page */
 	width: 750px;	
+}
+
+.menu-header {
+	/* padding-bottom:5px; */
+    background-color: #fff;
 }
 
 .buttons>a {
