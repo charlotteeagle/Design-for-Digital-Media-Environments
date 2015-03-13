@@ -70,7 +70,7 @@ body {
 .sign-up, .login {
 	display: -webkit-flex; 
     -webkit-align-items: right;
-    align-items: center;
+    align-items: right;
     
 	width: 300px;	
     border-style: solid; 
