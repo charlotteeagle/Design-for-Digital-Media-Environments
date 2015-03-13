@@ -68,7 +68,7 @@ body {
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
 .sign-up, .login {
-	margin:auto; /* center div in the page */
+	margin:right; /* center div in the page */
 	width: 350px;	
     border-style: solid; 
     border-color: black;
