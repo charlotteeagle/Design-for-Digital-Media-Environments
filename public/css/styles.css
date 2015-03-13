@@ -34,7 +34,8 @@ body {
 	/* padding-bottom:5px; */
     background-color: black;
     border-style: solid; 
-    border-color: white; 
+    border-color: white;
+    height: 100px;
 }
 
 .buttons>a {
