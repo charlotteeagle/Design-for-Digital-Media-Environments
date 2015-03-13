@@ -36,8 +36,6 @@ body {
 .buttons, .sign-up, .login {
 	margin:auto; /* center div in the page */
 	width: 650px;	
-    border-style: solid; 
-    border-color: black;
 }
 
 .buttons>a {
@@ -47,8 +45,8 @@ body {
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
-	padding:15px;
-	font-size:1.2em;
+	padding:20px;
+	font-size:1.4em;
 	text-decoration:none; /* remove underline */
 	margin-right:10px; /* button space */
 }
