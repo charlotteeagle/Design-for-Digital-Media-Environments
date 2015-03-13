@@ -116,7 +116,6 @@ body {
 
 .footer {
     width: 100%;
-    height: 60px;
 	font-size:0.9em;
 	font-family: 'Play', sans-serif;
     display: -webkit-flex;       /* Places elements next to eachother */
@@ -133,7 +132,6 @@ body {
     border-style: solid;
     border-color: black; 
     display: -webkit-flex;       /* Places elements next to eachother */
-    -webkit-align-items: center; /* Places elements next to eachother */
     -webkit-align-items: center; /* Places elements next to eachother */
 }
 
