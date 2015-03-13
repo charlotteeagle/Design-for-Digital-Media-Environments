@@ -135,8 +135,8 @@ body {
 }
 */
 .icon-container>a {
-    float: right;
-    padding-right: 80px;
+    float: left;
+    padding-right: 150px;
     width: 50px;
     height: 50px;
     border-style: solid; 
@@ -150,12 +150,7 @@ body {
     border-color: black; 
 } 
 */
-/*.service-icon {
-    padding: 25px;
-    margin-right: 25%;
-    border-style: solid; 
-    border-color: black; 
-}*/
+
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
 
