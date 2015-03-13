@@ -19,6 +19,10 @@
             <div class="login"> 
                 <a href="../../public/login.php">Login</a>
             </div>
+                
+            <div class="register"> 
+                <a href="">Register</a>
+            </div>
         
             </div>
      </div> 
