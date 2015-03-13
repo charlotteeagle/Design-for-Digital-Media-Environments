@@ -110,8 +110,8 @@ body {
 /* -------------------------------------------Footer -----------------------------------------------*/
 
 .footer {
-	margin:auto; /* center div in the page */
-	width: 8500px;	
+	margin:center; /* center div in the page */
+	width: 700px;	
 }
 
 .footer>a {
@@ -126,29 +126,12 @@ body {
     background-color: #F0F0F0; /*Light Grey */
 }
 
-/*.social-media {
-    padding: 10px;
-    margin-right: 20px;
-    border-style: solid;
-    border-color: black; 
-   
-}
-*/
 .icon-container>a {
     float: left;
     padding-right: 200px;
     border-style: solid; 
     border-color: black; 
 } 
-
-/*.our-service {
-    padding: 25px;
-    margin-right: 25%;
-    border-style: solid; 
-    border-color: black; 
-} 
-*/
-
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
 
