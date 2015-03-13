@@ -33,8 +33,8 @@ body {
     height: 80px;
 }
 
-.buttons {
-	margin:auto; /* center div in the page */
+.buttons, .sign-up, .login {
+	margin:right; /* makes div right of the page */
 	width: 450px;	
     border-style: solid; 
     border-color: black;
@@ -220,7 +220,7 @@ body {
 
     /* applied when the window size is less than 640px. */
     
-    .button, .sign-up, .login {
+    .button {
     	margin-top:10px;
     }
 
