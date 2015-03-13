@@ -13,6 +13,7 @@
     
         <div class="our-service">
             <div class="service-icon">
+                
                 <img src="images/Info-50.png">
             </div> 
         </div>
