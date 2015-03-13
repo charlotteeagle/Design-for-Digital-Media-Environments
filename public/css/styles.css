@@ -28,8 +28,6 @@ body {
 .buttons {
 	margin:auto; /* center div in the page */
 	width: 450px;	
-    margin-top: 10px;
-    margin-right: 50px;
 }
 
 .menu-header {
@@ -69,7 +67,6 @@ body {
 
 .sign-up>a {
     margin-top: 10px;
-    margin-right: 50px;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 5px; /* button roundness */
