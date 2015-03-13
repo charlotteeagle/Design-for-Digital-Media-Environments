@@ -27,7 +27,7 @@ body {
 
 .buttons {
 	margin:auto; /* center div in the page */
-	width: 650px;	
+	width: 750px;	
     border-style: solid;
     border-color: black;
 }
@@ -78,7 +78,7 @@ body {
 	padding:20px;
 	font-size:1.2em;
 	text-decoration: none; /* remove underline */
-	margin-right: 10px; /* button space */
+	margin-right: 30px; /* button space */
 }
     
 .login>a:hover {
