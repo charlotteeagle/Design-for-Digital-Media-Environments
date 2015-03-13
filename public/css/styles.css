@@ -65,45 +65,6 @@ body {
 	font-weight:bold;
 }
 
-/* -------------------------------------------Sign Up -----------------------------------------------*/
-
-
-.sign-up>a {
-    margin-top: 4px;
-    float: left;
-	display:inline-block;
-	background-color: #fff;
-	border-radius: 5px; /* button roundness */
-	padding:20px;
-	font-size:1.2em;
-	text-decoration:none; /* remove underline */
-	margin-right:10px; /* button space */
-}
-    
-.sign-up>a:hover {
-	background-color: #F0F0F0; /* hover colour */
-	color: black;
-}
-
-/* -------------------------------------------Login -----------------------------------------------*/
-
-.login>a {
-    margin-bottom: 20px;
-    float: left;
-	display:inline-block;
-	background-color: #fff;
-	border-radius: 5px; /* button roundness */
-	padding:20px;
-	font-size:1.2em;
-	text-decoration:none; /* remove underline */
-	margin-right:10px; /* button space */
-}
-    
-.login>a:hover {
-	background-color: #F0F0F0; /* hover colour */
-	color: black;
-}
-
 /* -------------------------------------------Body -----------------------------------------------*/
 
 .main {
