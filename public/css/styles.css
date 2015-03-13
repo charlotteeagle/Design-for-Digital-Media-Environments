@@ -22,13 +22,16 @@ body {
     
 }
 
-/* -------------------------------------------Menu Header -----------------------------------------------*/
+/* -------------------------------------------Menu-Header -----------------------------------------------*/
 
-.menuheader {
-	background-color: blue;
+.menu-header {
+	background-color: #fff;
+	font-family: 'Play', sans-serif;
+    display: -webkit-flex; 
+    -webkit-align-items: center;
     align-items: center;
-    border-style: solid; 
-    border-color: white;  
+    /*border-style: solid; */
+    /*border-color: white; */ 
 }
 
 /* -------------------------------------------Menu/buttons -----------------------------------------------*/

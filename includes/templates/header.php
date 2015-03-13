@@ -9,9 +9,7 @@
  <body>
     <div class="header">
         <div class="logo-box">
-          <img src="images/logo.png">
+          <a href="index.php"><img src="images/logo.png"></a>
         </div> 
     </div>
-</body>    
-
-    
+</body>     

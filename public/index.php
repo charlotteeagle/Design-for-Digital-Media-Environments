@@ -12,8 +12,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>BH Homes</title>
-    <link rel="stylesheet" href="css/stylesheet.css" type="text/css"/>
+    <title>Bournemouth Homes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
   </head>
@@ -45,4 +44,8 @@
   </body>
 </html>
 
-<?php include_once("../includes/templates/footer.php"); ?>        
+<!-- Begin Footer -->
+
+<?php include_once("../includes/templates/footer.php"); ?>   
+
+<!-- End Footer -->

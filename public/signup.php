@@ -5,11 +5,11 @@
     include_once("../includes/templates/nav.php"); 
 
 ?>
+
 <body>
 
 
 </body>
-
 
 <!-- Begin Footer -->
 
