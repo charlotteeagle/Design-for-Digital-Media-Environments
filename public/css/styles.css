@@ -33,8 +33,9 @@ body {
     height: 80px;
 }
 
-.buttons{
-	margin:center; /* makes div left of the page */	
+.buttons {
+	margin:auto; /* center div in the page */
+	width: 750px;	
     border-style: solid; 
     border-color: black;
 }
@@ -66,6 +67,12 @@ body {
 
 /* -------------------------------------------Sign Up -----------------------------------------------*/
 
+.sign-up, .login {
+	margin:auto; /* center div in the page */
+	width: 350px;	
+    border-style: solid; 
+    border-color: black;
+}
 
 .sign-up>a {
     margin-top: 4px;
