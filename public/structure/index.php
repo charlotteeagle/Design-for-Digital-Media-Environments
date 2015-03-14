@@ -28,7 +28,7 @@
                 <img src="../../public/images/Search-50.png">
             </div>
                 <form action="" method="get"> 
-                Search: <select name="house_id">
+                Search:<select name="house_id">
                             <option value="1">Bournemouth Centre</option>
                             <option value="2">Winton</option>
                             <option value="3">Boscombe</option>

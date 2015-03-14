@@ -121,8 +121,6 @@ body {
     display: -webkit-flex;       /* Places elements next to eachother */
     -webkit-align-items: center; /* Places elements next to eachother */
     align-items: center;
-    border-style: solid; 
-    border-color: black; 
     background-color: #F0F0F0; /*Light Grey */
 }
 
@@ -130,6 +128,18 @@ body {
     float: left;
     padding-right: 60px;
 } 
+
+/* -------------------------------------------Login box -----------------------------------------------*/
+
+.login-box {
+    margin:auto; /* center div in the page */
+	width: 450px;
+    padding: 20px;
+    border-style: solid; 
+    border-color: black;   
+}
+
+
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
 
