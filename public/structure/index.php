@@ -47,7 +47,17 @@
     </div> 
 </div>
 
-
+      <?php if(isset($_SESSION["user"])) { ?>  
+            <p><?php echo $message; ?></p> <!--  If user is logged in, display welcome message -->
+      <?php } else { ?>
+            <?php echo "Search for a property"; } ?> <!--  Other display instrcutions -->
+      
+      <?php if(isset($_SESSION["user"])) { ?> <!--  If user is logged in, include the form -->
+        <?php  
+                        include 'structure/results-form.php';
+        >?
+        <?php } ?>
+      
   </body>
 </html>
 

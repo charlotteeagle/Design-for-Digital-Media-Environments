@@ -221,4 +221,7 @@ $query = "INSERT INTO users(name, description, city, gender) VALUES ('{$name}', 
 ?>
 
 
+
+
+
 <?php include_once("../../includes/templates/footer.php"); ?>                      
