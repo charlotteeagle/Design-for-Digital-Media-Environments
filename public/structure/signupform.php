@@ -18,3 +18,16 @@
     }
     
 ?>
+
+<?php
+$query = "INSERT INTO users(firstname, surname, email_address, username, password) VALUES ('{$firstname}', '{$surname}', '{$email_address}', '{$username}', '{$password}')";
+ 
+    $result = mysqli_query($connect, $query); 
+
+    if($result) {
+        $message = "Success"; 
+        } else {
+            $message = "Failed";
+ 
+    }
+?>
