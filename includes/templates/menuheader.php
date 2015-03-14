@@ -6,6 +6,11 @@
         <link href="../../public/css/styles.css" rel="stylesheet">
         <link href="../../public/css/styles.css" rel="stylesheet">
     </head>
+    
+    
+    <?php 
+        include 'loginform.php';
+    ?>
 <!--Menu Header -->
 <body>
     <div class="menu-header">   
