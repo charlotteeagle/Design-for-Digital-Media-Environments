@@ -135,7 +135,7 @@ body {
     
     margin: auto; /* center div in the page */
     width: 200px;
-    background-color: #00BFFF;
+    background-color: #F0F0F0;
     padding: 20px;
     border-style: solid; 
     opacity: 0.9;
@@ -143,6 +143,7 @@ body {
     border-radius: 10px; /* button roundness */
     border-color: white;
     border-width: thick;
+    border-top: 50px;
 }
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
