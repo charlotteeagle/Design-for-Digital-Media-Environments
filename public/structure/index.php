@@ -22,15 +22,14 @@
 <!-- MAIN BODY-->
 
   <div class="main">
-
     <div class="background-position" >
         <div class="search-box">
             <div class="search-icon">
                 <img src="../../public/images/Search-50.png">
             </div>
-                <form action="" method="get" > 
+                <form action="" method="get"> 
                 Search: <select name="house_id">
-                    <option value="1">Bournemouth Centre</option>
+                            <option value="1">Bournemouth Centre</option>
                             <option value="2">Winton</option>
                             <option value="3">Boscombe</option>
                             <option value="4">Kinson</option>
@@ -42,12 +41,11 @@
                             <option value="10">Westbourne</option>
                             <option value="11">Parkstone</option>
                             <option value="12">Northbourne</option>
-                </select> 
-                </form>
+                        </select> 
+            </form>
         </div>
-    </div>
-      
-  </div>
+    </div> 
+</div>
 
 
   </body>
