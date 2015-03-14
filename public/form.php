@@ -30,33 +30,90 @@
     
 ?>
 
+<?php /*
+    if(isset($_POST["submit"])) {
+        
+        if(empty($house_title)) {
+            $message = "Invalid property title";
+        
+        } else {
+        
+         if(empty($house_price)) {
+            $message = "Invalid Price";
+        
+        } else {
+        
+        if(empty($house_location)) {
+            $message = "Invalid Location";
+        
+        } else {
+        
+        if(empty($house_type)) {
+            $message = "Invalid Property Type";
+        
+        } else {
+        
+        if(empty($house_bedroomnumber)) {
+            $message = "Invalid Price";
+        
+        } else {
+        
+        if(empty($house_photo)) {
+            $message = "Invalid Photo";
+        
+        } else {
+        
+        if(empty($house_description)) {
+            $message = "Invalid Description";
+        }
+      
+        */
+    
+
+
+?>
+
 <?php 
     if(isset($_POST["submit"])) {
         
         if(empty($house_title)) {
             $message = "Invalid property title";
-        }
+        
+        } 
+        
          if(empty($house_price)) {
             $message = "Invalid Price";
-        }
+        
+        } 
+        
         if(empty($house_location)) {
             $message = "Invalid Location";
-        }
+        
+        } 
+        
         if(empty($house_type)) {
             $message = "Invalid Property Type";
-        }
+        
+        } 
+        
         if(empty($house_bedroomnumber)) {
             $message = "Invalid Price";
-        }
+        
+        } 
+        
         if(empty($house_photo)) {
             $message = "Invalid Photo";
-        }
+        
+        } 
+        
         if(empty($house_description)) {
             $message = "Invalid Description";
         }
-      
         
     }
+      
+        
+    
 
 
 ?>
@@ -82,7 +139,9 @@
             
                 <form action="form.php" method="post">
                     Listing Title: <input type="text" name="house_title" value="" />
+                    <br><br>
                       Guide Price: <input type="number" name="house_price" value="" />
+                    <br><br>
                          Location: <select name="house_location">
                             <option value="">--Select--</option>
                             <option value="1">Bournemouth Centre</option>
@@ -98,6 +157,7 @@
                             <option value="11">Parkstone</option>
                             <option value="12">Northbourne</option>
                         </select> 
+                    <br><br>
                     Property Type: <select name="house_type">
                             <option value="">--Select--</option>
                             <option value="1">House</option>
@@ -105,7 +165,9 @@
                             <option value="3">Bungalow</option>
                             <option value="4">Commercial</option>
                         </select>
+                    <br><br>
                     Number of bedrooms: <select name="house_bedroomnumber">
+                            <option value="">--Select--</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
                             <option value="3">3</option>
@@ -116,8 +178,11 @@
                             <option value="8">8</option>
                             <option value="9">More than 8</option>
                         </select>
+                    <br><br>
                     Add an image: <input type="text" name="house_photo" value="" />
-                    Full Description: <input type="image" name="house_description" value="" />
+                    <br><br>
+                    Full Description: <input type="text" name="house_description" value="" />
+                    <br><br>
                     <input type="submit" name="submit" value="Submit" />
             </form>
 
@@ -136,6 +201,28 @@
         </div>
     </body>
 </html>
+
+<?php
+$query = "INSERT INTO users(name, description, city, gender) VALUES ('{$name}', '{$description}', '{$city}',               '{$gender}')";
+ 
+    $result = mysqli_query($connect, $query); 
+
+    if($result) {
+        $message = "Success"; 
+        } else {
+            $message = "Failed";
+ 
+    }
+?>
+
+<?php
+    
+    if(isset ($_POST["submit"])) {
+    mysqli_close($connect);
+    }
+
+?>
+
 <!-- Begin Footer -->
 
 <?php include_once("../includes/templates/footer.php"); ?>   
