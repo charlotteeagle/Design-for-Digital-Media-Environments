@@ -55,7 +55,7 @@
       <?php if(isset($_SESSION["user"])) { ?> <!--  If user is logged in, include the form -->
         <?php  
                         include 'structure/results-form.php';
-        >?
+        ?>
         <?php } ?>
       
   </body>
