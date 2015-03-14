@@ -16,7 +16,7 @@
             <a href="../../public/help.php">Help</a>
             <a href="http://dakar.bournemouth.ac.uk/~ceagle/wiki/dokuwiki/doku.php?id=start">Wiki</a>
             <a href="../../public/signup.php">Sign Up</a>
-            <a href="../../public/login.php">Login</a>
+            <a href="../../public/structure/login.php">Login</a>
         </div>
      </div> 
 </body>    
