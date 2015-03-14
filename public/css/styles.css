@@ -132,15 +132,15 @@ body {
 /* -------------------------------------------Login box -----------------------------------------------*/
 
 .login-box {
-    top: 100px;
     margin: auto; /* center div in the page */
     background-color: #dfdfdf;
     padding: 20px;
     border-style: solid; 
-    border-color: black;
     opacity: 0.9;
     text-align: center;
     border-radius: 10px; /* button roundness */
+    border-color: white;
+    border-width: thick;
 }
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/

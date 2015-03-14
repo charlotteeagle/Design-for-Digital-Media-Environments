@@ -6,9 +6,6 @@
     include_once("../../includes/templates/menuheader.php");  /* THE NEW NAV*/
     
 ?>
-
-
-<body>
     <div class="login-box">
         <form action="login.php" method="post">
             <p>Username:</p> <input type="text" name="username" value=""/>
@@ -16,8 +13,6 @@
             <input type="submit" name="submit" value="Login"/>
         </form>
     </div>
-</body>
-
 
 <!-- Begin Footer -->
 
