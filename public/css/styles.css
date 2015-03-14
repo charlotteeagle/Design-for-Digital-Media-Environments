@@ -132,7 +132,9 @@ body {
 /* -------------------------------------------Login box -----------------------------------------------*/
 
 .login-box {
+    
     margin: auto; /* center div in the page */
+    width: 200px;
     background-color: #dfdfdf;
     padding: 20px;
     border-style: solid; 
