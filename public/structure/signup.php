@@ -7,10 +7,16 @@
     
 ?>
 
-<body>
-
-
-</body>
+<div class="login-box">
+        <form action="signupform.php" method="post">
+            <p>First Name:</p><input type="text" name="firstname" value=""/>
+            <p>Surname:</p><input type="text" name="surname" value=""/>
+            <p>Username:</p> <input type="text" name="username" value=""/>
+            <p>Password:</p><input type="text" name="password" value=""/>
+            <p>Email:</p><input type="text" name="email" value=""/>
+            <input type="submit" name="submit" value="Sign Up!"/>
+        </form>
+    </div>
 
 <!-- Begin Footer -->
 
