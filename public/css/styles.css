@@ -133,13 +133,15 @@ body {
 
 .login-box {
     margin:auto; /* center div in the page */
-	width: 450px;
+	width: 400px;
+    background-color: #dfdfdf;
     padding: 20px;
     border-style: solid; 
-    border-color: black;   
+    border-color: black;
+    opacity: 0.9;
+    min-width: 100%;
+    text-align: center;
 }
-
-
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
 
