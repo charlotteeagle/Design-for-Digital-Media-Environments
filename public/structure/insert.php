@@ -20,7 +20,7 @@
         $house_description = "";
             
     }
-    if(isset($_POST["login"])) {                        // If login is successful
+    if(isset($_POST["insert"])) {                        // If login is successful
         $username = $_POST["username"];
         $password = $_POST["password"];
         $query = "SELECT * FROM users WHERE username='{$username}' AND password='{$password}' LIMIT 1"; // Get          username and password
