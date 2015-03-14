@@ -1,10 +1,6 @@
 <?php 
     session_start();
-    require_once("../../includes/connect.php");
-    require_once("../../includes/functions.php"); 
-    include_once("../../includes/templates/header.php");
-    include_once("../../includes/templates/menuheader.php");  /* THE NEW NAV*/
-    
+    require_once("../../includes/connect.php");    
 ?>
 <?php 
     
@@ -224,9 +220,45 @@ $query = "INSERT INTO users(name, description, city, gender) VALUES ('{$name}', 
 
 ?>
 
-<!-- Begin Footer -->
 
-<?php include_once("../../includes/templates/footer.php"); ?>    
 
-<!-- End Footer -->
-                    
+<!-- SINGUP PHP -->
+
+<?php 
+    
+    if(isset($_POST["submit"])) {
+        $firstname = ucfirst($_POST["firstname"]);
+        $surname = ($_POST["surname"]);
+        $email_address = ucfirst($_POST["email_address"]);
+        $username = ucfirst($_POST["username"]);
+        $password = ucfirst($_POST["password"]);
+            
+        
+    } else {
+        $firstname = "";
+        $surname = "";
+        $email_address = "";
+        $username = "";
+        $password = "";
+    }
+    
+?>
+
+<?php
+$query = "INSERT INTO users(firstname, surname, email_address, username, password) VALUES ('{$firstname}', '{$surname}', '{$email_address}', '{$username}', '{$password}')";
+ 
+    $result = mysqli_query($connect, $query); 
+
+    if($result) {
+        $message = "Success"; 
+        } else {
+            $message = "Failed";
+ 
+    }
+?>
+
+
+
+
+
+<?php include_once("../../includes/templates/footer.php"); ?>                      
