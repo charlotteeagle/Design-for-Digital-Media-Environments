@@ -6,10 +6,10 @@
     include_once("../../includes/templates/menuheader.php");  /* THE NEW NAV*/
     
 ?>
-<body>
-
-
-</body>
+<div class="main">
+    <div class="background-position" >            
+    </div> 
+</div>
 
 
 <!-- Begin Footer -->

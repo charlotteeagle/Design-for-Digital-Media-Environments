@@ -7,10 +7,10 @@
     
 ?>
 
-<body>
-
-
-</body>
+<div class="main">
+    <div class="background-position" >            
+    </div> 
+</div>
 
 <!-- Begin Footer -->
 

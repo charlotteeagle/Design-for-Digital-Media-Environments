@@ -6,13 +6,20 @@
     include_once("../../includes/templates/menuheader.php");  /* THE NEW NAV*/
     
 ?>
-    <div class="login-box">
-        <form action="loginform.php" method="post">
-            <p>Username:</p> <input type="text" name="username" value=""/>
-            <p>Password:</p><input type="text" name="password" value=""/>
-            <input type="submit" name="submit" value="Login"/>
-        </form>
-    </div>
+<div class="main">
+    <div class="background-position" >            
+        <div class="login-box">
+            <form action="loginform.php" method="post">
+                <p>Username:</p> <input type="text" name="username" value=""/>
+                <p>Password:</p><input type="text" name="password" value=""/>
+                <input type="submit" name="submit" value="Login"/>
+            </form>
+        </div>
+    </div> 
+</div>
+
+
+    
 
 <!-- Begin Footer -->
 

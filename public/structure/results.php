@@ -7,10 +7,8 @@
     
 ?>
 
- <div class="main">
+<div class="main">
     <div class="background-position" >            
-            </div>   
-        </div>
     </div> 
 </div>
 
