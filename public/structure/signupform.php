@@ -1,4 +1,5 @@
-?>
+ <?php require_once("../../includes/connect.php"); ?>
+
 <?php 
     
     if(isset($_POST["register_submit"])) {
