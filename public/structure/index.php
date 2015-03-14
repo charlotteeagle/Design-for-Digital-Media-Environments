@@ -1,11 +1,10 @@
 <?php 
     session_start();
-    require_once("../../public/structure/index.php");
-    require_once("../includes/functions.php"); 
+    require_once("../structure/index.php");
+    require_once("../../includes/functions.php"); 
     include_once("../includes/templates/header.php");
     include_once("../includes/templates/menuheader.php");  /* THE NEW NAV*/
     
-
 ?>
 
 <!DOCTYPE html>
@@ -18,6 +17,7 @@
   </head>
   <body>
 
+      
       
 <!-- MAIN BODY-->
 
