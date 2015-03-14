@@ -135,8 +135,7 @@ body {
     
     margin: auto; /* center div in the page */
     width: 200px;
-    min-height: 300px;
-    background-color: #dfdfdf;
+    background-color: #00BFFF;
     padding: 20px;
     border-style: solid; 
     opacity: 0.9;
