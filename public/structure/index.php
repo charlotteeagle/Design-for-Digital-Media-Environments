@@ -26,7 +26,7 @@
     <div class="background-position" >
         <div class="search-box">
             <div class="search-icon">
-                <img src="images/Search-50.png">
+                <img src="../../public/images/Search-50.png">
             </div>
                 <form action="" method="get" > 
                 Search: <select name="house_id">
