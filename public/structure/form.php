@@ -153,16 +153,25 @@
                     }
                 ?>
             
-            
+      //       $house_title = "";
+     //   $house_price = "";
+     //   $house_location = "";
+     //   $house_type = "";
+      //  $house_bedroomnumber = "";
+    //    $house_photo = "";
+     //   $house_description = "";
+               
         
         
             
                 <h2>Create Your Listing</h2>
                 <p><span class="error">* required field.</span></p> 
                 <form action="form.php" method="post"> <!-- action="form.php" = form data sent for processing to form php file -->
-                    Listing Title: <input type="text" name="house_title" value="" />
+                    Listing Title: <input type="text" name="house_title" value="<?php echo $house_title;?>">
+                    <span class="error">*</span> 
                     <br><br>
-                      Guide Price: <input type="number" name="house_price" value="" />
+                      Guide Price: <input type="number" name="house_price" value="<?php echo $house_price;?>">
+   <span class="error">*</span>
                     <br><br>
                          Location: <select name="house_location">
                             <option value="">--Select--</option> //variable value set to 0 so is seen as empty
@@ -178,7 +187,7 @@
                             <option>Westbourne</option>
                             <option>Parkstone</option>
                             <option>Northbourne</option>
-                        </select> 
+                        </select><span class="error">*</span> 
                     <br><br>
                     Property Type: <select name="house_type">
                             <option value="">--Select--</option>
@@ -186,7 +195,7 @@
                             <option>Flat/Apartment</option>
                             <option>Bungalow</option>
                             <option>Commercial</option>
-                        </select>
+                        </select><span class="error">*</span>
                     <br><br>
                     Number of bedrooms: <select name="house_bedroomnumber">
                             <option value="">--Select--</option>
@@ -199,12 +208,12 @@
                             <option value="7">7</option>
                             <option value="8">8</option>
                             <option value="9">More than 8</option>
-                        </select>
+                        </select><span class="error">*</span>
                     <br><br>
                     Add an image: <input type="text" name="house_photo" value="" />
                     <br><br>
                     <!-- text area creates a larger box to fit description in -->
-                    Full Description: <textarea name="full description" rows="5" cols="40"></textarea>
+                    Full Description: <textarea name="full description" rows="5" cols="40"></textarea><span class="error">*</span>
                     <br><br>
                     <input type="submit" name="submit" value="Submit" />
             </form>
