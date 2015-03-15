@@ -8,7 +8,8 @@
 ?>
 
 <?php 
-    
+    /* without this code block the form submits but with all fields empty even when populated*/
+    /* define variables and intiialise with emtyy values */
     if(isset($_POST["submit"])) {
         $house_title = ucfirst($_POST["house_title"]);
         $house_price = ($_POST["house_price"]);
@@ -87,8 +88,8 @@
             <p>Create Your Listing</p>
             <div class="box">
                 <?php 
-                    if(isset($message)) { /*change to above variables */
-                        echo $message;
+                    if(isset($descriptionerr)) { /*change to above variables */
+                        echo $descriptionerr;
                     }
                 ?>
             
@@ -103,7 +104,7 @@
                       Guide Price: <input type="number" name="house_price" value="" />
                     <br><br>
                          Location: <select name="house_location">
-                            <option value="">--Select--</option>
+                            <option value="">--Select--</option> //variable value set to 0 so is seen as empty
                             <option>Bournemouth Centre</option>
                             <option>Winton</option>
                             <option>Boscombe</option>
