@@ -36,37 +36,37 @@
     if(isset($_POST["submit"])) {
         
         if(empty($house_title)) {
-            $message = "Invalid property title";
+            $titleerr = "Invalid property title";
         
         } 
         
          if(empty($house_price)) {
-            $message = "Invalid Price";
+            $priceerr = "Invalid Price";
         
         } 
         
         if(empty($house_location)) {
-            $message = "Invalid Location";
+            $locationerr = "Invalid Location";
         
         } 
         
         if(empty($house_type)) {
-            $message = "Invalid Property Type";
+            $typeerr = "Invalid Property Type";
         
         } 
         
         if(empty($house_bedroomnumber)) {
-            $message = "Invalid Price";
+            $numbererr = "Invalid Bedroom Number";
         
         } 
         
         if(empty($house_photo)) {
-            $message = "Invalid Photo";
+            $photoerr = "Invalid Photo";
         
         } 
         
         if(empty($house_description)) {
-            $message = "Invalid Description";
+            $descriptionerr = "Invalid Description";
         }
         
     }
