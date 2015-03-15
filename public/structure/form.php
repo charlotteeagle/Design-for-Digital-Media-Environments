@@ -153,13 +153,6 @@
                     }
                 ?>
             
-      //       $house_title = "";
-     //   $house_price = "";
-     //   $house_location = "";
-     //   $house_type = "";
-      //  $house_bedroomnumber = "";
-    //    $house_photo = "";
-     //   $house_description = "";
                
         
         
@@ -171,8 +164,8 @@
                     <span class="error">*</span> 
                     <br><br>
                       Guide Price: <input type="number" name="house_price" value="<?php echo $house_price;?>">
-   <span class="error">*</span>
-                    <br><br>
+                        <span class="error">*</span>
+                        <br><br>
                          Location: <select name="house_location">
                             <option value="">--Select--</option> //variable value set to 0 so is seen as empty
                             <option>Bournemouth Centre</option>
@@ -210,7 +203,8 @@
                             <option value="9">More than 8</option>
                         </select><span class="error">*</span>
                     <br><br>
-                    Add an image: <input type="text" name="house_photo" value="" />
+                    Add an image: <input type="text" name="house_photo" value="<?php echo $house_photo;?>">
+   <span class="error">*</span>
                     <br><br>
                     <!-- text area creates a larger box to fit description in -->
                     Full Description: <textarea name="full description" rows="5" cols="40"></textarea><span class="error">*</span>
