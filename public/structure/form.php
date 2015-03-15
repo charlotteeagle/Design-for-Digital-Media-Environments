@@ -163,7 +163,8 @@
 </html>
 
 <?php
-$query = "INSERT INTO users(name, description, city, gender) VALUES ('{$name}', '{$description}', '{$city}',               '{$gender}')";
+
+$query = "INSERT INTO users(house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}',               '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
  
     $result = mysqli_query($connect, $query); 
 
