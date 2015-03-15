@@ -1,9 +1,9 @@
 <?php 
     session_start();
     require_once("../../includes/connect.php"); 
-    require_once("../includes/functions.php"); 
-    include_once("../includes/templates/header.php");
-    include_once("../includes/templates/menuheader.php");
+    require_once("../../includes/functions.php"); 
+    include_once("../../includes/templates/header.php");
+    include_once("../../includes/templates/menuheader.php");
 
 ?>
 
@@ -82,15 +82,16 @@
 <html>
     
     <body>
+        
         <div class="container">  
-            
+            <p>Create Your Listing</p>
             <div class="box">
                 <?php 
                     if(isset($message)) {
                         echo $message;
                     }
                 ?>
-            </div>
+            
             
         
         
@@ -156,7 +157,7 @@
                 echo $house_description;
 
             ?>
-
+            </div>
         </div>
     </body>
 </html>
