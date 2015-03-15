@@ -97,7 +97,7 @@
         
             
             
-                <form action="form.php" method="post">
+                <form action="form.php" method="post"> //action="form.php" = form data sent for processing to form php file
                     Listing Title: <input type="text" name="house_title" value="" />
                     <br><br>
                       Guide Price: <input type="number" name="house_price" value="" />
