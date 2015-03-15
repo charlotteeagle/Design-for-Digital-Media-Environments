@@ -34,7 +34,7 @@
 ?>
 
 <?php /* see http://www.w3schools.com/php/php_form_url_email.asp for help on this */
-    if(isset($_POST["submit"])) {
+        if(isset($_POST["submit"])) {
         
         if(empty($house_title)) {
             $titleerr = "Invalid property title";
@@ -92,6 +92,52 @@
 
 ?>
 
+<?php /* see http://www.w3schools.com/php/php_form_url_email.asp for help on this */
+  /* if(isset($_POST["submit"])) {
+        
+        if(empty($house_title)) {
+            $titleerr = "Invalid property title";
+        
+        }
+        
+        
+         if(empty($house_price)) {
+            $priceerr = "Invalid Price";
+        
+        }
+        
+        
+        if(empty($house_location)) {
+            $locationerr = "Invalid Location";
+        
+        }
+        
+        if(empty($house_type)) {
+            $typeerr = "Invalid Property Type";
+        
+        }
+        
+        if(empty($house_bedroomnumber)) {
+            $numbererr = "Invalid Bedroom Number";
+        
+        }
+        
+        if(empty($house_photo)) {
+            $photoerr = "Invalid Photo";
+        
+        }
+        
+        if(empty($house_description)) {
+            $descriptionerr = "Invalid Description";
+        }
+        
+    }
+      
+        
+    
+*/
+
+?>
 
 <!doctype html>
 <html>
