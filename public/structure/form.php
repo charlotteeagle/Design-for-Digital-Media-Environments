@@ -39,35 +39,49 @@
         if(empty($house_title)) {
             $titleerr = "Invalid property title";
         
-        } 
+        }else{
+            $house_title = $_POST[house_title];
+        }
         
          if(empty($house_price)) {
             $priceerr = "Invalid Price";
         
+        }else{
+            $house_price = $_POST[house_price];
         } 
         
         if(empty($house_location)) {
             $locationerr = "Invalid Location";
         
+        }else{
+            $house_location = $_POST[house_location];
         } 
         
         if(empty($house_type)) {
             $typeerr = "Invalid Property Type";
         
+        }else{
+            $house_type = $_POST[house_type];
         } 
         
         if(empty($house_bedroomnumber)) {
             $numbererr = "Invalid Bedroom Number";
         
+        }else{
+            $house_bedroomnumber = $_POST[house_bedroomnumber];
         } 
         
         if(empty($house_photo)) {
             $photoerr = "Invalid Photo";
         
+        }else{
+            $house_photo = $_POST[house_photo];
         } 
         
         if(empty($house_description)) {
             $descriptionerr = "Invalid Description";
+        }else{
+            $house_description = $_POST[house_description];
         }
         
     }
