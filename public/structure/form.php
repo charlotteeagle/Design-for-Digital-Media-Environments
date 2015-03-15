@@ -145,7 +145,7 @@
     <body>
         
         <div class="container">  
-            <p>Create Your Listing</p>
+            
             <div class="box">
                 <?php 
                     if(isset($descriptionerr)) { /*change to above variables */
@@ -157,7 +157,8 @@
         
         
             
-            
+                <h2>Create Your Listing</h2>
+                <p><span class="error">* required field.</span></p> 
                 <form action="form.php" method="post"> <!-- action="form.php" = form data sent for processing to form php file -->
                     Listing Title: <input type="text" name="house_title" value="" />
                     <br><br>
