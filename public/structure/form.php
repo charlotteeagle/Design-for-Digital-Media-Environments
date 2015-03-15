@@ -87,7 +87,7 @@
             <p>Create Your Listing</p>
             <div class="box">
                 <?php 
-                    if(isset($message)) {
+                    if(isset($message)) { /*change to above variables */
                         echo $message;
                     }
                 ?>
