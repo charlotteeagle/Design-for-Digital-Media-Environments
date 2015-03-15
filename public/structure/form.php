@@ -32,7 +32,7 @@
     
 ?>
 
-<?php 
+<?php /* see http://www.w3schools.com/php/php_form_url_email.asp for help on this */
     if(isset($_POST["submit"])) {
         
         if(empty($house_title)) {
