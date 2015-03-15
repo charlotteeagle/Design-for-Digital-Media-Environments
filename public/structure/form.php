@@ -169,9 +169,9 @@ $query = "INSERT INTO house (house_title, house_price, house_location, house_typ
     $result = mysqli_query($connect, $query); 
 
     if($result) {
-        $message = "Success"; 
+        $dbmessage = "Success"; 
         } else {
-            $message = "Failed";
+            $dbmessage = "Failed";
  
     }
 ?>
@@ -184,6 +184,11 @@ $query = "INSERT INTO house (house_title, house_price, house_location, house_typ
 
 ?>
 
+<?php
+
+echo $dbmessage;
+
+?>
 
 
 
