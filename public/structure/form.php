@@ -141,7 +141,7 @@
                     <br><br>
                     Add an image: <input type="text" name="house_photo" value="" />
                     <br><br>
-                    //text area creates a larger box to fit description in
+                    <!-- text area creates a larger box to fit description in -->
                     Full Description: <textarea name="full description" rows="5" cols="40"></textarea>
                     <br><br>
                     <input type="submit" name="submit" value="Submit" />
