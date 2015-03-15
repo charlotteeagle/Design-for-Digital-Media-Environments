@@ -1,7 +1,12 @@
 <?php 
     session_start();
-    require_once("../../includes/connect.php");    
+    require_once("../../includes/connect.php"); 
+    require_once("../includes/functions.php"); 
+    include_once("../includes/templates/header.php");
+    include_once("../includes/templates/menuheader.php");
+
 ?>
+
 <?php 
     
     if(isset($_POST["submit"])) {
@@ -25,49 +30,6 @@
             
     }
     
-?>
-
-<?php /*
-    if(isset($_POST["submit"])) {
-        
-        if(empty($house_title)) {
-            $message = "Invalid property title";
-        
-        } else {
-        
-         if(empty($house_price)) {
-            $message = "Invalid Price";
-        
-        } else {
-        
-        if(empty($house_location)) {
-            $message = "Invalid Location";
-        
-        } else {
-        
-        if(empty($house_type)) {
-            $message = "Invalid Property Type";
-        
-        } else {
-        
-        if(empty($house_bedroomnumber)) {
-            $message = "Invalid Price";
-        
-        } else {
-        
-        if(empty($house_photo)) {
-            $message = "Invalid Photo";
-        
-        } else {
-        
-        if(empty($house_description)) {
-            $message = "Invalid Description";
-        }
-      
-        */
-    
-
-
 ?>
 
 <?php 
@@ -223,5 +185,6 @@ $query = "INSERT INTO users(name, description, city, gender) VALUES ('{$name}', 
 
 
 
-
+<!-- Begin Footer -->
 <?php include_once("../../includes/templates/footer.php"); ?>                      
+<!-- End Footer -->
