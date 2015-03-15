@@ -5,6 +5,7 @@
                     <br><br>
                          Location: <select name="house_location">
                             <option value="">--Select--</option>
+                            <option>All</option>
                             <option>Bournemouth Centre</option>
                             <option>Winton</option>
                             <option>Boscombe</option>
