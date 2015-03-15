@@ -12,9 +12,9 @@
     if(isset($_POST["submit"])) {
         $house_title = ucfirst($_POST["house_title"]);
         $house_price = ($_POST["house_price"]);
-        $house_location = ucfirst($_POST["house_location"]);
-        $house_type = ucfirst($_POST["house_type"]);
-        $house_bedroomnumber = ucfirst($_POST["house_bedroomnumber"]);
+        $house_location = ($_POST["house_location"]);
+        $house_type = ($_POST["house_type"]);
+        $house_bedroomnumber = ($_POST["house_bedroomnumber"]);
         $house_photo = ($_POST["house_photo"]);
         $house_description = ucfirst($_POST["house_description"]);
             
