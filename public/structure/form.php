@@ -212,12 +212,19 @@
             
             <?php 
                 echo $house_title;
+                echo "<br>";
                 echo $house_price;
+                echo "<br>";
                 echo $house_location;
+                echo "<br>";
                 echo $house_type;
+                echo "<br>";
                 echo $house_bedroomnumber;
+                echo "<br>";
                 echo $house_photo;
+                echo "<br>";
                 echo $house_description;
+                echo "<br>";
 
             ?>
             </div>
