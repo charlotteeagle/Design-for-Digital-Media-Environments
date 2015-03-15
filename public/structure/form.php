@@ -104,26 +104,26 @@
                     <br><br>
                          Location: <select name="house_location">
                             <option value="">--Select--</option>
-                            <option value="1">Bournemouth Centre</option>
-                            <option value="2">Winton</option>
-                            <option value="3">Boscombe</option>
-                            <option value="4">Kinson</option>
-                            <option value="5">Throop</option>
-                            <option value="6">Wallisdown</option>
-                            <option value="7">Southnourne</option>
-                            <option value="8">Iford</option>
-                            <option value="9">Christchurch</option>
-                            <option value="10">Westbourne</option>
-                            <option value="11">Parkstone</option>
-                            <option value="12">Northbourne</option>
+                            <option>Bournemouth Centre</option>
+                            <option>Winton</option>
+                            <option>Boscombe</option>
+                            <option>Kinson</option>
+                            <option>Throop</option>
+                            <option>Wallisdown</option>
+                            <option>Southnourne</option>
+                            <option>Iford</option>
+                            <option>Christchurch</option>
+                            <option>Westbourne</option>
+                            <option>Parkstone</option>
+                            <option>Northbourne</option>
                         </select> 
                     <br><br>
                     Property Type: <select name="house_type">
                             <option value="">--Select--</option>
-                            <option value="1">House</option>
-                            <option value="2">Flat/Apartment</option>
-                            <option value="3">Bungalow</option>
-                            <option value="4">Commercial</option>
+                            <option>House</option>
+                            <option>Flat/Apartment</option>
+                            <option>Bungalow</option>
+                            <option>Commercial</option>
                         </select>
                     <br><br>
                     Number of bedrooms: <select name="house_bedroomnumber">
@@ -164,7 +164,7 @@
 
 <?php
 
-$query = "INSERT INTO users(house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}',               '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
+$query = "INSERT INTO house (house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}',               '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
  
     $result = mysqli_query($connect, $query); 
 
