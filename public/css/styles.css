@@ -151,17 +151,52 @@ body {
 /* -------------------------------------------Login box -----------------------------------------------*/
 
 .login-box {
-    
-    margin: auto; /* center div in the page */
-    width: 200px;
+    float: right;
     background-color: #F0F0F0;
-    padding: 20px;
+    padding: 10px;
     border-style: solid; 
     opacity: 0.9;
-    text-align: center;
+    text-align: left;
     border-radius: 10px; /* button roundness */
     border-color: white;
     border: 30px;
+}
+
+/* -------------------------------------------Loggedin box -----------------------------------------------*/
+.loggedin-box {
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-style: solid; 
+    opacity: 0.9;
+    text-align: center;
+    border-radius: 3px; /* button roundness */
+    border-color: white;
+}
+
+
+/* ------------------------------------------- House Card -----------------------------------------------*/
+.house-card {
+	margin:auto; /* center div in the page */
+	width: 80%;	
+}
+
+.house-card {
+    background: #F0F0F0;
+    pacity: 0.9;
+    margin-bottom: 15px; 
+    border: 3px solid #fff;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.house-image { 
+    width: 50px;
+    background: #fff;
+} 
+
+.house-card:hover {
+    border: 3px solid #009ACD;
+    opacity: 1.0;
 }
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
