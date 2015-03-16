@@ -1,6 +1,6 @@
 <?php 
     session_start();
-    require_once("../../includes/connect.php"); 
+    require("../../includes/connect.php"); 
     include("../../includes/structure/header.php");
     include("../../includes/structure/menuheader.php");  /* THE NEW NAV*/  
 ?>
