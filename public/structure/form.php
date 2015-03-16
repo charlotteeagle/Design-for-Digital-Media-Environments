@@ -207,11 +207,12 @@
    <span class="error">*</span>
                     <br><br>
                     <!-- text area creates a larger box to fit description in -->
-                    Full Description: <textarea name="full description" rows="5" cols="40"></textarea><span class="error">*</span>
+                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;?>"></textarea><span class="error">*</span>
+                    
                     <br><br>
                     <input type="submit" name="submit" value="Submit" />
             </form>
-
+ 
             
             <?php 
                 echo $house_title;
