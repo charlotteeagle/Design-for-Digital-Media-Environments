@@ -1,12 +1,12 @@
 <?php 
     session_start();
-    require("../../includes/connect.php"); 
+    require_once("../../include/connect.php"); 
     include("../../includes/structure/header.php");
     include("../../includes/structure/menuheader.php");  /* THE NEW NAV*/  
 ?>
 
 <div class="main">
-    <div class="background-position" >            
+    <div class="background-position" > 
     </div> 
 </div>
 
