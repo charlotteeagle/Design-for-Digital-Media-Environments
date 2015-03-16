@@ -22,4 +22,6 @@
 </div>
 
 
-<?php include_once("../../includes/structure/footer.php"); ?>   
+<?php 
+    include_once("footer.php"); //Include footer
+?>  
