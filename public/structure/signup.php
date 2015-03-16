@@ -13,7 +13,7 @@
         $username = ucfirst($_POST["username"]);
         $password = ($_POST["password"]);
 
-        $query = "INSERT INTO user (username, password) VALUES ('{$username}', '{$password}');";
+        $query = "INSERT INTO user (username, password) VALUES ('{$user_username}', '{$user_password}');";
 
         $result = mysqli_query($connection, $query);
 
