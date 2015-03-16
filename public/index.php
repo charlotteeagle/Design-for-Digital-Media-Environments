@@ -15,6 +15,9 @@
   </head>
 <body>
    
+<?php
+    
+?>
 
 <?php
     if(isset($_SESSION["user"])) {   

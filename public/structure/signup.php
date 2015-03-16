@@ -8,7 +8,7 @@
 <div class="main">
     <div class="background-position" >            
          <div class="login-box">
-            <form action="index.php" method="post">
+            <form action="form.php" method="post">
             <p>First Name:</p><input type="text" name="firstname" value=""/>
             <p>Surname:</p><input type="text" name="surname" value=""/>
             <p>Email Address:</p><input type="text" name="email_address" value=""/>
