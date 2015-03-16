@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>Bournemouth Homes</title>
+            <link href="css/styles.css" rel="stylesheet">              
     </head>
 <!--HEADER -->
  <body>

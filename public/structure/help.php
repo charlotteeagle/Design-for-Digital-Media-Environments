@@ -1,11 +1,10 @@
 <?php 
     session_start();
-    require_once("../../include/connect.php");
-    require_once("../../include/functions.php"); 
-    include_once("../../includes/templates/header.php");
-    include_once("../../includes/templates/menuheader.php");  /* THE NEW NAV*/
-    
+    require_once("../../includes/connect.php"); 
+    include_once("../../includes/structure/header.php");
+    include_once("../../includes/structure/menuheader.php");  /* THE NEW NAV*/  
 ?>
+
 <div class="main">
     <div class="background-position" >            
     </div> 

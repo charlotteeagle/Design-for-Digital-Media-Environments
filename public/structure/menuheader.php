@@ -3,7 +3,6 @@
 <html>
     <head>
         <title>Bournemouth Homes</title>
-        <link href="css/styles.css" rel="stylesheet">
     </head>
 <body>
     <div class="menu-header">   
