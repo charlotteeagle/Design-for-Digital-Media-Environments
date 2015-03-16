@@ -95,9 +95,9 @@
     
     <body>
         
-      <!--  <div class="container">  
+       <div class="container">  
             
-            <div class="box"> -->
+            <div class="box">
                 <?php /*
                     if(isset($descriptionerr)) { /*change to above variables */
                      /*   echo $descriptionerr;
