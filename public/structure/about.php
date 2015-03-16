@@ -1,8 +1,8 @@
 <?php 
     session_start();
     require_once("../../include/connect.php"); 
-    include("header.php");
-    include("menuheader.php");  /* THE NEW NAV*/  
+    include_once("header.php");
+    include_once("menuheader.php");  /* THE NEW NAV*/  
 ?>
 
 <div class="main">
