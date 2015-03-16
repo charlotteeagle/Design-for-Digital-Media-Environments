@@ -140,6 +140,7 @@
                         </select><span class="error">*<?php echo $typeerr;?></span>
                     <br><br>
                     Number of bedrooms: <select name="house_bedroomnumber">
+                    <!-- values given to options so database will column will only have numbers -->
                             <option value="">--Select--</option>
                             <option value="1">1</option>
                             <option value="2">2</option>
