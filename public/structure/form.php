@@ -95,13 +95,13 @@
     
     <body>
         
-        <div class="container">  
+      <!--  <div class="container">  
             
-            <div class="box">
-                <?php 
+            <div class="box"> -->
+                <?php /*
                     if(isset($descriptionerr)) { /*change to above variables */
-                        echo $descriptionerr;
-                    }
+                     /*   echo $descriptionerr;
+                    }*/
                 ?>
             
                
