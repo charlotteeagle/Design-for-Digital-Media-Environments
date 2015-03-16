@@ -1,7 +1,7 @@
 <?php 
     session_start();
-    require_once("../../includes/connect.php");
-    require_once("../../includes/functions.php"); 
+    require_once("../../include/connect.php");
+    require_once("../../include/functions.php"); 
     include_once("../../includes/templates/header.php");
     include_once("../../includes/templates/menuheader.php");  /* THE NEW NAV*/
     

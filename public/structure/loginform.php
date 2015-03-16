@@ -7,7 +7,7 @@
 <?php } else { ?> <!-- Otherwise, display form to login-->
     <form action="index.php" method="post">
             <p>Username:</p><input type="text" name="username" value=""/>
-            <p>Password:</p><input type="text" name="password" value=""/>
+             <p>Password:</p><input type="text" name="password" value=""/>
             <input type="submit" id="submit" name="login" value="Login">
     </form>
 
