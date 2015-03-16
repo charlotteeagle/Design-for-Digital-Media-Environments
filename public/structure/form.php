@@ -1,8 +1,8 @@
 <?php 
     session_start();
     require_once("../../include/connect.php"); 
-    include_once("header.php");
-    include_once("menuheader.php");
+    include_once("structure/header.php");
+    include_once("structure/menuheader.php");
 
 ?>
 
