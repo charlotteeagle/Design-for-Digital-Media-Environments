@@ -112,13 +112,11 @@
             } else {                                    
                 $message = "Error, something went wrong!"; 
             }
-            $name = "";                                 
-            $description = ""; 
-            $direction = ""; 
-            $ingredient ="";
-            $time = "";
-            $level = "";
-            $course = "";
+            $username = "";                                 
+            $password = ""; 
+            $firstname = ""; 
+            $lastname ="";
+            $email = "";
         }
     }
 ?>
