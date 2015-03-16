@@ -10,12 +10,12 @@
 <?php
 
     if(isset($_POST["submit"])) { 
-        $username = ucfirst($_POST["username"]);
-        $password = ($_POST["password"]);
+        $user_username = ucfirst($_POST["user_username"]);
+        $user_password = ($_POST["user_password"]);
 
-        $query = "INSERT INTO user (username, password) VALUES ('{$user_username}', '{$user_password}');";
+        $query = "INSERT INTO user (user_username, user_password) VALUES ('{$user_username}', '{$user_password}');";
 
-        $result = mysqli_query($connection, $query);
+        $result = mysqli_query($connect, $query);
 
     }
 ?>
@@ -24,11 +24,11 @@
     <div class="background-position" >            
          <div class="login-box">
             <form action="index.php" method="post">
-            <p>First Name:</p><input type="text" name="firstname" value=""/>
-            <p>Surname:</p><input type="text" name="surname" value=""/>
-            <p>Username:</p> <input type="text" name="username" value=""/>
-            <p>Email Address:</p><input type="text" name="email_address" value=""/>
-            <p>Password:</p><input type="text" name="password" value=""/>
+            <p>First Name:</p><input type="text" name="user_firstname" value=""/>
+            <p>Surname:</p><input type="text" name="user_surname" value=""/>
+            <p>Username:</p> <input type="text" name="user_username" value=""/>
+            <p>Email Address:</p><input type="text" name="user_email" value=""/>
+            <p>Password:</p><input type="text" name="user_password" value=""/>
             
             <input type="submit" name="submit" value="Sign Up!"/>
             </form>
