@@ -2,6 +2,7 @@
     session_start();
     require_once("../include/connect.php");     // Connect to database   
     require_once("../include/login.php");       // SQL communication between database and php 
+    include 'structure/header.php'; // Include header
 ?>
 
 <!DOCTYPE html>
@@ -14,9 +15,6 @@
   </head>
 <body>
    
-<?php
-    include 'structure/header.php'; // Include header
-?>
 
 <?php
     if(isset($_SESSION["user"])) {   
