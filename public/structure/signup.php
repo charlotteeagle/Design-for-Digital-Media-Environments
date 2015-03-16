@@ -1,10 +1,23 @@
 <?php 
-    session_start();
+    require_once("../../includes/session.php");
     require_once("../../includes/connect.php");
     require_once("../../includes/functions.php"); 
     include_once("../../includes/templates/header.php");
     include_once("../../includes/templates/menuheader.php");  /* THE NEW NAV*/
     
+?>
+
+<?php
+
+    if(isset($_POST["submit"])) { 
+        $username = ucfirst($_POST["username"]);
+        $password = ($_POST["password"]);
+
+        $query = "INSERT INTO user (username, password) VALUES ('{$username}', '{$password}');";
+
+        $result = mysqli_query($connection, $query);
+
+    }
 ?>
 
 <div class="main">
