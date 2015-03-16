@@ -1,8 +1,8 @@
 <?php 
     session_start();
-    require_once("../../include/connect.php"); 
-    include_once("header.php");
-    include_once("menuheader.php");  /* THE NEW NAV*/  
+    require_once("../include/connect.php"); 
+    include_once("../include/templates/header.php");
+    include_once("../include/templates/menuheader.php"); /* THE NEW NAV*/  
 ?>
 
 <div class="main">
@@ -22,6 +22,4 @@
 </div>
 
 
-<?php 
-    include_once("footer.php"); //Include footer
-?>  
+<?php include_once("../include/templates/footer.php"); ?> 

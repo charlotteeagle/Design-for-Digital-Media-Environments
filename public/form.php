@@ -1,92 +1,66 @@
 <?php 
     session_start();
-    require_once("../../include/connect.php"); 
-    include_once("structure/header.php");
-    include_once("structure/menuheader.php");
+    require_once("../include/connect.php"); 
+    include_once("../include/templates/header.php");
+    include_once("../include/templates/menuheader.php");
 
 ?>
 
-<?php 
-    /* without this code block the form submits but with all fields empty even when populated*/
-    /* define variables and intiialise with emtyy values */
-    if(isset($_POST["submit"])) {
-        $house_title = ucfirst($_POST["house_title"]);
-        $house_price = ($_POST["house_price"]);
-        $house_location = ($_POST["house_location"]);
-        $house_type = ($_POST["house_type"]);
-        $house_bedroomnumber = ($_POST["house_bedroomnumber"]);
-        $house_photo = ($_POST["house_photo"]);
-        $house_description = ucfirst($_POST["house_description"]);
-            
-        
-    } else {
-        $house_title = "";
-        $house_price = "";
-        $house_location = "";
-        $house_type = "";
-        $house_bedroomnumber = "";
-        $house_photo = "";
-        $house_description = "";
-            
+<?php                                                   // Add 
+    if(isset($_POST["submit"])) {  
+        $house_title = ucfirst($_POST["house_title"]);                // Insert each field with upper case for first letter
+        $house_price = ucfirst($_POST["house_price"]);  
+        $house_location = ucfirst($_POST["house_location"]);      
+        $house_type = ucfirst($_POST["house_type"]);    
+        $house_bedroomnumber = ucfirst($_POST["house_bedroomnumber"]);                
+        $house_photo = ucfirst($_POST["house_photo"]);              
+        $house_description = ucfirst($_POST["house_description"]);            
+    } else { 
+        $house_title = "";                                     // Leave each field blank
+        $house_price = "";                              
+        $house_location = "";                                
+        $house_type ="";                                
+        $house_bedroomnumber = "";                                     
+        $house_photo = "";                                    
+        $house_description ="";                                    
     }
-    
 ?>
 
-<?php /* see http://www.w3schools.com/php/php_form_url_email.asp for help on this */
-        if(isset($_POST["submit"])) {
-        
-        if(empty($house_title)) {
-            $titleerr = "Invalid property title";
-        
-        }else{
-            $house_title = $_POST[house_title];
+<?php                                                   // Add user's property to database and display on website
+    if(isset($_POST["submit"])) {                       // If post has been submitted
+        if(empty($house_title)) {                              // If any empty fields, display an error message
+            $title_err  = "You've forgotten to add a house title!";
+        } else if(empty($house_price)) {
+            $price_err = "You've forgotten to add a house price!";
+        } else if(empty($house_location)) {
+            $location_err = "You've forgotten to add a house location!";
+        } else if(empty($house_type)) {
+            $type_err = "You've forgotten to add a house type!";
+        }else if(empty($house_bedroomnumber)) {
+            $number_err = "You've forgotten to add the number of bedrooms!";
+        }else if(empty($house_photo)) {
+            $photo_err = "You've forgotten to add a house photo!";
+        }else if(empty($house_description)) {
+            $description_err = "Remember to add a house description!";
+        } else {                                        // Otherwise 
+            $query = "INSERT INTO posts (house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
+            $result = mysqli_query($connect, $query);   
+            if($result) {                             
+                $dbmessage = "Success! Your property has been listed!";   
+            } else {                                    // Otherwise display unsuccessful message
+                $dbmessage = "Oh dear, your listing was unsuccessful."; 
+            }
+            $house_title = "";                                 // Get user to fill in fields required 
+            $house_price = ""; 
+            $house_location = ""; 
+            $house_type ="";
+            $house_bedroomnumber = "";
+            $house_photo = "";
+            $house_description = "";
         }
-        
-         if(empty($house_price)) {
-            $priceerr = "Invalid Price";
-        
-        }else{
-            $house_price = $_POST[house_price];
-        } 
-        
-        if(empty($house_location)) {
-            $locationerr = "Invalid Location";
-        
-        }else{
-            $house_location = $_POST[house_location];
-        } 
-        
-        if(empty($house_type)) {
-            $typeerr = "Invalid Property Type";
-        
-        }else{
-            $house_type = $_POST[house_type];
-        } 
-        
-        if(empty($house_bedroomnumber)) {
-            $numbererr = "Invalid Bedroom Number";
-        
-        }else{
-            $house_bedroomnumber = $_POST[house_bedroomnumber];
-        } 
-        
-        if(empty($house_photo)) {
-            $photoerr = "Invalid Photo";
-        
-        }else{
-            $house_photo = $_POST[house_photo];
-        } 
-        
-        if(empty($house_description)) {
-            $descriptionerr = "Invalid Description";
-        }else{
-            $house_description = $_POST[house_description];
-        }
-        
     }
+?>
       
-?>
-
 
 
 <!doctype html>
@@ -185,19 +159,6 @@
     </body>
 </html>
 
-<?php
-
-$query = "INSERT INTO post (house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}',               '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
- 
-    $result = mysqli_query($connect, $query); 
-
-    if($result) {
-        $dbmessage = "Success"; 
-        } else {
-            $dbmessage = "Failed";
- 
-    }
-?>
 
 <?php
     
@@ -216,5 +177,5 @@ echo $dbmessage;
 
 
 <!-- Begin Footer -->
-<?php include_once("../../includes/templates/footer.php"); ?>                      
+<?php include_once("../include/templates/footer.php"); ?>                      
 <!-- End Footer -->

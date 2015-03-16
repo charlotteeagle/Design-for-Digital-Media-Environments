@@ -3,7 +3,7 @@
 <!-------------------------------------------------------- Add Property ---------------------------------------------------------------->
 
 
-<?php                                                   // Add 
+<?php     /*                                              // Add 
     if(isset($_POST["submit"])) {  
         $house_title = ucfirst($_POST["house_title"]);                // Insert each field with upper case for first letter
         $house_price = ucfirst($_POST["house_price"]);  
@@ -55,7 +55,7 @@
             $house_photo = "";
             $house_description = "";
         }
-    }
+    }   */
 ?>
 <!--  ONLY NEEDED IF 'POSTS' WANTS TO BE DISPLAYED WHEN THEY ARE LOGGED IN.
     if(isset($_POST["login"])) {                        // If login is successful

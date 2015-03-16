@@ -23,11 +23,11 @@
                 echo include 'structure/menuheader.php';        
             ?>
             
-            <a href="../index.php" class="on">Home</a>
-            <a href="../../public/structure/about.php">About Us</a>
-            <a href="../../public/structure/help.php">Help</a>
+            <a href="index.php" class="on">Home</a>
+            <a href="about.php">About Us</a>
+            <a href="help.php">Help</a>
             <a href="http://dakar.bournemouth.ac.uk/~ceagle/wiki/dokuwiki/doku.php?id=start">Wiki</a>
-            <a href="../../public/structure/signup.php">Sign Up</a>
+            <a href="signup.php">Sign Up</a>
             
             
         </div>
