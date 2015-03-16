@@ -187,7 +187,7 @@
 
 <?php
 
-$query = "INSERT INTO house (house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}',               '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
+$query = "INSERT INTO post (house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}',               '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
  
     $result = mysqli_query($connect, $query); 
 
