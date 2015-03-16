@@ -86,10 +86,6 @@
         
     }
       
-        
-    
-
-
 ?>
 
 
@@ -114,10 +110,10 @@
                 <p><span class="error">* required field.</span></p> 
                 <form action="form.php" method="post"> <!-- action="form.php" = form data sent for processing to form php file -->
                     Listing Title: <input type="text" name="house_title" value="<?php echo $house_title;?>">
-                    <span class="error">*</span> 
+                    <span class="error">*<?php echo $titleerr;?></span>
                     <br><br>
                       Guide Price: <input type="number" name="house_price" value="<?php echo $house_price;?>">
-                        <span class="error">*</span>
+                        <span class="error">*<?php echo $priceerr;?></span>
                         <br><br>
                          Location: <select name="house_location">
                             <option value="">--Select--</option> //variable value set to 0 so is seen as empty
@@ -133,7 +129,7 @@
                             <option>Westbourne</option>
                             <option>Parkstone</option>
                             <option>Northbourne</option>
-                        </select><span class="error">*</span> 
+                        </select><span class="error">*<?php echo $locationerr;?></span> 
                     <br><br>
                     Property Type: <select name="house_type">
                             <option value="">--Select--</option>
@@ -141,7 +137,7 @@
                             <option>Flat/Apartment</option>
                             <option>Bungalow</option>
                             <option>Commercial</option>
-                        </select><span class="error">*</span>
+                        </select><span class="error">*<?php echo $typeerr;?></span>
                     <br><br>
                     Number of bedrooms: <select name="house_bedroomnumber">
                             <option value="">--Select--</option>
@@ -154,13 +150,13 @@
                             <option value="7">7</option>
                             <option value="8">8</option>
                             <option value="9">More than 8</option>
-                        </select><span class="error">*</span>
+                        </select><span class="error">*<?php echo $numbererr;?></span>
                     <br><br>
                     Add an image: <input type="text" name="house_photo" value="<?php echo $house_photo;?>">
-   <span class="error">*</span>
+   <span class="error">*<?php echo $photoerr;?></span> 
                     <br><br>
                     <!-- text area creates a larger box to fit description in -->
-                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;?>"></textarea><span class="error">*</span>
+                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;?>"></textarea><span class="error">*<?php echo $descriptionerr;?></span>
                     
                     <br><br>
                     <input type="submit" name="submit" value="Submit" />
