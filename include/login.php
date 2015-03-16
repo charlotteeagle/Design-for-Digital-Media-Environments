@@ -1,5 +1,8 @@
 <!-- SQL Communicaion with databse. Inserting house info -->
 
+<!-------------------------------------------------------- Add Property ---------------------------------------------------------------->
+
+
 <?php                                                   // Add 
     if(isset($_POST["submit"])) {  
         $house_title = ucfirst($_POST["house_title"]);                // Insert each field with upper case for first letter
@@ -18,43 +21,31 @@
         $house_photo = "";                                    
         $house_description ="";                                    
     }
-    if(isset($_POST["login"])) {                        // If login is successful
-        $username = $_POST["username"];
-        $password = $_POST["password"];
-        $query = "SELECT * FROM users WHERE username='{$username}' AND password='{$password}' LIMIT 1"; // Get username and password
-        $result = mysqli_query($connect, $query); 
-        if ($user = mysqli_fetch_assoc($result)) {      // started a session so user can login
-            $_SESSION["user"] = $user["username"];      // Equal to login details on the database
-            $message = "Welcome back!";
-        } else {                                        // Otherwise
-            $message = "Oops! Looks like you've typed something in wrong!";       // Display message with error logging in
-        }
-    }
 ?>
 
-<?php                                                   // Add user's recipe to database and display on website
+<?php                                                   // Add user's property to database and display on website
     if(isset($_POST["submit"])) {                       // If post has been submitted
         if(empty($house_title)) {                              // If any empty fields, display an error message
-            $message = "Whoops! You forgot to name your recipe!";
+            $message = "You've forgotten to add a house title!";
         } else if(empty($house_price)) {
-            $message = "Oops! You have forgotten to add a method to your recipe!";
+            $message = "You've forgotten to add a house price!";
         } else if(empty($house_location)) {
-            $message = "You forgot to add some methods to your recipe!";
+            $message = "You've forgotten to add a house location!";
         } else if(empty($house_type)) {
-            $message = "Remember to add the ingredients!";
+            $message = "You've forgotten to add a house type!";
         }else if(empty($house_bedroomnumber)) {
-            $message = "Remember to add how long it takes!";
+            $message = "You've forgotten to add a house bedroom number!";
         }else if(empty($house_photo)) {
-            $message = "Remember to add the difficulty of your recipe!";
+            $message = "You've forgotten to add a house photo!";
         }else if(empty($house_description)) {
-            $message = "Remember to select which course your product lies under!";
+            $message = "Remember to select add a house description!";
         } else {                                        // Otherwise 
             $query = "INSERT INTO posts (house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
             $result = mysqli_query($connect, $query);   
             if($result) {                             
-                $message = "Success! Your recipe has been added for everyone to see!";   
+                $message = "Success! Your property has been listed!";   
             } else {                                    // Otherwise display unsuccessful message
-                $message = "Whoops! Something went wrong!"; 
+                $message = "Oh dear, your listing was unsuccessful."; 
             }
             $house_title = "";                                 // Get user to fill in fields required 
             $house_price = ""; 
@@ -66,13 +57,23 @@
         }
     }
 ?>
+<!--  ONLY NEEDED IF 'POSTS' WANTS TO BE DISPLAYED WHEN THEY ARE LOGGED IN.
+    if(isset($_POST["login"])) {                        // If login is successful
+        $username = $_POST["username"];
+        $password = $_POST["password"];
+        $query = "SELECT * FROM users WHERE username='{$username}' AND password='{$password}' LIMIT 1"; // Get username and password
+        $result = mysqli_query($connect, $query); 
+        if ($user = mysqli_fetch_assoc($result)) {      // started a session so user can login
+            $_SESSION["user"] = $user["username"];      // Equal to login details on the database
+            $message = "Welcome back!";
+        } else {                                        // Otherwise
+            $message = "Wrong username/password";       // Display message with error logging in
+        }
+    }
+  -->
 
 
-
-
-
-
-<!-- ////////////////////////// register /////////////////////////////////////////////////////////////// -->
+<!-------------------------------------------------------- Register ---------------------------------------------------------------->
 
 
 <?php                                                   
@@ -94,22 +95,22 @@
 <?php                                                   
     if(isset($_POST["submit"])) {                    
         if(empty($username)) {                             
-            $message = "Whoops! You forgot to type your username!";
+            $message = "You need to create a username!";
         } else if(empty($password)) {
-            $message = "Oops! You have forgotten to add a password!";
+            $message = "You need to create a password!";
         } else if(empty($firstname)) {
-            $message = "You forgot to add your first name!";
+            $message = "You didn't input your firstname!";
         } else if(empty($lastname)) {
-            $message = "Remember to add your last name!";
+            $message = "You didn't input your lastname!";
         }else if(empty($email)) {
             $message = "Remember to add your email address!";
         } else {                                        
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
             $result = mysqli_query($connect, $query);   
             if($result) {                             
-                $message = "Success!";   
+                $message = "Success! You've been registered to Bournemouth Homes";   
             } else {                                    
-                $message = "Error"; 
+                $message = "Error, something went wrong!"; 
             }
             $name = "";                                 
             $description = ""; 
