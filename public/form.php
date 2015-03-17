@@ -9,11 +9,11 @@
 <?php                                                   // Add 
     if(isset($_POST["submit"])) {  
         $house_title = ucfirst($_POST["house_title"]);                // Insert each field with upper case for first letter
-        $house_price = ucfirst($_POST["house_price"]);  
-        $house_location = ucfirst($_POST["house_location"]);      
-        $house_type = ucfirst($_POST["house_type"]);    
-        $house_bedroomnumber = ucfirst($_POST["house_bedroomnumber"]);                
-        $house_photo = ucfirst($_POST["house_photo"]);              
+        $house_price = ($_POST["house_price"]);  
+        $house_location = ($_POST["house_location"]);      
+        $house_type = ($_POST["house_type"]);    
+        $house_bedroomnumber = ($_POST["house_bedroomnumber"]);                
+        $house_photo = ($_POST["house_photo"]);              
         $house_description = ucfirst($_POST["house_description"]);            
     } else { 
         $house_title = "";                                     // Leave each field blank
@@ -60,8 +60,7 @@
         }
     }
 ?>
-      
-
+  
 
 <!doctype html>
 <html>
@@ -137,7 +136,11 @@
             </form>
  
             
-            <?php 
+            </div>
+        </div>
+    </body>
+</html>
+<?php 
                 echo $house_title;
                 echo "<br>";
                 echo $house_price;
@@ -154,11 +157,6 @@
                 echo "<br>";
 
             ?>
-            </div>
-        </div>
-    </body>
-</html>
-
 
 <?php
     
