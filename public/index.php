@@ -2,7 +2,7 @@
     session_start();
     require_once("../include/connect.php");     // Connect to database   
     require_once("../include/login.php");       // SQL communication between database and php 
-    include 'structure/header.php'; // Include header
+    include '../include/templates/header.php'; // Include header
 ?>
 
 <!DOCTYPE html>
@@ -21,16 +21,16 @@
 
 <?php
     if(isset($_SESSION["user"])) {   
-        include 'structure/loggedin-menu.php';                // If user is logged in, add 'add property button'
+        include '../include/loggedin-menu.php';                // If user is logged in, add 'add property button'
                                                                         // If user is logged in, include form
         } else {
-            include 'structure/menuheader.php';                        // Otherwise, display message logged out
+            include '../include/templates/menuheader.php';                        // Otherwise, display message logged out
 } ?>
       
 <div class="main">
     <div class="background-position" >
 <?php 
-    include 'structure/loginform.php';
+    include '../include/loginform.php';
 ?>
         
  <div class="search-box">
@@ -38,7 +38,7 @@
             <img src="images/Search-50.png">
         </div>
             <?php 
-                include 'structure/search-dropdown.php';
+                include '../include/search-dropdown.php';
             ?>
         </div>
     </div> 
@@ -58,13 +58,13 @@
     <div class="house-card">
         <div class="house-image"></div> 
 <?php       
-    include 'house-card.php';
+    include '../include/house-card.php';
 ?>      
     </div>
 
 
 <?php 
-    include_once("structure/footer.php"); // Include footer
+    include_once("../include/templates/footer.php"); // Include footer
 ?>   
       
   </body>
