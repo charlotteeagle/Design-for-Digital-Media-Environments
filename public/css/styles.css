@@ -103,6 +103,7 @@ body {
 	font-size:0.95em;
     height: 476px;
     background-repeat:no-repeat;
+    background-size: cover;
 }
 
 .background-position img {
