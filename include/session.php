@@ -5,7 +5,7 @@
 
     function message() {
         
-        if(isset($_SESSION["message"]) {
+        if(isset($_SESSION["message"])) {
             $output ="<div class=\"message-box\">";
             
             $output .= $_SESSION["message"];
