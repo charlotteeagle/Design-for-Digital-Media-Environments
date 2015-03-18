@@ -3,7 +3,9 @@
     require_once("../include/connect.php");     // Connect to database   
     require_once("../include/login.php");       // SQL communication between database and php 
     include '../include/templates/header.php'; // Include header
-?> 
+?>
+
+<?php echo message(); ?>
 
 <?php
     if(isset($_SESSION["user"])) {   
