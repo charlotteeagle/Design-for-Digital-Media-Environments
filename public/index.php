@@ -1,5 +1,5 @@
 <?php 
-    session_start();
+    require("../include/session.php");          // Includes session, mainly to echo user information.
     require_once("../include/connect.php");     // Connect to database   
     require_once("../include/login.php");       // SQL communication between database and php 
     include '../include/templates/header.php'; // Include header
@@ -42,14 +42,7 @@
 </div>
 
     <div class="loggedin-box" >
-          
-<?php if(isset($_SESSION["user"])) {   
-          echo $message;                            //  If user is logged in, display welcome message
-          echo "IM LOGGED IN!";
-                                                    // If user is logged in, include form
-      } else {
-          echo "You're not logged in. Click the 'Sign Up' button to register.";                       // Otherwise, display message logged out
-} ?>              
+                       
     </div>
     
     <div class="house-card">
