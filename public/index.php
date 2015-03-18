@@ -3,18 +3,7 @@
     require_once("../include/connect.php");     // Connect to database   
     require_once("../include/login.php");       // SQL communication between database and php 
     include '../include/templates/header.php'; // Include header
-?>
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Bournemouth Homes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
-  </head>
-<body>
-   
+?> 
 
 <?php
     if(isset($_SESSION["user"])) {   
@@ -56,6 +45,4 @@
 <?php 
     include_once("../include/templates/footer.php"); // Include footer
 ?>   
-      
-  </body>
-</html>
+    

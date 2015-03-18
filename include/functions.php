@@ -1,7 +1,7 @@
 <?php 
     
     function redirectTo($toPage) {
-        header("Location: " . $toPage);
+        header("/header.php: " . $toPage);
         exit; 
     }
 

@@ -1,4 +1,4 @@
- <?php /*
+ <?php 
     session_start();
 
     
@@ -19,13 +19,5 @@
     }
 
 
-*/ ?>
+?>
 
-
-<?php if(isset($_SESSION["user"])) {   
-          echo $message;                            //  If user is logged in, display welcome message
-      
-                                                    // If user is logged in, include form
-      } else {
-          echo "You're not logged in. Click the 'Sign Up' button to register.";                       // Otherwise, display message logged out
-} ?> 
