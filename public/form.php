@@ -70,7 +70,7 @@
                 Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;?>"></textarea><span class="error">*<?php if(isset($descriptionerr)) {echo $descriptionerr;}?></span>
                     
                     <br><br>
-                    <input type="submit" name="submit" value="Submit" />
+                    <input type="submit" name="add_property" value="Submit" />
             </form>
  
             

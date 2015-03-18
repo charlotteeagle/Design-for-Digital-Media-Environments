@@ -1,5 +1,5 @@
 <?php                                                   // Add 
-    if(isset($_POST["submit"])) {  
+    if(isset($_POST["add_property"])) {  
         $house_title = ucfirst($_POST["house_title"]);                // Insert each field with upper case for first letter
         $house_price = ($_POST["house_price"]);  
         $house_location = ($_POST["house_location"]);      
@@ -19,7 +19,7 @@
 ?>
 
 <?php                                                   // Add user's property to database and display on website
-    if(isset($_POST["submit"])) {                       // If post has been submitted
+    if(isset($_POST["add_property"])) {                       // If post has been submitted
         if(empty($house_title)) {                              // If any empty fields, display an error message
             $titleerr  = "You've forgotten to add a house title!";
         } 
