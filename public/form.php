@@ -1,5 +1,5 @@
 <?php 
-    require("../include/session.php");   
+    session_start();
     require_once("../include/connect.php"); 
     include_once("../include/templates/header.php");
     include_once("../include/templates/menuheader.php");
@@ -29,21 +29,27 @@
 <?php                                                   // Add user's property to database and display on website
     if(isset($_POST["submit"])) {                       // If post has been submitted
         if(empty($house_title)) {                              // If any empty fields, display an error message
-            $title_err  = "You've forgotten to add a house title!";
-        } else if(empty($house_price)) {
-            $price_err = "You've forgotten to add a house price!";
-        } else if(empty($house_location)) {
-            $location_err = "You've forgotten to add a house location!";
-        } else if(empty($house_type)) {
-            $type_err = "You've forgotten to add a house type!";
-        }else if(empty($house_bedroomnumber)) {
-            $number_err = "You've forgotten to add the number of bedrooms!";
-        }else if(empty($house_photo)) {
-            $photo_err = "You've forgotten to add a house photo!";
-        }else if(empty($house_description)) {
-            $description_err = "Remember to add a house description!";
+            $titleerr  = "You've forgotten to add a house title!";
+        } 
+        if(empty($house_price)) {
+            $priceerr = "You've forgotten to add a house price!";
+        } 
+        if(empty($house_location)) {
+            $locationerr = "You've forgotten to add a house location!";
+        } 
+        if(empty($house_type)) {
+            $typeerr = "You've forgotten to add a house type!";
+        }
+        if(empty($house_bedroomnumber)) {
+            $numbererr = "You've forgotten to add the number of bedrooms!";
+        }
+        if(empty($house_photo)) {
+            $photoerr = "You've forgotten to add a house photo!";
+        }
+        if(empty($house_description)) {
+            $descriptionerr = "Remember to add a house description!";
         } else {                                        // Otherwise 
-            $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$SESSION_user_id}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
+    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$SESSION_user_id}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
             $result = mysqli_query($connect, $query);   
             if($result) {                             
                 $dbmessage = "Success! Your property has been listed!";   
@@ -82,10 +88,13 @@
                 <p><span class="error">* required field.</span></p> 
                 <form action="form.php" method="post"> <!-- action="form.php" = form data sent for processing to form php file -->
                     Listing Title: <input type="text" name="house_title" value="<?php echo $house_title;?>">
-                    <span class="error">*<?php echo $titleerr;?></span>
+                    <span class="error">*<?php if(isset($titleerr)) {echo $titleerr;}?></span>
+                    
+              
+                    
                     <br><br>
                       Guide Price: <input type="number" name="house_price" value="<?php echo $house_price;?>">
-                        <span class="error">*<?php echo $priceerr;?></span>
+                        <span class="error">*<?php if(isset($priceerr)) {echo $priceerr;}?></span>
                         <br><br>
                          Location: <select name="house_location">
                             <option value="">--Select--</option> //variable value set to 0 so is seen as empty
@@ -101,7 +110,7 @@
                             <option>Westbourne</option>
                             <option>Parkstone</option>
                             <option>Northbourne</option>
-                        </select><span class="error">*<?php echo $locationerr;?></span> 
+                        </select><span class="error">*<?php if(isset($locationerr)) {echo $locationerr;}?></span> 
                     <br><br>
                     Property Type: <select name="house_type">
                             <option value="">--Select--</option>
@@ -109,7 +118,7 @@
                             <option>Flat/Apartment</option>
                             <option>Bungalow</option>
                             <option>Commercial</option>
-                        </select><span class="error">*<?php echo $typeerr;?></span>
+                        </select><span class="error">*<?php if(isset($typeerr)) {echo $typeerr;}?></span>
                     <br><br>
                     Number of bedrooms: <select name="house_bedroomnumber">
                     <!-- values given to options so database will column will only have numbers -->
@@ -123,13 +132,13 @@
                             <option value="7">7</option>
                             <option value="8">8</option>
                             <option value="9">More than 8</option>
-                        </select><span class="error">*<?php echo $numbererr;?></span>
+                        </select><span class="error">*<?php if(isset($numbererr)) {echo $numbererr;}?></span>
                     <br><br>
                     Add an image: <input type="text" name="house_photo" value="<?php echo $house_photo;?>">
-   <span class="error">*<?php echo $photoerr;?></span> 
+   <span class="error">*<?php if(isset($photoerr)) {echo $photoerr;}?></span> 
                     <br><br>
                     <!-- text area creates a larger box to fit description in -->
-                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;?>"></textarea><span class="error">*<?php echo $descriptionerr;?></span>
+                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;?>"></textarea><span class="error">*<?php if(isset($descriptionerr)) {echo $descriptionerr;}?></span>
                     
                     <br><br>
                     <input type="submit" name="submit" value="Submit" />
