@@ -2,7 +2,7 @@
 
 
 <?php                                                   
-    if(isset($_POST["submit"])) {  
+    if(isset($_POST["signup"])) {  
         $username = ($_POST["username"]);                
         $password = ($_POST["password"]);  
         $firstname = ($_POST["firstname"]);      
@@ -18,7 +18,7 @@
 ?>
 
 <?php                                                   
-    if(isset($_POST["submit"])) {                    
+    if(isset($_POST["signup"])) {                    
         if(empty($username)) {                             
             $message = "You need to create a username!";
         } else if(empty($password)) {
