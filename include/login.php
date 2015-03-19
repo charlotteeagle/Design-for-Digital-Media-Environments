@@ -66,7 +66,7 @@
         $result = mysqli_query($connect, $query); 
         if ($user = mysqli_fetch_assoc($result)) {      // started a session so user can login
             $_SESSION["user"] = $user["username"];      // Equal to login details on the database
-            $_SESSION["name"] = $user["fistname"];
+            $_SESSION["name"] = $user["firstname"];
             $_SESSION["message"] = "welcome back";
         } else {                                        // Otherwise
             $_SESSION["message"] = "NOPE";     // Display message with error logging in
