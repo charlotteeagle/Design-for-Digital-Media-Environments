@@ -17,7 +17,7 @@
       
 <div class="main">
     <div class="message-box" >
-        <p>Welcome back <?php echo $_SESSION["name"]; ?>!</p>
+        <p><?php echo $_SESSION["name"]; ?>!</p>
     </div>
     
     
