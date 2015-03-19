@@ -5,7 +5,7 @@
     include '../include/templates/header.php'; // Include header
 ?>
 
-<?php echo $_SESSION["name"]; ?>
+
 
 <?php
     if(isset($_SESSION["message"])) {
@@ -33,7 +33,9 @@
 </div>
 
     <div class="loggedin-box" >
-                       
+    
+<?php echo $_SESSION["name"]; ?>
+    
     </div>
     
     <div class="house-card">
