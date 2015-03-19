@@ -31,12 +31,6 @@
         </div>
     </div> 
 </div>
-
-    <div class="loggedin-box" >
-    
-<?php echo $_SESSION["name"]; ?>
-    
-    </div>
     
     <div class="house-card">
         <div class="house-image"></div> 
