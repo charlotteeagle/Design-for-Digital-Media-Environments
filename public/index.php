@@ -19,7 +19,10 @@
     <?php  if(isset($_SESSION["message"])) { ?>
     
         <div class="message-box" >
-            <p><?php echo $message ?></p>
+            <p style="display:inline;"><?php echo $message ?></p>
+            <?php  if(isset($_SESSION["name"])) { ?>
+            <p style="display:inline;">Welcome back <?php echo $_SESSION['name']; ?>!</p>
+            <?php } ?>
         </div>
     
     <?php } ?>
