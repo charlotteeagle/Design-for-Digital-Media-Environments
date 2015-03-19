@@ -20,29 +20,29 @@
 <?php                                                   
     if(isset($_POST["signup"])) {                    
         if(empty($username)) {                             
-            $message = "You need to create a username!";
+            $_SESSION['message'] = "You need to create a username!";
                 header("Location: ../public/signup.php");
         } else if(empty($password)) {
-            $message = "You need to create a password!";
+            $_SESSION['message'] = "You need to create a password!";
                 header("Location: ../public/signup.php");
         } else if(empty($firstname)) {
-            $message = "You didn't input your firstname!";
+            $_SESSION['message'] = "You didn't input your firstname!";
                 header("Location: ../public/signup.php");
         } else if(empty($lastname)) {
-            $message = "You didn't input your lastname!";
+            $_SESSION['message'] = "You didn't input your lastname!";
                 header("Location: ../public/signup.php");
         }else if(empty($email)) {
-            $message = "Remember to add your email address!";
+            $_SESSION['message'] = "Remember to add your email address!";
                 header("Location: ../public/signup.php");
         } else {                                        
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
             $result = mysqli_query($connect, $query);   
         }
             if($result) {                             
-                $message = "Success! You've been registered to Bournemouth Homes";   
+                $_SESSION['message'] = "Success! You've been registered to Bournemouth Homes";   
                 header("Location: ../public/signup.php");
             } else {                                    
-                $message = "Error, something went wrong!";
+                $_SESSION['message'] = "Error, something went wrong!";
                 header("Location: ../public/signup.php");
             }
     }
