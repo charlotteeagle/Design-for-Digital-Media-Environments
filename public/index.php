@@ -1,5 +1,5 @@
 <?php 
-    require("../include/session.php");          // Includes session, mainly to echo user information.
+    require_once("../include/session.php");          // Includes session, mainly to echo user information.
     require_once("../include/connect.php");     // Connect to database   
     require_once("../include/login.php");       // SQL communication between database and php 
     include '../include/templates/header.php'; // Include header
