@@ -5,7 +5,7 @@
     if(isset($_POST["signup"])) {  
         $username = ($_POST["username"]);                
         $password = ($_POST["password"]);  
-        $firstname = ($_POST["firstname"]);      
+        $firstname = ucfirst($_POST["firstname"]);      
         $lastname = ucfirst($_POST["lastname"]);    
         $email = ($_POST["email"]);                            
     } else { 
