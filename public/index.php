@@ -33,7 +33,7 @@
     
     <div class="loggedin-box" >
 
-<?php echo $_SESSION["name"]; ?>
+        <p><?php echo $_SESSION["name"]; ?></p>
     
      </div>
 </div>
