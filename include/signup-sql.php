@@ -35,7 +35,8 @@
                 $message = "Success! You've been registered to Bournemouth Homes";   
                 header("Location:../public/index.php");
             } else {                                    
-                $message = "Error, something went wrong!"; 
+                $message = "Error, something went wrong!";
+                header("Location:../public/index.php");
             }
             $username = "";                                 
             $password = ""; 
