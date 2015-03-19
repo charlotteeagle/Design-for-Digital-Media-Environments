@@ -16,8 +16,8 @@
 } ?>
       
 <div class="main">
-    <div class="loggedin-box" >
-        <p><?php echo $_SESSION["name"]; ?></p>
+    <div class="message-box" >
+        <p>Welcome back <?php echo $_SESSION["name"]; ?>!</p>
     </div>
     
     

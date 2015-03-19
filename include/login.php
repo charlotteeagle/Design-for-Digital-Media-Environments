@@ -69,7 +69,7 @@
             $_SESSION["name"] = $user["firstname"];
             $_SESSION["message"] = "welcome back";
         } else {                                        // Otherwise
-            $_SESSION["message"] = "NOPE";     // Display message with error logging in
+            $_SESSION["message"] = "Unsuccessful";     // Display message with error logging in
         }
     }
   
