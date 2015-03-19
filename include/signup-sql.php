@@ -37,6 +37,7 @@
         } else {                                        
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
             $result = mysqli_query($connect, $query);   
+        }
             if($result) {                             
                 $message = "Success! You've been registered to Bournemouth Homes";   
                 header("Location:../public/index.php");
@@ -44,11 +45,5 @@
                 $message = "Error, something went wrong!";
                 header("Location:../public/index.php");
             }
-            $username = "";                                 
-            $password = ""; 
-            $firstname = ""; 
-            $lastname ="";
-            $email = "";
-        }
     }
 ?>
