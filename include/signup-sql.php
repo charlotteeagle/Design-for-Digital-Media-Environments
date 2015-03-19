@@ -17,7 +17,6 @@
         $email = "";                                             
     }
 ?>
-
 <?php                                                   
     if(isset($_POST["signup"])) {                    
         if(empty($username)) {                             
@@ -35,7 +34,7 @@
             $result = mysqli_query($connect, $query);   
             if($result) {                             
                 $message = "Success! You've been registered to Bournemouth Homes";   
-                redirectTo("index.php");
+                header("Location:../public/index.php");
             } else {                                    
                 $message = "Error, something went wrong!"; 
             }
