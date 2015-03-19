@@ -41,7 +41,7 @@
         if(empty($house_description)) {
             $descriptionerr = "Remember to add a house description!";
         } else {                                        // Otherwise 
-    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$_SESSION["user_id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
+    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
             $result = mysqli_query($connect, $query);   
             if($result) {                             
                 $dbmessage = "Success! Your property has been listed!";   
@@ -58,4 +58,32 @@
         }
     }
 ?>
-//if session id not working may need to try escaping " " in query   
+<!-- if session id not working may need to try escaping " " in query -->   
+<?php 
+                echo $house_title;
+                echo "<br>";
+                echo $house_price;
+                echo "<br>";
+                echo $house_location;
+                echo "<br>";
+                echo $house_type;
+                echo "<br>";
+                echo $house_bedroomnumber;
+                echo "<br>";
+                echo $house_photo;
+                echo "<br>";
+                echo $house_description;
+                echo "<br>";
+
+            ?>
+
+<?php
+    
+    if(isset ($_POST["submit"])) {
+    mysqli_close($connect);
+    }
+
+?>
+
+<?php if(isset($dbmessage)) {echo $dbmessage;}?> 
+   
