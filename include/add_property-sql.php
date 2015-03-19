@@ -18,6 +18,10 @@
     }
 ?>
 
+<?php
+$date_added = date('Y-m-d H:i:s');
+?>
+
 <?php                                                   // Add user's property to database and display on website
     if(isset($_POST["add_property"])) {                       // If post has been submitted
         if(empty($house_title)) {                              // If any empty fields, display an error message
@@ -41,7 +45,7 @@
         if(empty($house_description)) {
             $descriptionerr = "Remember to add a house description!";
         } else {                                        // Otherwise 
-    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}')";
+    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}','{$date_added}')";
             $result = mysqli_query($connect, $query);   
             if($result) {                             
                 $dbmessage = "Success! Your property has been listed!";   
