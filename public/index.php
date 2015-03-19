@@ -5,10 +5,9 @@
     include '../include/templates/header.php'; // Include header
 ?>
 
-<?php echo message(); ?>
+<?php echo $_SESSION["name"]; ?>
 
 <?php
-    if(isset($_SESSION["user"])) {   
         include '../include/loggedin-menu.php';                // If user is logged in, add 'add property button'
                                                                         // If user is logged in, include form
         } else {
