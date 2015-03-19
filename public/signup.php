@@ -9,11 +9,11 @@
     <div class="background-position" >            
          <div class="login-box">
             <form action="index.php" method="post">
-            <p>First Name:</p><input type="text" name="firstname" value=""/>
-            <p>Surname:</p><input type="text" name="lastname" value=""/>
-            <p>Email Address:</p><input type="text" name="email" value=""/>
-            <p>Username:</p> <input type="text" name="username" value=""/>
+            <p>Username:</p><input type="text" name="username" value=""/>
             <p>Password:</p><input type="text" name="password" value=""/>
+            <p>Firstname:</p><input type="text" name="firstname" value=""/>
+            <p>Lastname:</p> <input type="text" name="lastname" value=""/>
+            <p>Email Address:</p><input type="text" name="email" value=""/>
             
             <input type="submit" name="signup" value="Sign Up!"/>
             </form>
