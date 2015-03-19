@@ -169,11 +169,8 @@ body {
 .message-box {
     background-color: #F0F0F0;
     padding: 10px;
-    border-style: solid; 
     opacity: 0.5;
     text-align: center;
-    border-color: white;
- 
 }
 
 
