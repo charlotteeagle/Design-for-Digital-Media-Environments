@@ -13,10 +13,5 @@
             <a href="http://dakar.bournemouth.ac.uk/~ceagle/wiki/dokuwiki/doku.php?id=start">Wiki</a>
             <a href="form.php">Add Property</a>
         </div>
-        <div class="loggedin-box" >
-
-        <p><?php echo $_SESSION["name"]; ?></p>
-    
-        </div>
      </div> 
 </body>    

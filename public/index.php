@@ -16,6 +16,11 @@
 } ?>
       
 <div class="main">
+    <div class="loggedin-box" >
+        <p><?php echo $_SESSION["name"]; ?></p>
+    </div>
+    
+    
     <div class="background-position" >
 <?php 
     include '../include/loginform.php';
