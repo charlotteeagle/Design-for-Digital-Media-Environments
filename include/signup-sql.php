@@ -1,6 +1,7 @@
 <!-------------------------------------------------------- Register ---------------------------------------------------------------->
-
-
+<?php 
+    require_once("../include/connect.php");
+?>
 <?php                                                   
     if(isset($_POST["signup"])) {  
         $username = ($_POST["username"]);                
