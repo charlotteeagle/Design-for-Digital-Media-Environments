@@ -16,7 +16,7 @@
 } ?>
       
 <div class="main">
-    <?php  if(isset($_SESSION["name"])) { ?>
+    <?php  if(isset($_SESSION["message"])) { ?>
     
         <div class="message-box" >
             <p><?php echo $message ?></p>
