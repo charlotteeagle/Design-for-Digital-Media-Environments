@@ -31,11 +31,7 @@
         </div>
     </div> 
     
-    <div class="loggedin-box" >
-
-        <p><?php echo $_SESSION["name"]; ?></p>
     
-     </div>
 </div>
 
 
