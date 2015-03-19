@@ -19,22 +19,7 @@
 ?>
 <?php                                                   
     if(isset($_POST["signup"])) {                    
-        if(empty($username)) {                             
-            $_SESSION['message'] = "You need to create a username!";
-                header("Location: ../public/signup.php");
-        } else if(empty($password)) {
-            $_SESSION['message'] = "You need to create a password!";
-                header("Location: ../public/signup.php");
-        } else if(empty($firstname)) {
-            $_SESSION['message'] = "You didn't input your firstname!";
-                header("Location: ../public/signup.php");
-        } else if(empty($lastname)) {
-            $_SESSION['message'] = "You didn't input your lastname!";
-                header("Location: ../public/signup.php");
-        }else if(empty($email)) {
-            $_SESSION['message'] = "Remember to add your email address!";
-                header("Location: ../public/signup.php");
-        } else {                                        
+        if(empty($username)) {                                         
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
             $result = mysqli_query($connect, $query);   
         }
@@ -42,7 +27,7 @@
                 $_SESSION['message'] = "Success! You've been registered to Bournemouth Homes";   
                 header("Location: ../public/signup.php");
             } else {                                    
-                $_SESSION['message'] = "Error, something went wrong!";
+                $_SESSION['message'] = "Error! You missed something!";
                 header("Location: ../public/signup.php");
             }
     }
