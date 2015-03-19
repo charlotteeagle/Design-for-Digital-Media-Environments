@@ -8,7 +8,7 @@
 <div class="main">
     
         <div class="message-box" >
-            <p><?php echo $message ?></p>
+            <p><?php echo $message; ?></p>
         </div>
     
     
