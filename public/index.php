@@ -8,7 +8,8 @@
 <?php echo $_SESSION["name"]; ?>
 
 <?php
-        include '../include/loggedin-menu.php'; {              // If user is logged in, add 'add property button'
+    if(isset($_SESSION["message"])) {
+        include '../include/loggedin-menu.php';              // If user is logged in, add 'add property button'
                                                                         // If user is logged in, include form
         } else {
             include '../include/templates/menuheader.php';                        // Otherwise, display message logged out
