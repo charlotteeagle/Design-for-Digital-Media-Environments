@@ -16,9 +16,13 @@
 } ?>
       
 <div class="main">
-    <div class="message-box" >
-        <p>Welcome <?php echo $_SESSION["name"]; ?>!</p>
-    </div>
+    <?php  if(isset($_SESSION["name"])) { ?>
+    
+        <div class="message-box" >
+            <p><?php echo $message ?></p>
+        </div>
+    
+    <?php } ?>
     
     
     <div class="background-position" >
