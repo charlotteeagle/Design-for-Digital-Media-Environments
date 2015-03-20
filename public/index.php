@@ -18,14 +18,8 @@
 <div class="main">
     <?php  if(isset($_SESSION["user"])) { ?>
     
-        <div class="message-box" >
-            <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
-            <?php  if(isset($_SESSION["name"])) { ?>
-            <p style="display:inline;">Welcome back <?php echo $_SESSION['name']; ?>!</p>
-            <?php } ?>
-        </div>
+        <div class="message-box" ></div>
     
-    <?php } ?>
     
     
     <div class="background-position" >

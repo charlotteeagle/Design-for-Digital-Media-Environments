@@ -6,13 +6,19 @@
 ?>
 
 <div class="main">
-    <?php  if(isset($_SESSION["message"])) { ?>
-        <div class="message-box" >
-            <p><?php echo $_SESSION['message']; ?></p>
+<?php  if(isset($_SESSION["message"])) {
+        
+        <div class="message-box">
+            <p> echo $_SESSION['message']; </p> 
         </div>
-    <?php } ?>
+     //else {
+       // $_SESSION["message"] = "Please .";
     
+    //}
     
+  }
+?>
+        
     <div class="background-position" >            
          <div class="login-box">
             <form action="../include/signup-sql" method="post">
@@ -27,6 +33,8 @@
         </div>
     </div> 
 </div>
+
+
 
 
 <?php include_once("../include/templates/footer.php"); ?> 
