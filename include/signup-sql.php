@@ -31,8 +31,8 @@
         } else if(empty($lastname)) {
             $_SESSION['message'] =  "Please state your lastname";
             header("Location: ../public/signup.php");
-        }else if(empty($email)) {
-            $_SESSION['message'] =  "Please enter your email";
+        } else if(empty($email)) {
+            $_SESSION['message'] =  "Please enter your email address";
             header("Location: ../public/signup.php");
 
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
