@@ -10,7 +10,7 @@
     
         <div class="message-box" >
             <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
-            <p style="display:inline;"><?php echo ($_result["message"]) ?></p>
+            <p style="display:inline;"><?php echo ($result["message"]) ?></p>
         </div>
     
     <?php } ?>   
