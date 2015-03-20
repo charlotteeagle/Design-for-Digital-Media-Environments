@@ -8,7 +8,7 @@
 
 
 <?php
-    if(isset($_SESSION["message"])) {
+    if(isset($_SESSION["user"])) {
         include '../include/loggedin-menu.php';              // If user is logged in, add 'add property button'
                                                                         // If user is logged in, include form
         } else {
@@ -16,10 +16,10 @@
 } ?>
       
 <div class="main">
-    <?php  if(isset($_SESSION["message"])) { ?>
+    <?php  if(isset($_SESSION["user"])) { ?>
     
         <div class="message-box" >
-            <p style="display:inline;"><?php echo $message ?></p>
+            <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
             <?php  if(isset($_SESSION["name"])) { ?>
             <p style="display:inline;">Welcome back <?php echo $_SESSION['name']; ?>!</p>
             <?php } ?>
