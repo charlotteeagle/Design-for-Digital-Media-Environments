@@ -11,8 +11,11 @@
         <div class="message-box" >
             <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
         </div>
+   <?php   } else {
+            <p style="display:inline;"><?php echo Please enter your details to singnup. ?></p>
+        
     
-    <?php } ?>   
+   } ?>   
     <div class="background-position" >            
          <div class="login-box">
             <form action="../include/signup-sql" method="post">
