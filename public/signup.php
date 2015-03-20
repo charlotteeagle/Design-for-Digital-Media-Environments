@@ -6,15 +6,12 @@
 ?>
 
 <div class="main">
-    <?php  if(isset($_POST["signup"])) { ?>
-    
+<?php    if(isset($_POST["signup"])) { 
         <div class="message-box" >
-            <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
-            <?php ?>
+            <p><?php echo $_SESSION['message']; ?></p>
         </div>
     
-    <?php } ?>
-    
+}?>    
     <div class="background-position" >            
          <div class="login-box">
             <form action="../include/signup-sql" method="post">
