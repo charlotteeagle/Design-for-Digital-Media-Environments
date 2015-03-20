@@ -19,7 +19,8 @@
 ?>
 
 <?php
-$date_added = date('Y-m-d H:i:s');
+date_default_timezone_set("Europe/London");
+$date_added = date("Y-m-d H:i:s");
 ?>
 
 <?php                                                   // Add user's property to database and display on website
