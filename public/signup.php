@@ -14,7 +14,7 @@
         </div>
    <?php   } else { ?>
             
-            <p style="display:inline;"><?php echo Please enter your details to singnup. ?></p>
+            <p style="display:inline;"><?php echo "Please enter your details to singnup." ?></p>
         
     <?php  } ?>  
 
