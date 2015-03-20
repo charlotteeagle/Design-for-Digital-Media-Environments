@@ -62,6 +62,12 @@
     if(isset($_POST["login"])) {                        // If login is successful
         $username = $_POST["username"];
         $password = $_POST["password"];
+        if(empty($username)) {                              // If any empty fields, display an error message
+            $_SESSION['message'] =  "Please enter your username.";
+        } else if(empty($password)) {
+             $_SESSION['message'] =  "Please enter your password.";
+        } else {
+        
         $query = "SELECT * FROM users WHERE username='{$username}' AND password='{$password}' LIMIT 1"; // Get username and password
         $result = mysqli_query($connect, $query); 
         if ($user = mysqli_fetch_assoc($result)) {      // started a session so user can login
@@ -72,7 +78,8 @@
         } else {                                        // Otherwise
             $_SESSION["message"] = "Unsuccessful";     // Display message with error logging in
         }
-    }
+     }
+  }
   
 ?>
 
