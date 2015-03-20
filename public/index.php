@@ -16,7 +16,7 @@
 } ?>
       
 <div class="main">
-    <?php  if(isset($_SESSION["user"])) { ?>
+<?php  if(isset($_SESSION["user"])) { ?>
     
         <div class="message-box" ></div>
     
@@ -31,9 +31,9 @@
         <div class="search-icon">
             <img src="images/Search-50.png">
         </div>
-            <?php 
+<?php 
                 include '../include/search-dropdown.php';
-            ?>
+?>
         </div>
     </div> 
     
@@ -52,5 +52,4 @@
 
 <?php 
     include_once("../include/templates/footer.php"); // Include footer
-?>   
-    
+?>      
