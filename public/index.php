@@ -16,10 +16,16 @@
 } ?>
       
 <div class="main">
-<?php  if(isset($_SESSION["user"])) { ?>
+    <?php  if(isset($_SESSION["user"])) { ?>
     
-        <div class="message-box" ></div>
+        <div class="message-box" >
+            <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
+            <?php  if(isset($_SESSION["name"])) { ?>
+            <p style="display:inline;">Welcome back <?php echo $_SESSION['name']; ?>!</p>
+            <?php } ?>
+        </div>
     
+    <?php } ?>
     
     
     <div class="background-position" >
@@ -31,9 +37,9 @@
         <div class="search-icon">
             <img src="images/Search-50.png">
         </div>
-<?php 
+            <?php 
                 include '../include/search-dropdown.php';
-?>
+            ?>
         </div>
     </div> 
     
@@ -52,4 +58,5 @@
 
 <?php 
     include_once("../include/templates/footer.php"); // Include footer
-?>      
+?>   
+    
