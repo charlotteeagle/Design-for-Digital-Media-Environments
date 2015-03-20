@@ -65,19 +65,19 @@ $date_added = date('Y-m-d H:i:s');
 <!-- if session id not working may need to try escaping " " in query -->   
 <?php 
                 echo $house_title;
-                echo "<br>";
+                echo "&nbsp &nbsp";
                 echo $house_price;
-                echo "<br>";
+                echo "&nbsp &nbsp";
                 echo $house_location;
-                echo "<br>";
+                echo "&nbsp &nbsp";
                 echo $house_type;
-                echo "<br>";
+                echo "&nbsp &nbsp";
                 echo $house_bedroomnumber;
-                echo "<br>";
+                echo "&nbsp &nbsp";
                 echo $house_photo;
-                echo "<br>";
+                echo "&nbsp &nbsp";
                 echo $house_description;
-                echo "<br>";
+                echo "&nbsp &nbsp";
 
             ?>
 
