@@ -18,11 +18,10 @@
     }
 ?>
 <?php                                                   
-    if(isset($_POST["signup"])) {                    
-        if(empty($username)) {                                         
+    if(isset($_POST["signup"])) {                                                           
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
             $result = mysqli_query($connect, $query);   
-        }
+        
             if($result) {                             
                 $_SESSION['message'] = "Success! You've been registered to Bournemouth Homes";   
                 header("Location: ../public/signup.php");
