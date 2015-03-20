@@ -6,7 +6,7 @@
 ?>
 
 <div class="main">
-<?php    if(isset(POST["signup"])) { 
+<?php    if(isset($_POST["signup"])) { 
         <div class="message-box" >
             <p><?php echo $_SESSION['message']; ?></p>
         </div>
