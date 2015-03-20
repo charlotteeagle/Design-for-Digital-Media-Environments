@@ -62,10 +62,8 @@
     if(isset($_POST["login"])) {                        // If login is successful
         if(empty($username)) {                              // If any empty fields, display an error message
             $_SESSION['message'] =  "Please enter your username.";
-            header("Location: ../public/index.php");
         } else if(empty($password)) {
              $_SESSION['message'] =  "Please enter your password.";
-            header("Location: ../public/index.php");
         } else {
         $query = "SELECT * FROM users WHERE username='{$username}' AND password='{$password}' LIMIT 1"; // Get username and password
         $result = mysqli_query($connect, $query); 
@@ -76,10 +74,8 @@
         }
         if ($result) {
             $_SESSION["message"] = "";
-            header("Location: ../public/index.php");
         } else {                                        // Otherwise
             $_SESSION["message"] = "Unsuccessful";     // Display message with error logging in
-            header("Location: ../public/index.php");
         }
      }
   }
