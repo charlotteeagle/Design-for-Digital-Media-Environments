@@ -9,10 +9,10 @@
 
 <?php
     if(isset($_SESSION["user"])) {
-        include '../include/loggedin-menu.php';              // If user is logged in, add 'add property button'
-                                                                        // If user is logged in, include form
+        include '../include/loggedin-menu.php';     // If user is logged in, add 'add property button'
+                                                        // If user is logged in, include form
         } else {
-            include '../include/templates/menuheader.php';                        // Otherwise, display message logged out
+            include '../include/templates/menuheader.php';       // Otherwise, display message logged out
 } ?>
       
 <div class="main">
@@ -49,7 +49,6 @@
 
     
     <div class="house-card">
-        <div class="house-image"></div> 
 <?php       
     include '../include/house-card.php';
 ?>      

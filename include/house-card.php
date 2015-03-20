@@ -1,3 +1,9 @@
+<?php
+    require_once("../include/session.php");          // Includes session, mainly to echo user information.
+    require_once("../include/connect.php");
+>?
+
+
 <p>HOUSE CARD</p>
 
 <?php
@@ -11,18 +17,3 @@
         echo $row["house_description"];
     }
 ?>
-
-<p><?php echo $id; ?></p>
-<p><?php echo $house_title; ?></p>
-<p><?php echo $house_location; ?></p>
-<p><?php echo $house_type; ?></p>
-<p><?php echo $house_bedroomnumber; ?></p>
-<p><?php echo $house_photo; ?></p>
-<p><?php echo $house_description; ?></p>
-
-echo $house_title;
-echo $house_location;    
-echo $house_type;
-echo $house_bedroomnumber;
-echo $house_photo;
-echo $house_description;
