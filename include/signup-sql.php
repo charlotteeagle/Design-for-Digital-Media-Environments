@@ -9,13 +9,7 @@
         $firstname = ucfirst($_POST["firstname"]);      
         $lastname = ucfirst($_POST["lastname"]);    
         $email = ($_POST["email"]);                            
-    } else { 
-        $username = "";                                    
-        $password = "";                              
-        $firstname = "";                                
-        $lastname ="";                                
-        $email = "";                                             
-    }
+    } 
 ?>
 <?php                                                   
     if(isset($_POST["signup"])) {    
