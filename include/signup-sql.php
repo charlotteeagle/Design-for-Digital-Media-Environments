@@ -31,7 +31,7 @@
         } else if(empty($lastname)) {
             $_SESSION['message'] =  "Please state your lastname";
             header("Location: ../public/signup.php");
-        } else if(empty($email)) {
+        } if(empty($email)) {
             $_SESSION['message'] =  "Please enter your email address";
             header("Location: ../public/signup.php");
 
