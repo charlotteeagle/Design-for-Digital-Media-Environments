@@ -13,9 +13,9 @@
        
         </div>
    <?php   } else { ?>
-            <div class="message-box" >
+         
             <p style="display:inline;"><?php echo "Please enter your details to singnup." ?></p>
-            </div>
+            
     <?php  } ?>  
 
     <div class="background-position" >            
