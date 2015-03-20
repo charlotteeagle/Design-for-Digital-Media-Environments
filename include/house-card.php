@@ -1,7 +1,7 @@
 <?php
     require_once("../include/session.php");          // Includes session, mainly to echo user information.
     require_once("../include/connect.php");
->?
+?>
 
 
 <p>HOUSE CARD</p>
