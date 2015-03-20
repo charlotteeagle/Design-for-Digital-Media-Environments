@@ -31,9 +31,10 @@
         } else if(empty($lastname)) {
             $_SESSION['message'] =  "Please state your lastname";
             header("Location: ../public/signup.php");
-        } if(empty($email)) {
+        } else if(empty($email)) {
             $_SESSION['message'] =  "Please enter your email address";
             header("Location: ../public/signup.php");
+        }
 
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
             $result = mysqli_query($connect, $query);   
@@ -45,6 +46,6 @@
                 $_SESSION['message'] = "Error! You missed something!";
                 header("Location: ../public/signup.php");
             }
-        }
+        
     }
 ?>
