@@ -33,10 +33,10 @@
     include '../include/loginform.php';
 ?>
         
-        <div class="search-box">
-            <div class="search-icon">
-                <img src="images/Search-50.png">
-            </div>
+ <div class="search-box">
+        <div class="search-icon">
+            <img src="images/Search-50.png">
+        </div>
             <?php 
                 include '../include/search-dropdown.php';
             ?>
