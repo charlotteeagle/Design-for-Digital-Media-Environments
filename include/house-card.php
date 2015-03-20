@@ -1,7 +1,6 @@
-<p>HOUSE CARD</p>
-
+<div class="house-card">
 <?php
-               
+             //NEED TO SET $result   
     while($row = mysqli_fetch_assoc($result)) {
         echo $row["id"];
         echo $row["house_title"];
@@ -13,3 +12,4 @@
     }
 ?>
 
+</div>
