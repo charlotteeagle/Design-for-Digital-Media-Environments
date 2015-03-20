@@ -6,10 +6,11 @@
 ?>
 
 <div class="main">
- <?php  if(isset($_POST["signup"])) { ?>
+ <?php  if(isset($_SESSION["message"])) { ?>
     
         <div class="message-box" >
             <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
+            <p style="display:inline;"><?php echo ($_result["message"]) ?></p>
         </div>
     
     <?php } ?>   
