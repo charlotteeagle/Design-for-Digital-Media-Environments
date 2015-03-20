@@ -19,17 +19,22 @@
 ?>
 <?php                                                   
     if(isset($_POST["signup"])) {    
-        if(empty($username)) {                              // If any empty fields, display an error message
-            $message = "Please create a username.";
+        if(empty($username)) {                             // If any empty fields, display an error message
+            $_SESSION['message'] =  "Please create a username.";
+            header("Location: ../public/signup.php");
         } else if(empty($password)) {
-            $message = "Please create a password.";
+            $_SESSION['message'] = "Please create a password.";
+            header("Location: ../public/signup.php");
         } else if(empty($firstname)) {
-            $message = "Please state your firstname.";
+            $_SESSION['message'] =  "Please state your firstname.";
+            header("Location: ../public/signup.php");
         } else if(empty($lastname)) {
-            $message = "Please state your lastname";
+            $_SESSION['message'] =  "Please state your lastname";
+            header("Location: ../public/signup.php");
         }else if(empty($email)) {
-            $message = "Please enter your email";
-    
+            $_SESSION['message'] =  "Please enter your email";
+            header("Location: ../public/signup.php");
+
             $query = "INSERT INTO users (username, password, firstname, lastname, email) VALUES ('{$username}', '{$password}', '{$firstname}', '{$lastname}', '{$email}')";
             $result = mysqli_query($connect, $query);   
         
