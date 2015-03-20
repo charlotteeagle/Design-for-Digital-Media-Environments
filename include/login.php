@@ -60,8 +60,6 @@
 <?php
 /*User login*/
     if(isset($_POST["login"])) {                        // If login is successful
-        $username = $_POST["username"];
-        $password = $_POST["password"];
         if(empty($username)) {                              // If any empty fields, display an error message
             $_SESSION['message'] =  "Please enter your username.";
         } else if(empty($password)) {
