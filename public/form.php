@@ -4,7 +4,7 @@
     include_once("../include/templates/header.php");
     include_once("../include/templates/menuheader.php");
     include("../include/add_property-sql.php");
-
+    include("../include/upload.php"); 
 ?>
 
 
@@ -66,7 +66,7 @@
                             <option value="9">More than 8</option>
                         </select><span class="error">*<?php if(isset($numbererr)) {echo $numbererr;}?></span>
                     <br><br>
-                    Add an image: <input type="file" name="house_photo" value="<?php if(isset($house_photo)) {echo $house_photo;}?>">
+                    Add an image: <input type="file" name="house_photo" id="fileToUpload" value="<?php if(isset($house_photo)) {echo $house_photo;}?>">
                     <span class="error">*<?php if(isset($photoerr)) {echo $photoerr;}?></span> 
 
                     <br><br>
@@ -84,7 +84,7 @@
         </div>
 
 
-
+ 
 <!-- Begin Footer -->
 <?php include_once("../include/templates/footer.php"); ?>                      
 <!-- End Footer -->
