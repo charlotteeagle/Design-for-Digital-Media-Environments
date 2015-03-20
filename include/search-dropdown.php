@@ -12,5 +12,7 @@
         <option value="10">Westbourne</option>
         <option value="11">Parkstone</option>
         <option value="12">Northbourne</option>
+    
+        <input type="submit" name="search" value="Search!"/>
         </select> 
 </form>
