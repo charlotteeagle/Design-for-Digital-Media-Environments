@@ -54,9 +54,8 @@ $date_added = date("d-m-Y H:i:s");
             $result = mysqli_query($connect, $query);   
             if($result) {                             
                 $dbmessage = "Success! Your property has been listed!";   
-            } else {                                    // Otherwise display unsuccessful message
-                $dbmessage = "Oh dear, your listing was unsuccessful."; 
-            }
+            } else 
+                
             $house_title = "";                                 // Get user to fill in fields required 
             $house_price = ""; 
             $house_location = ""; 
