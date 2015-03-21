@@ -4,7 +4,7 @@
     include_once("../include/templates/header.php");
     include_once("../include/templates/menuheader.php");
     include("../include/add_property-sql.php");
-    include("../include/upload.php"); 
+    
 ?>
 
 

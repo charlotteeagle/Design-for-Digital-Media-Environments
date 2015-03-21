@@ -5,7 +5,8 @@
         $house_location = ($_POST["house_location"]);      
         $house_type = ($_POST["house_type"]);    
         $house_bedroomnumber = ($_POST["house_bedroomnumber"]);                
-        $house_photo = ($_POST["house_photo"]);              
+        /*$house_photo = ($_POST["house_photo"]);
+        $house_photo_path = ($_POST["house_photo_path"]);  */      
         $house_description = ucfirst($_POST["house_description"]);            
     } else { 
         $house_title = "";                                     // Leave each field blank
@@ -13,10 +14,13 @@
         $house_location = "";                                
         $house_type ="";                                
         $house_bedroomnumber = "";                                     
-        $house_photo = "";                                    
+        $house_photo = "";   
+        $house_photo_path = "";
         $house_description ="";                                    
     }
 ?>
+
+<?php include("../include/upload.php"); ?>
 
 <?php
 date_default_timezone_set("Europe/London");
@@ -46,7 +50,7 @@ $date_added = date("Y-m-d H:i:s");
         if(empty($house_description)) {
             $descriptionerr = "Remember to add a house description!";
         } else {                                        // Otherwise 
-    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}', '{$house_description}','{$date_added}')";
+    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_photo_path, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}','{$house_photo_path}','{$house_description}','{$date_added}')";
             $result = mysqli_query($connect, $query);   
             if($result) {                             
                 $dbmessage = "Success! Your property has been listed!";   
