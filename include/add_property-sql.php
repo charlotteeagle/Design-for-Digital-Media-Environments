@@ -67,7 +67,7 @@ $date_added = date("d-m-Y H:i:s");
         }
     }
 ?>
-<!-- if session id not working may need to try escaping " " in query -->   
+ 
 <?php 
                 echo $house_title;
                 echo "&nbsp &nbsp";
