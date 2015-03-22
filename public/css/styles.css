@@ -37,9 +37,8 @@ body {
 
 .buttons>a {
 	/* select <a> hyperlinks within the .menu element */
-    margin-top: 10px;
+    margin-top: 15px;
     float: left;
-    padding-top: 5px;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 2px; /* button roundness */
