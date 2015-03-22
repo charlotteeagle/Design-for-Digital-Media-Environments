@@ -27,7 +27,7 @@ body {
 	/* padding-bottom:5px; */
     background-image: url(../images/menuheader.jpg);
     background-size: cover;
-    height: 80px;
+    background-repeat:no-repeat;
 }
 
 .buttons {
