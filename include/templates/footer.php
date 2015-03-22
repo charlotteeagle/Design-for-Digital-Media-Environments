@@ -6,4 +6,5 @@
             <a href="info.php"><img src="images/Info-50.png"></a>    
         </div>
     </div>
+  <script src="../../public/js/jquery.js"></script>
 </body>

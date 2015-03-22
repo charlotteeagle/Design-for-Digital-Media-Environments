@@ -6,7 +6,6 @@
         <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'> 
         <link href='css/normal.css' rel='stylesheet' type='text/css'> 
         <link href='css/styles.css' rel='stylesheet' type='text/css'> 
-        <script type="text/javascript" src="/public/js/jquery.js"></script>
     </head>
 <!--HEADER -->
  <body>
