@@ -25,7 +25,8 @@ body {
 
 .menu-header {
 	/* padding-bottom:5px; */
-    background-color: #009ACD;
+    background-image: url(../images/menuheader.jpg);
+    background-size: cover;
     height: 80px;
 }
 
