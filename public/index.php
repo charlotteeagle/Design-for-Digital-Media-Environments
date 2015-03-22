@@ -46,24 +46,13 @@
     
 </div>
 
- <?php if(isset($_POST["sort"])) { ?>
-            <div class="box">
-                <form action="house-card-sql.php" method="post">
-                    <select name="sort-by">
-                        <option value="new">New</option>
-                        <option value="old">Old</option>
-                    </select>
-                    <input type="submit" name="sort" value="Sort" />
-                </form>
-
-            </div>
-            
-            <?php } ?>
-
- <?php if(isset($_POST["search"])) { ?>
+<?php if(isset($_POST["search"])) { ?>
             <div class="house-card"></div>
             
-            <?php } ?>
+<?php 
+                include '../include/sort-box.php';
+?>
+<?php } ?>
 
  
    
