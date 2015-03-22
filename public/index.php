@@ -47,11 +47,13 @@
 </div>
 
 <?php if(isset($_POST["search"])) { ?>
-            <div class="house-card"></div>
-            
+
 <?php 
                 include '../include/sort-box.php';
 ?>
+            <div class="house-card"></div>
+            
+
 <?php } ?>
 
  
