@@ -1,13 +1,13 @@
 body {
 	margin:auto;
-    font-family: 'Play', sans-serif;
+    font-family: 'Lobster', cursive;
 }
 
 /* -------------------------------------------Header -----------------------------------------------*/
 
 .header {
 	background-color: #fff;
-	font-family: 'Play', sans-serif;
+	font-family: 'Lobster', cursive;
     /*border-style: solid; */
     /*border-color: white; */ 
 }
@@ -138,7 +138,7 @@ body {
 .footer>a {
     width: 100%;
 	font-size:0.9em;
-	font-family: 'Play', sans-serif;
+	font-family: 'Lobster', cursive;
     display: -webkit-flex;       /* Places elements next to eachother */
     -webkit-align-items: center; /* Places elements next to eachother */
     align-items: center;
