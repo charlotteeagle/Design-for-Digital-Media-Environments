@@ -1,6 +1,7 @@
 <?php if(isset($_SESSION["user"])) { ?> <!-- If user is logged in, display logout button -->
+    <div class="log-out-button">  
         <a href="logout.php"> Logout</a>
-
+    </div>  
 <?php } 
 
     else { ?> <!-- Otherwise, display form to login-->
@@ -16,6 +17,5 @@
                     </form>
                 </div>
     
-
 <?php } ?> 
 

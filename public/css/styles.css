@@ -151,7 +151,19 @@ body {
     padding-right: 60px;
 } 
 
-/* -------------------------------------------Login box -----------------------------------------------*/
+/* ----------------------------------Login box/logout box -----------------------------------------------*/
+
+.log-out-box {
+    float: right;
+    background-color: #F0F0F0;
+    padding: 3px;
+    border-style: solid; 
+    opacity: 0.8;
+    text-align: right;
+    cursor: pointer;
+    border-radius: 10px; /* button roundness */
+    border-color: white;
+}
 
 .login-box {
     float: right;
