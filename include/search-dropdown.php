@@ -1,4 +1,4 @@
-<form action="index.php" method="get"> 
+<form action="index.php" method="post"> 
  Search:<select name="house_id">
         <option value="1">Bournemouth Centre</option>
         <option value="2">Winton</option>
