@@ -154,15 +154,22 @@ body {
 /* -------------------------------------------Login box -----------------------------------------------*/
 
 .login-box {
-    float: right;
-    background-color: #F0F0F0;
-    padding: 10px;
-    border-style: solid; 
-    opacity: 0.9;
-    text-align: left;
-    border-radius: 10px; /* button roundness */
-    border-color: white;
-    border: 30px;
+    width: 300px; 
+    margin:20px auto;
+    text-align: center;
+    background: #e5e5e5;
+    border: 2px solid grey;
+    padding: 20px; 
+}
+
+.toggle-box {
+    width: 300px; 
+    margin:20px auto;
+    text-align: center;
+    background: #e5e5e5;
+    border: 2px solid grey;
+    padding: 20px; 
+    cursor: pointer;
 }
 
 /* --------------------------Message box, when triggered -----------------------------------------------*/
