@@ -46,7 +46,7 @@
     
 </div>
 
- <?php if(isset($_SESSION["user"])) { ?>
+ <?php if(isset($_POST["search"])) { ?>
             <div class="box">
                 <form action="index.php" method="post">
                     <select name="sort-by">
@@ -60,15 +60,13 @@
             
             <?php } ?>
 
+ <?php if(isset($_POST["search"])) { ?>
+            <div class="house-card"></div>
+            
+            <?php } ?>
 
-    
-    <div class="house-card">
-<?php       
-    include '../include/house-card.php';
-?>      
-    </div>
-
-
+ 
+   
 <?php 
     include_once("../include/templates/footer.php"); // Include footer
 ?>   
