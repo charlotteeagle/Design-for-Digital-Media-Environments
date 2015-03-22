@@ -145,7 +145,8 @@ body {
 }
 
 .icon-container>a {
-    padding-right: 60px;
+    margin-top: 10px;
+    padding-right: 120px;
 } 
 
 /* ----------------------------------Login box/logout box -----------------------------------------------*/
