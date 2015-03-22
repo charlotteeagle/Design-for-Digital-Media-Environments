@@ -13,5 +13,9 @@
             <a href="http://dakar.bournemouth.ac.uk/~ceagle/wiki/dokuwiki/doku.php?id=start">Wiki</a>
             <a href="signup.php">Sign Up</a>
         </div>
+        
+<?php 
+    include '../include/loginform.php';
+?>
      </div> 
 </body>    
