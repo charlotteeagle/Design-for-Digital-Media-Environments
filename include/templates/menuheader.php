@@ -15,8 +15,10 @@
     
         <a href="form.php">Add Property</a>     // 
                                                       // 
-<?php else  ?>
+<?php  {     
+} else { ?>
             <a href="signup.php">Sign Up</a>       // 
+            }
 <?php } ?>
             
             
