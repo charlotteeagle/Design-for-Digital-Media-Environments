@@ -5,7 +5,7 @@
     include '../include/templates/header.php'; // Include header
     include '../include/templates/menuheader.php';
 ?>
-
+      
 <div class="main">
     <?php  if(isset($_SESSION["user"])) { ?>
     
@@ -20,13 +20,6 @@
     
     
     <div class="background-position" >
-        <style type="text/css"
-        <!--
-        body{
-            background: url(images/<?php echo $selectedBg; ?>) no-repeat;
-            }
-        -->
-        </style>
 <?php 
     include '../include/loginform.php';
 ?>
