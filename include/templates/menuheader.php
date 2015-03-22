@@ -11,19 +11,20 @@
             <a href="about.php">About Us</a>
             <a href="help.php">Help</a>
             <a href="http://dakar.bournemouth.ac.uk/~ceagle/wiki/dokuwiki/doku.php?id=start">Wiki</a>
-<?php  if(isset($_SESSION["user"])) { ?>
+<?php if(isset($_SESSION["user"])) { ?> 
+    <a href="form.php">Add Property</a>
+       
+<?php } 
+
+    else { ?> 
+        
+    <a href="signup.php">Sign Up</a> 
+                
     
-            <a href="form.php">Add Property</a>
-<?php else { ?>
-            <a href="signup.php">Sign Up</a> 
-<?php } ?>
-        </div>
-    
-<?php } ?>
-            
-            
+<?php } ?> 
+      
         </div>
     </div> 
 </body>   
     
-        
+   
