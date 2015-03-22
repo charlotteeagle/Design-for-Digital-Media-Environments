@@ -46,9 +46,9 @@
     
 </div>
 
- <?php if(isset($_POST["search"])) { ?>
+ <?php if(isset($_POST["sort"])) { ?>
             <div class="box">
-                <form action="index.php" method="post">
+                <form action="house-card-sql.php" method="post">
                     <select name="sort-by">
                         <option value="new">New</option>
                         <option value="old">Old</option>
