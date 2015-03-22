@@ -93,6 +93,7 @@ body {
     margin: auto;
     background-image: url(../images/backgrounds/b4.jpg);
 	display:inline-block;
+	width:100%;	
 	vertical-align: top;
     height: 856px;
     background-repeat:no-repeat;
