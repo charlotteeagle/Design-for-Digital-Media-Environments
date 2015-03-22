@@ -37,7 +37,7 @@ body {
 
 .buttons>a {
 	/* select <a> hyperlinks within the .menu element */
-    margin-top: 15px;
+    margin-top: 18px;
     float: left;
 	display:inline-block;
 	background-color: #fff;
