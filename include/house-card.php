@@ -20,7 +20,8 @@
 <?php
  if(isset($_POST["search"])) {
         $query = "SELECT * FROM posts WHERE house_id='{$house_id}', house_title='{$house_title}', house_location='{$house_location}', house_type='{$house_type}', house_bedroomnumber='{$house_bedroomnumber}', house_photo='{$house_photo}', house_description='{$house_description}' ";
-        $result = mysqli_query($connect, $query); 
+        
+     $result = mysqli_query($connect, $query); 
         
      while($row = mysqli_fetch_assoc($result)) {
         echo $row["house_id"];
