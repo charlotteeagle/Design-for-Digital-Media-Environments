@@ -91,7 +91,7 @@ body {
 
 .background-position {
     margin: auto;
-    background-image: url(../images/search-background.jpg);
+    background-image: url(../images/backgrounds/<?php echo $selectedBg; ?>) no-repeat;
 	display:inline-block;
 	width:100%;	
 	vertical-align: top;
@@ -107,7 +107,7 @@ body {
     padding-top: 20px;
     padding-left: 10%;
     padding-bottom: 20px;
-    width: 50%;
+    width: 65%;
     background-color: white;
     opacity: 0.8;
     font-size: 4em;
