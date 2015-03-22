@@ -13,7 +13,7 @@
                                                         // If user is logged in, include form
     //    } else {
      //       include '../include/templates/menuheader.php';       // Otherwise, display message logged out
-} ?>
+//} ?>
       
 <div class="main">
     <?php  if(isset($_SESSION["user"])) { ?>
