@@ -1,6 +1,6 @@
 <?php if(isset($_SESSION["user"])) { ?> <!-- If user is logged in, display logout button -->
-    <div class="log-out-button">  
-        <a href="logout.php"> Logout</a>
+    <div class="toggle-box">  
+        <a href="logout.php">Logout</a>
     </div>  
 <?php } 
 
