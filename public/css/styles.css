@@ -24,10 +24,10 @@ body {
 /* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
 .menu-header {
-	padding-bottom:5px;
+	padding-bottom:3px;
     background-image: url(../images/menuheader.jpg);
     background-size: cover;
-    height: 90px;
+    height: auto;
 }
 
 .buttons {
