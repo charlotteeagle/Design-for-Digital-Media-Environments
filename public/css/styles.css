@@ -147,7 +147,7 @@ body {
 }
 
 .icon-container>a {
-    float: left;
+    float: center;
     padding-right: 60px;
 } 
 
@@ -202,7 +202,8 @@ body {
     opacity: 0.8;
     text-align: center;
     border-radius: 10px; /* button roundness */
-    
+    margin-top: 10px;
+    width: 30%;
     
 }
 /* --------------------------Message box, when triggered -----------------------------------------------*/
