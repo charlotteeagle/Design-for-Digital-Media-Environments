@@ -24,7 +24,7 @@ body {
 /* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
 .menu-header {
-	padding-bottom:10px;
+	padding-bottom:15px;
     background-image: url(../images/menuheader.jpg);
     background-size: cover;
     height: 100px;
