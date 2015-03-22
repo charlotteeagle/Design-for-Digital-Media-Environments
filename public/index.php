@@ -20,7 +20,13 @@
     
     
     <div class="background-position" >
-        
+        <style type="text/css"
+        <!--
+        body{
+            background: url(images/<?php echo $selectedBg; ?>) no-repeat;
+            }
+        -->
+        </style>
 <?php 
     include '../include/loginform.php';
 ?>

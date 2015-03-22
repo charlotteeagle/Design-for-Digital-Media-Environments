@@ -91,7 +91,7 @@ body {
 
 .background-position {
     margin: auto;
-    background: url(../images/backgrounds/<?php echo $selectedBg; ?>) no-repeat;
+    <!--background: url(../images/backgrounds/<?php echo $selectedBg; ?>) no-repeat;-->
 	display:inline-block;
 	width:100%;	
 	vertical-align: top;
