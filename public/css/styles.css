@@ -167,7 +167,7 @@ body {
 
 .toggle-box {
     margin-top: 18px;
-    float: left;
+    float: right;
 	display:inline-block;
 	background-color: #fff;
 	border-radius: 2px; /* button roundness */

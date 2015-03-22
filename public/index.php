@@ -29,6 +29,9 @@
     
     
     <div class="background-position" >
+<?php 
+    include '../include/loginform.php';
+?>
         
  <div class="search-box">
         <div class="search-icon">
