@@ -28,6 +28,7 @@ body {
     background-image: url(../images/menuheader.jpg);
     background-size: cover;
     height: 100px;
+    border-bottom: black 2px;
 }
 
 .buttons {
@@ -47,6 +48,7 @@ body {
 	text-decoration:none; /* remove underline */
 	margin-right:10px; /* button space */
     margin-bottom: 3px;
+    opacity: 0.5;
 }
 
 .buttons>a:hover {
@@ -129,10 +131,10 @@ body {
 /* -------------------------------------------Footer -----------------------------------------------*/
 
 .footer {
-	padding-bottom:15px;
     background-image: url(../images/footer1.jpg);
     background-size: cover;
     height: 100px;
+    border-top: black 3px;
 }
 
 .footer>a {
@@ -155,27 +157,34 @@ body {
 .login-box {
     float: right;
     background-color: #F0F0F0;
-    padding: 10px;
+    padding: 3px;
     border-style: solid; 
     opacity: 0.9;
     text-align: right;
     cursor: pointer;
     border-radius: 10px; /* button roundness */
     border-color: white;
-    border: 30px;
 }
 
 .toggle-box {
-    float: right;
-    width: 30px;
-    background-color: #F0F0F0;
-    padding: 10px;
-    border-style: solid;
-    opacity: 0.9;
-    text-align: right;
+    margin-top: 18px;
+    float: left;
+	display:inline-block;
+	background-color: #fff;
+	border-radius: 2px; /* button roundness */
+	padding:20px;
+	font-size:1.4em;
+	text-decoration:none; /* remove underline */
+	margin-right:10px; /* button space */
+    margin-bottom: 3px;
+    opacity: 0.5;
     cursor: pointer;
 }
 
+.toggle-box>a:hover {
+	background-color: #F0F0F0; /* hover colour */
+	color: black;
+}
 /* --------------------------Message box, when triggered -----------------------------------------------*/
 .message-box {
     background-color: #F0F0F0;

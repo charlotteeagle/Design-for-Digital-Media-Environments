@@ -4,9 +4,6 @@
 <?php } 
 
     else { ?> <!-- Otherwise, display form to login-->
-        <div class="toggle-box">
-            <p>Login</p>
-        </div>
         <div class="login-box">
             <form action="index.php" method="post">
                 <p>Username:</p><input type="text" name="username" value=""/>
