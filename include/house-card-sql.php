@@ -18,3 +18,28 @@
      }
  }
 ?>
+
+<?php 
+
+    if(isset($_POST["sort"])) {
+        $sort = $_POST["sort-by"];
+        
+        if(strcmp($sort, "new") == 0) {
+            $query = "SELECT * FROM posts ORDER BY id DESC";
+        } else {
+            $query = "SELECT * FROM posts ORDER BY id ASC";
+        }
+        
+    } else {
+        $query = "SELECT * FROM posts ORDER BY id DESC";
+    }
+    
+
+    
+    $result = mysqli_query($connect, $query); 
+
+    if(!$result) {
+        die("Query Error");  
+    }
+
+?>
