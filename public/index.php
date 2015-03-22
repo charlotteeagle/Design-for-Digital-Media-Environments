@@ -5,16 +5,6 @@
     include '../include/templates/header.php'; // Include header
     include '../include/templates/menuheader.php';
 ?>
-
-
-
-<?php
-    //if(isset($_SESSION["user"])) {
-    //    include '../include/loggedin-menu.php';     // If user is logged in, add 'add property button'
-                                                        // If user is logged in, include form
-    //    } else {
-     //       include '../include/templates/menuheader.php';       // Otherwise, display message logged out
-//} ?>
       
 <div class="main">
     <?php  if(isset($_SESSION["user"])) { ?>
