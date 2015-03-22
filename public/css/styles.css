@@ -129,22 +129,14 @@ body {
     border-top: black 5px; 
 }
 
-.footer>a {
-    width: 100%;
-	font-size:0.9em;
-	font-family: 'Lobster', cursive;
-    display: -webkit-flex;       /* Places elements next to eachother */
-    -webkit-align-items: center; /* Places elements next to eachother */
-    align-items: center;
-    background-color: #F0F0F0; /*Light Grey */
-}
-
 .icon-container{
     margin: auto;
-    width: 300px;
+    width: 350px;
+     display: -webkit-flex;       /* Places elements next to eachother */
+    -webkit-align-items: center; /* Places elements next to eachother */
 }
 
-.icon-container>a {
+.icon-container {
     margin-top: 10px;
     padding-right: 120px;
 } 
