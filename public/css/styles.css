@@ -24,7 +24,7 @@ body {
 /* -------------------------------------------Menu Header & buttons -----------------------------------------------*/
 
 .menu-header {
-	/* padding-bottom:5px; */
+	padding-bottom:5px;
     background-image: url(../images/menuheader.jpg);
     background-size: cover;
     height: 90px;
@@ -105,10 +105,6 @@ body {
     height: 476px;
     background-repeat:no-repeat;
     background-size: cover;
-}
-
-.background-position img {
-	width:100%;			
 }
 
 .search-box {
