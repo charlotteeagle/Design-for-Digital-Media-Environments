@@ -12,10 +12,9 @@
             <a href="help.php">Help</a>
             <a href="http://dakar.bournemouth.ac.uk/~ceagle/wiki/dokuwiki/doku.php?id=start">Wiki</a>
             <a href="signup.php">Sign Up</a>
-        </div>
-    </div> 
-
 <?php 
     include '../include/loginform.php';
 ?>
+        </div>
+    </div> 
 </body>    
