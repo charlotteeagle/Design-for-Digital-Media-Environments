@@ -169,11 +169,9 @@ body {
     float: right;
     background-color: #F0F0F0;
     padding: 3px;
-    border-style: solid; 
     opacity: 0.8;
     text-align: center;
     border-radius: 10px; /* button roundness */
-    border-color: white;
 }
 
 .toggle-box {
@@ -194,6 +192,18 @@ body {
 .toggle-box>a:hover {
 	background-color: #F0F0F0; /* hover colour */
 	color: black;
+}
+
+/* ----------------------------------Signup box-----------------------------------------------*/
+.signup-box{
+    float: center;
+    background-color: #F0F0F0;
+    padding: 3px;
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 10px; /* button roundness */
+    
+    
 }
 /* --------------------------Message box, when triggered -----------------------------------------------*/
 .message-box {
@@ -237,11 +247,6 @@ body {
     border: 3px solid #009ACD;
     opacity: 1.0;
 }
-
-
-
-
-
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
 

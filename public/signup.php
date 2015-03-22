@@ -15,7 +15,7 @@
          
          
     <div class="background-position" >            
-         <div class="login-box">
+         <div class="signup-box">
             <form action="../include/signup-sql" method="post">
             <p>Username:</p><input type="text" name="username" value=""/>
             <p>Password:</p><input type="text" name="password" value=""/>
