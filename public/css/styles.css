@@ -139,9 +139,12 @@ body {
     background-color: #F0F0F0; /*Light Grey */
 }
 
-.icon-container>a {
+.icon-container{
     margin: auto;
     width: 400px;
+}
+
+.icon-container>a {
     padding-right: 60px;
 } 
 
