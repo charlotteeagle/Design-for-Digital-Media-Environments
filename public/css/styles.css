@@ -130,7 +130,9 @@ body {
 
 .footer {
 	margin:auto; /* center div in the page */
-	width: 450px;	
+	width: 450px;
+    height: 90px;
+    background-color: #F0F0F0;
 }
 
 .footer>a {
