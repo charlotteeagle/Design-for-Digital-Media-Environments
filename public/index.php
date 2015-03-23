@@ -41,7 +41,8 @@
 <?php if(isset($_POST["search"])) { 
         while($row = mysqli_fetch_assoc($result)) {
             include '../include/house-card.php';
-            include '../include/sort-box.php';
+        }>?
+<?php        include '../include/sort-box.php';
                 
 }?>
 
