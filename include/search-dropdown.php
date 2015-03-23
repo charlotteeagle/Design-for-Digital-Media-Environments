@@ -1,5 +1,5 @@
 <form action="index.php" method="post"> 
- Search:<select style="font-size: 2em" name="house_id">
+ Search:<select style="font-size: 16px" name="house_id">
             <option value="1">Bournemouth Centre</option>
             <option value="2">Winton</option>
             <option value="3">Boscombe</option>
