@@ -36,4 +36,4 @@
                 <div class="date-added">
                 <?php echo $row["date_added"]; ?>
                 </div>
-            </div>
+</div>

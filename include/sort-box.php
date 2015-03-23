@@ -1,5 +1,5 @@
 <div class="sort-box">
-        <form action="../include/house-card-sql.php" method="post">
+        <form action="../public/index.php" method="post">
             <select name="sort-by">
                 <option value="new">New</option>
                 <option value="old">Old</option>
