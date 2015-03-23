@@ -39,6 +39,7 @@
 </div>
 
 <?php if(isset($_POST["location_id"])) { 
+                echo yes;
         while($row = mysqli_fetch_assoc($result)) {
             include '../include/house-card.php';
         }
