@@ -38,27 +38,14 @@
     
 </div>
 
-<?php if(isset($_POST["search"])) { ?>
-
-<?php 
-                include '../include/sort-box.php';
+<?php if(isset($_POST["search"])) { 
+        while($row = mysqli_fetch_assoc($result)) {
+            include '../include/house-card.php';
+            include '../include/sort-box.php';
                 
-?>
-
-<?php } ?>
-
-<?php 
-    while($row = mysqli_fetch_assoc($result)) {
-        include '../include/house-card.php';
-    }
-?>
-            
-            
-
-
+}?>
 
  
-   
 <?php 
     include_once("../include/templates/footer.php"); // Include footer
 ?>   
