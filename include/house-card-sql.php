@@ -1,6 +1,6 @@
 <?php
  if(isset($_POST["search"])) {
-        $query = "SELECT * FROM posts WHERE house_id='{$house_id}', house_title='{$house_title}', house_location='{$house_location}', house_type='{$house_type}', house_bedroomnumber='{$house_bedroomnumber}', house_photo='{$house_photo}', house_description='{$house_description}'";
+        $query = "SELECT * FROM posts WHERE user_id='{$user_id}', house_title='{$house_title}', house_price='{$house_price}', house_location='{$house_location}', house_type='{$house_type}', house_bedroomnumber='{$house_bedroomnumber}', house_photo='{$house_photo}', house_description='{$house_description}', date_added='{$date_added}'";
         $result = mysqli_query($connect, $query); 
         
      while($row = mysqli_fetch_assoc($result)) {
@@ -10,10 +10,7 @@
         echo $row["house_type"];
         echo $row["house_bedroomnumber"];
         echo $row["house_photo"];
-        echo $row["house_description"];
-         
-        include 'house-card.php'; 
-     
+        echo $row["house_description"]; 
      }
  }
 ?>
