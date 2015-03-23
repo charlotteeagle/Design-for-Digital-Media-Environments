@@ -1,16 +1,18 @@
 <?php
  if(isset($_POST["search"])) {
-        $query = "SELECT * FROM posts WHERE user_id='{$user_id}', house_title='{$house_title}', house_price='{$house_price}', house_location='{$house_location}', house_type='{$house_type}', house_bedroomnumber='{$house_bedroomnumber}', house_photo='{$house_photo}', house_description='{$house_description}', date_added='{$date_added}'";
+        $query = "SELECT * FROM posts";
         $result = mysqli_query($connect, $query); 
         
      while($row = mysqli_fetch_assoc($result)) {
-        echo $row["house_id"];
+        echo $row["user_id"];
         echo $row["house_title"];
+        echo $row["house_price"];
         echo $row["house_location"];
         echo $row["house_type"];
         echo $row["house_bedroomnumber"];
         echo $row["house_photo"];
         echo $row["house_description"]; 
+        echo $row["date_added"]; 
      }
  }
 ?>
