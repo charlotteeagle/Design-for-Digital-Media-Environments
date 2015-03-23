@@ -227,48 +227,64 @@ body {
 .house-image { 
     width: 50px;
     background: #fff;
+    border-style: solid; 
+    border-color: black; 
 } 
 
 .house-title { 
     width: 100px;
     background: #fff;
     float: left;
+    border-style: solid; 
+    border-color: black; 
 } 
 
 .house-price { 
     width: 50px;
     background: #fff;
     float: left;
+    border-style: solid; 
+    border-color: black; 
 } 
 
 .house-location { 
     width: 50px;
     background: #fff;
     float: left;
+    border-style: solid; 
+    border-color: black; 
 } 
 
 .house-type { 
     width: 50px;
     background: #fff;
     float: left;
+    border-style: solid; 
+    border-color: black; 
 } 
 
 .house-bedroomnumber { 
     width: 50px;
     background: #fff;
     float: left;
+    border-style: solid; 
+    border-color: black; 
 } 
 
 .house-description { 
     width: 50px;
     background: #fff;
     float: left;
+    border-style: solid; 
+    border-color: black; 
 } 
 
 .date-added { 
     width: 50px;
     background: #fff;
     float: left;
+    border-style: solid; 
+    border-color: black; 
 } 
 .house-card:hover {
     border: 3px solid #009ACD;
