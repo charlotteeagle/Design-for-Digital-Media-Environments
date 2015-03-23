@@ -42,7 +42,16 @@
 <?php 
                 include '../include/sort-box.php';
 ?>
-            <div class="house-card"></div>
+            <div class="house-card">
+                <div class="house-image"></div>
+                <div class="house-title"></div>
+                <div class="house-price"></div>
+                <div class="house-location"></div>
+                <div class="house-type"></div>
+                <div class="house-bedroomnumber"></div>
+                <div class="house-description"></div>
+                <div class="date-added"></div>
+            </div>
             
 
 <?php } ?>
