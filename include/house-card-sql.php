@@ -19,8 +19,4 @@
         $query = "SELECT * FROM posts ORDER BY id DESC";
     }
 
-    if(!$result) {
-        die("Query Error");  
-    }
-
 ?>
