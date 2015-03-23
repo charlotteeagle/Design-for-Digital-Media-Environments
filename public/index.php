@@ -40,9 +40,9 @@
 
 <?php if(isset($_POST["location_id"])) { 
         while($row = mysqli_fetch_assoc($result)) {
-            include '../include/house-card.php';
+            include '../include/sort-box.php';
         }
-      include '../include/sort-box.php';
+      include '../include/house-card.php';
                 
             }?>
 
