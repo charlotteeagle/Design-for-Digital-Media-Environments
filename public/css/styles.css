@@ -190,7 +190,7 @@ body {
     text-align: center;
     border-radius: 10px; /* button roundness */
     width: 30%;
-    margin: auto;
+    margin: center;
 }
 /* --------------------------Message box, when triggered -----------------------------------------------*/
 .message-box {
