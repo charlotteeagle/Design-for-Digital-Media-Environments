@@ -189,11 +189,8 @@ body {
     opacity: 0.8;
     text-align: center;
     border-radius: 10px; /* button roundness */
-    margin-top: 10px;
     width: 30%;
     margin: auto;
-    width: 600px;
-    
 }
 /* --------------------------Message box, when triggered -----------------------------------------------*/
 .message-box {
