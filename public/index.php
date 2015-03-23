@@ -48,5 +48,4 @@
  
 <?php 
     include_once("../include/templates/footer.php"); // Include footer
-?>   
-    
+?>     
