@@ -3,8 +3,10 @@
         $query = "SELECT * FROM posts";
         $result = mysqli_query($connect, $query); 
  } ?>
-        print_r($row);
-<?php  while($row = mysqli_fetch_assoc($result)) {
+        
+<?php  print_r(mysqli_fetch_assoc($result));
+
+while($row = mysqli_fetch_assoc($result)) {
         
         echo $row["user_id"];
         echo $row["house_title"];
