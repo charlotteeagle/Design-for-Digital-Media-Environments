@@ -20,7 +20,7 @@
     }
 ?>
 
-<?php include("upload.php"); ?>
+<?php include("../include/upload.php"); ?>
 
 <?php
 date_default_timezone_set("Europe/London");
