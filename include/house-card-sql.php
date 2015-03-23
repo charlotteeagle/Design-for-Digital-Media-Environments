@@ -12,12 +12,15 @@
         
         if(strcmp($sort, "new") == 0) {
             $query = "SELECT * FROM posts ORDER BY id DESC";
+            $result = mysqli_query($connect, $query); 
         } else {
             $query = "SELECT * FROM posts ORDER BY id ASC";
+            $result = mysqli_query($connect, $query); 
         }
         
     } else {
         $query = "SELECT * FROM posts ORDER BY id DESC";
+        $result = mysqli_query($connect, $query); 
     }
 
 ?>
