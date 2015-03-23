@@ -2,8 +2,10 @@
  if(isset($_POST["search"])) {
         $query = "SELECT * FROM posts";
         $result = mysqli_query($connect, $query); 
+        print_r($result)
         
      while($row = mysqli_fetch_assoc($result)) {
+        
         echo $row["user_id"];
         echo $row["house_title"];
         echo $row["house_price"];
