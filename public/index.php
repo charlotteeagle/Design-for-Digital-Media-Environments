@@ -49,7 +49,7 @@
 
 <?php 
     while($row = mysqli_fetch_assoc($result)) {
-        include 'house-card.php';
+        include '../include/house-card.php';
     }
 ?>
             
