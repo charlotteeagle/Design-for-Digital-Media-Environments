@@ -65,12 +65,12 @@
                             <option value="9">More than 8</option>
                         </select><span class="error">*<?php if(isset($numbererr)) {echo $numbererr;}?></span>
                     <br><br>
-                    Add an image: <input type="file" name="house_photo" id="fileToUpload" value="<?php echo $house_photo;}?>">
+                    Add an image: <input type="file" name="house_photo" id="fileToUpload" value="<?php echo $house_photo;?>">
                     <span class="error">*<?php if(isset($photoerr)) {echo $photoerr;}?></span> 
 
                     <br><br>
                     <!-- text area creates a larger box to fit description in -->
-                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;}?>"></textarea>                
+                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php echo $house_description;?>"></textarea>                
                 <span class="error">*<?php if(isset($descriptionerr)) {echo $descriptionerr;}?></span>
                     
                     <br><br>
