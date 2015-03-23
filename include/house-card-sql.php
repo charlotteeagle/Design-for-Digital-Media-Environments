@@ -3,7 +3,7 @@
         $query = "SELECT * FROM posts";
         $result = mysqli_query($connect, $query); 
  } ?>
-        
+        print_r($row);
 <?php  while($row = mysqli_fetch_assoc($result)) {
         
         echo $row["user_id"];
