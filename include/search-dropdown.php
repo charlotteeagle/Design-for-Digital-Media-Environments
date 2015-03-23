@@ -1,16 +1,16 @@
 <form action="index.php" method="post"> 
  Search:<select style="font-size: 16px" name="location_id">
-            <option value="1">Bournemouth Centre</option>
-            <option value="2">Winton</option>
-            <option value="3">Boscombe</option>
-            <option value="4">Kinson</option>
-            <option value="5">Throop</option>
-            <option value="6">Wallisdown</option>
-            <option value="7">Southnourne</option>
-            <option value="8">Iford</option>
-            <option value="9">Christchurch</option>
-            <option value="10">Westbourne</option>
-            <option value="11">Parkstone</option>
-            <option value="12">Northbourne</option>
+            <option value="Bournemouth Centre">Bournemouth Centre</option>
+            <option value="Winton">Winton</option>
+            <option value="Boscombe">Boscombe</option>
+            <option value="Kinson">Kinson</option>
+            <option value="Throop">Throop</option>
+            <option value="Wallisdown">Wallisdown</option>
+            <option value="Southnourne">Southnourne</option>
+            <option value="Iford">Iford</option>
+            <option value="Christchurch">Christchurch</option>
+            <option value="Westbourne">Westbourne</option>
+            <option value="Parkstone">Parkstone</option>
+            <option value="Northbourne">Northbourne</option>
             </select><input name="search" value="Search!" type="submit">
 </form>
