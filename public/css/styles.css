@@ -222,6 +222,7 @@ body {
     border: 3px solid #fff;
     padding: 10px;
     opacity: 0.9;
+    height: 200px;
 }
 
 .house-image { 
