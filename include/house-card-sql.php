@@ -2,7 +2,6 @@
  if(isset($_POST["location_id"])) {
         $query = "SELECT * FROM posts";
         $result = mysqli_query($connect, $query); 
-        print_r($result);
  } ?>
         
 <?php  while($row = mysqli_fetch_assoc($result)) {
