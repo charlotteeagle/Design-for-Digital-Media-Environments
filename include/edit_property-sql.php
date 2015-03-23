@@ -1,7 +1,11 @@
 <?php 
+
+
              
-$query1 = "SELECT * FROM posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_photo_path, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}','{$house_photo_path}','{$house_description}','{$date_added}')";
-            $result = mysqli_query($connect, $query);     
+$query1 = "SELECT * FROM posts WHERE user_id = $_SESSION["id"]";
+
+            $result = mysqli_query($connect, $query1);   
+ 
 
 ?>
 
@@ -68,5 +72,4 @@ $date_added = date("Y-m-d H:i:s");
 
 ?>
 
-<?php if(isset($dbmessage)) {echo $dbmessage;}?> 
-   
+<?php if(isset($dbmessage)) {echo $dbmessage;}?>    
