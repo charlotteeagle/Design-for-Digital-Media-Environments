@@ -326,7 +326,7 @@ body {
 .date-added { 
     margin-left: 50px;
     padding: 5px;
-    width: auto;
+    width: 30px;
     height: 30px;
     background: #fff;
     border-style: solid; 
