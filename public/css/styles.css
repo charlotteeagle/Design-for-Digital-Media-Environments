@@ -244,7 +244,7 @@ body {
 
 .house-title { 
     width: 300px;
-    float: center;
+    float: left;
     height: 30px;
     background: #fff;
     border-style: solid; 
@@ -254,6 +254,7 @@ body {
 .house-price { 
     width: 50px;
     height: 30px;
+    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -262,6 +263,7 @@ body {
 .house-location { 
     width: 50px;
     height: 30px;
+    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -270,6 +272,7 @@ body {
 .house-type { 
     width: 50px;
     height: 30px;
+    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -278,6 +281,7 @@ body {
 .house-bedroomnumber { 
     width: 50px;
     height: 30px;
+    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -286,6 +290,7 @@ body {
 .house-description { 
     width: 50px;
     height: 30px;
+    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -295,6 +300,7 @@ body {
     width: 50px;
     height: 30px;
     background: #fff;
+    float: left;
     border-style: solid; 
     border-color: black; 
 } 
