@@ -13,4 +13,9 @@
             <option value="Parkstone">Parkstone</option>
             <option value="Northbourne">Northbourne</option>
             </select><input name="search" value="Search!" type="submit">
+    
+    <select name="sort-by">
+        <option value="new">New</option>
+        <option value="old">Old</option>
+    </select>
 </form>
