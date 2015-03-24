@@ -238,6 +238,7 @@ body {
 
 .user-id-box { 
     padding: 5px;
+    float: left;
     margin-bottom: 5px;
     height: 40px;
     width: 300px;
@@ -250,7 +251,6 @@ body {
     float: left;
     padding: 5px;
     font-size: 2em;
-    margin-left: 80px;
     width: 70px;
     height: 30px;
     background: #fff;
