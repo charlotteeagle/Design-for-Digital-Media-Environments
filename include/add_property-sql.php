@@ -50,19 +50,21 @@ $date_added = date("Y-m-d H:i:s");
         if(empty($house_description)) {
             $descriptionerr = "Remember to add a house description!";
         } else {                                        // Otherwise 
-    $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_photo_path, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}','{$house_photo_path}','{$house_description}','{$date_added}')";
+            
+            $query = "INSERT INTO posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_photo_path, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}','{$house_photo_path}','{$house_description}','{$date_added}')";
+            
             $result = mysqli_query($connect, $query);   
             if($result) {                             
                 $dbmessage = "Success! Your property has been listed!";   
-            } else 
-                
-            $house_title = "";                                 // Get user to fill in fields required 
-            $house_price = ""; 
-            $house_location = ""; 
-            $house_type ="";
-            $house_bedroomnumber = "";
-            $house_photo = "";
-            $house_description = "";
+            } else {
+                $house_title = "";                                 // Get user to fill in fields required 
+                $house_price = ""; 
+                $house_location = ""; 
+                $house_type ="";
+                $house_bedroomnumber = "";
+                $house_photo = "";
+                $house_description = "";
+            }
         }
     }
 ?>
