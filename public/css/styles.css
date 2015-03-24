@@ -247,10 +247,11 @@ body {
 } 
 
 .house-price { 
+    float: left;
     padding: 5px;
     font-size: 2em;
     margin-left: 80px;
-    width: 30px;
+    width: 70px;
     height: 30px;
     background: #fff;
     border-style: solid; 
