@@ -238,8 +238,8 @@ body {
 
 .user-id-box { 
     margin-bottom: 5px;
-    width: auto;
     height: auto;
+    width: 10px;
     background: #fff;
     border-style: solid; 
     border-color: black; 
