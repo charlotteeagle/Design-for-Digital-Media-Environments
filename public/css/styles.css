@@ -234,7 +234,7 @@ body {
 }
 
 .house-image { 
-    width: 100px;
+    width: 180px;
     height: 180px;
     padding: 10px ;
     background: #fff;
@@ -244,7 +244,7 @@ body {
 
 .house-title { 
     width: 300px;
-    float: left;
+    float: center;
     height: 30px;
     background: #fff;
     border-style: solid; 
