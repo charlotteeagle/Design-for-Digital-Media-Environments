@@ -259,7 +259,6 @@ body {
 } 
 
 .house-image { 
-    float: left;
     width: 180px;
     height: 180px;
     padding: 10px ;
@@ -272,7 +271,6 @@ body {
     padding: 5px;
     margin-left: 10px;
     width: auto;
-    float: left;
     height: 30px;
     background: #fff;
     border-style: solid; 
@@ -284,7 +282,6 @@ body {
     margin-left: 10px;
     width: auto;
     height: 30px;
-    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -295,7 +292,6 @@ body {
     margin-left: 10px;
     width: auto;
     height: 30px;
-    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -306,7 +302,6 @@ body {
     margin-left: 10px;
     width: auto;
     height: 30px;
-    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
