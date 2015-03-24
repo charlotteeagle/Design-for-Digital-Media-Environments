@@ -243,6 +243,15 @@ body {
     border-color: black; 
 } 
 
+.user-id-box { 
+    width: 20px;
+    height: 30px;
+    float: left;
+    background: #fff;
+    border-style: solid; 
+    border-color: black; 
+} 
+
 .house-title { 
     width: 200px;
     float: left;

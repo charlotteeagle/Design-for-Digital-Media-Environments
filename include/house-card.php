@@ -4,7 +4,7 @@
                 <?php echo $row["house_photo"]; ?>
                 </div>
                 
-                <div class="house-title">
+                <div class="user-id-box">
                 <?php echo $row["user_id"]; ?>
                 </div>
                     
