@@ -324,11 +324,11 @@ body {
 } 
 
 .date-added { 
+    margin-left: 50px;
     padding: 5px;
     width: auto;
     height: 30px;
     background: #fff;
-    float: left;
     border-style: solid; 
     border-color: black; 
 } 
