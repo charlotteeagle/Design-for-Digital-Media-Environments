@@ -280,7 +280,7 @@ body {
 } 
 
 .house-title { 
-    display: inline-block;
+    float: left;
     padding: 5px;
     margin-left: 10px;
     width: 100px;
