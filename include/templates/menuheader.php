@@ -22,7 +22,20 @@
                 
     
 <?php } ?> 
-      
+            
+        <div class="listed">  
+
+<?php
+$q = "SELECT `date_added` FROM `posts` where `date_added` < NOW()-30";
+
+$month = mysqli_query($connect, $q);
+
+$num_rows = $month->num_rows;
+
+echo $num_rows;
+echo "&nbsp Homes listed in the last month"; 
+?>
+            </div>
         </div>
     </div> 
 </body>   
