@@ -1,11 +1,11 @@
 <div class="house-card">
+                    
+                <div class="user-id-box">
+                <?php echo $row["user_id"]; ?>
+                </div>
                 
                 <div class="house-image">
                 <?php echo $row["house_photo"]; ?>
-                </div>
-                
-                <div class="user-id-box">
-                <?php echo $row["user_id"]; ?>
                 </div>
                     
                 <div class="house-title">
