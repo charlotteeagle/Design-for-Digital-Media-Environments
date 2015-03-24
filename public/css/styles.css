@@ -255,7 +255,7 @@ body {
 
 .house-title { 
     margin-left: 10px;
-    width: 200px;
+    width: auto;
     float: left;
     height: 30px;
     background: #fff;
