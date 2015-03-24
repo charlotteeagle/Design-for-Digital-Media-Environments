@@ -218,9 +218,12 @@ body {
 }
 
 /* ------------------------------------------- House Card -----------------------------------------------*/
+.house-card {
+	margin:auto; /* center div in the page */
+	width: 80%;	
+}
 
 .house-card {
-    width: 80%;	
     background: #F0F0F0;
     pacity: 0.8;
     margin-top: 10px;
@@ -231,19 +234,19 @@ body {
     height: 200px;
 }
 
-.house-image { 
-    width: 180px;
-    height: 180px;
-    padding: 10px ;
+.user-id-box { 
+    width: 20px;
+    height: 30px;
+    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
 } 
 
-.user-id-box { 
-    width: 20px;
-    height: 30px;
-    float: left;
+.house-image { 
+    width: 180px;
+    height: 180px;
+    padding: 10px ;
     background: #fff;
     border-style: solid; 
     border-color: black; 
