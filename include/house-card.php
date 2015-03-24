@@ -1,8 +1,7 @@
 <div class="house-card">
                     
                 <div class="user-id-box">
-                <p>User ID: <?php echo $row["user_id"]; ?></p>
-                <p>Date added: <?php echo $row["date_added"]; ?></p>
+                <p>User ID: <?php echo $row["user_id"]; ?>Date added:</p><?php echo $row["date_added"]; ?>
                 </div>
                 
                 <div class="house-image">
