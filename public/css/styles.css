@@ -237,13 +237,13 @@ body {
 .user-id-box { 
     width: 20px;
     height: 30px;
-    float: left;
     background: #fff;
     border-style: solid; 
     border-color: black; 
 } 
 
 .house-image { 
+    float: left;
     width: 180px;
     height: 180px;
     padding: 10px ;
