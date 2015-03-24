@@ -21,11 +21,11 @@
                 </div>
                 
                 <div class="house-type">
-                <?php echo $row["house_type"]; ?>
+                <p>House Type: <?php echo $row["house_type"]; ?></p>
                 </div>
                 
                 <div class="house-bedroomnumber">
-                <p>Bedroom Number<?php echo $row["house_bedroomnumber"]; ?></p>
+                <p>Bedroom Number: <?php echo $row["house_bedroomnumber"]; ?></p>
                 </div>
                 
                 <div class="house-description">
