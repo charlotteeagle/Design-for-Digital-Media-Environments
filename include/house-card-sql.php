@@ -1,6 +1,6 @@
 <?php
  if(isset($_POST["location_id"])) {
-        $location = $_POST["location_id"]
+        $location = $_POST["location_id"];
         $sortOrder = $_POST["sort-by"];
      
         if(strcmp($sort, "new") == 0) {
