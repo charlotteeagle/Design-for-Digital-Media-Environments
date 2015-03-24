@@ -226,7 +226,8 @@ body {
 .house-card {
     background: #F0F0F0;
     pacity: 0.8;
-    margin-bottom: 15px; 
+    margin-top: 10px;
+    margin-bottom: 25px; 
     border: 3px solid #fff;
     padding: 20px;
     opacity: 0.9;
@@ -243,7 +244,7 @@ body {
 } 
 
 .house-title { 
-    width: 300px;
+    width: 200px;
     float: left;
     height: 30px;
     background: #fff;
@@ -252,7 +253,7 @@ body {
 } 
 
 .house-price { 
-    width: 50px;
+    width: 20px;
     height: 30px;
     float: left;
     background: #fff;
