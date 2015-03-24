@@ -237,6 +237,7 @@ body {
 }
 
 .user-id-box { 
+    padding: 5px;
     margin-bottom: 5px;
     height: 40px;
     width: 80px;
@@ -256,6 +257,7 @@ body {
 } 
 
 .house-title { 
+    padding: 5px;
     margin-left: 10px;
     width: auto;
     float: left;
@@ -266,6 +268,7 @@ body {
 } 
 
 .house-price { 
+    padding: 5px;
     font-size: 2em;
     margin-left: 10px;
     width: auto;
@@ -277,6 +280,7 @@ body {
 } 
 
 .house-location { 
+    padding: 5px;
     margin-left: 10px;
     width: auto;
     height: 30px;
@@ -287,6 +291,7 @@ body {
 } 
 
 .house-type { 
+    padding: 5px;
     margin-left: 10px;
     width: auto;
     height: 30px;
@@ -297,6 +302,7 @@ body {
 } 
 
 .house-bedroomnumber { 
+    padding: 5px;
     margin-left: 10px;
     width: auto;
     height: 30px;
@@ -307,6 +313,7 @@ body {
 } 
 
 .house-description { 
+    padding: 5px;
     margin-left: 20px;
     margin-top: 130px;
     width: auto;
@@ -317,6 +324,7 @@ body {
 } 
 
 .date-added { 
+    padding: 5px;
     width: auto;
     height: 30px;
     background: #fff;
