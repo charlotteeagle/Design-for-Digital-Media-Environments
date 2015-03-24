@@ -240,7 +240,7 @@ body {
     margin-bottom: 5px;
     float: left;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: middle
     height: 40px;
     width: 80px;
     background: #fff;
@@ -249,8 +249,6 @@ body {
 } 
 
 .house-image { 
-    text-align: center;
-    vertical-align: middle;
     float: left;
     width: 180px;
     height: 180px;
@@ -261,8 +259,6 @@ body {
 } 
 
 .house-title { 
-    text-align: center;
-    vertical-align: middle;
     margin-left: 10px;
     width: auto;
     float: left;
@@ -273,8 +269,6 @@ body {
 } 
 
 .house-price { 
-    text-align: center;
-    vertical-align: middle;
     font-size: 2em;
     margin-left: 10px;
     width: auto;
@@ -286,8 +280,6 @@ body {
 } 
 
 .house-location { 
-    text-align: center;
-    vertical-align: middle;
     margin-left: 10px;
     width: auto;
     height: 30px;
@@ -298,8 +290,6 @@ body {
 } 
 
 .house-type { 
-    text-align: center;
-    vertical-align: middle;
     margin-left: 10px;
     width: auto;
     height: 30px;
@@ -310,8 +300,6 @@ body {
 } 
 
 .house-bedroomnumber { 
-    text-align: center;
-    vertical-align: middle;
     margin-left: 10px;
     width: auto;
     height: 30px;
@@ -322,8 +310,6 @@ body {
 } 
 
 .house-description { 
-    text-align: center;
-    vertical-align: middle;
     margin-left: 10px;
     margin-top: 130px;
     width: auto;
@@ -334,8 +320,6 @@ body {
 } 
 
 .date-added { 
-    text-align: center;
-    vertical-align: middle;
     width: auto;
     height: 30px;
     background: #fff;
