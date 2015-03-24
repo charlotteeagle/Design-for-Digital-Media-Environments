@@ -8,12 +8,12 @@
                 <?php echo $row["house_photo"]; ?>
                 </div>
                     
+                <div class="house-price">
+                <p>£<?php echo $row ["house_price"]; ?></p>
+                </div>
+    
                 <div class="house-title">
                 <?php echo $row["house_title"]; ?>
-                </div>
-                
-                <div class="house-price">
-                <?php echo $row["house_price"]; ?>
                 </div>
                 
                 <div class="house-location">
