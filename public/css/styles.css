@@ -280,6 +280,7 @@ body {
 } 
 
 .house-title { 
+    float: left;
     padding: 5px;
     margin-left: 10px;
     width: 100px;
@@ -290,6 +291,7 @@ body {
 } 
 
 .house-type { 
+    float: left;
     padding: 5px;
     margin-left: 10px;
     width: 100px;
@@ -300,6 +302,7 @@ body {
 } 
 
 .house-bedroomnumber { 
+    float: left;
     padding: 5px;
     margin-left: 10px;
     width: 50px;
