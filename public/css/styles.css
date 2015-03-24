@@ -271,7 +271,6 @@ body {
 } 
 
 .house-image { 
-    display: inline;
     width: 180px;
     height: 180px;
     padding: 10px ;
