@@ -306,7 +306,8 @@ body {
 } 
 
 .house-description { 
-    margin-top: 150px;
+    margin-left: 10px;
+    margin-top: 130px;
     width: auto;
     height: 30px;
     background: #fff;
