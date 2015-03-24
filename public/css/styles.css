@@ -280,7 +280,7 @@ body {
 } 
 
 .house-title { 
-    display: inline;
+    display: inline-block;
     padding: 5px;
     margin-left: 10px;
     width: 100px;
@@ -291,7 +291,7 @@ body {
 } 
 
 .house-type { 
-    display: inline;
+    display: inline-block;
     padding: 5px;
     margin-left: 10px;
     width: 100px;
@@ -302,7 +302,7 @@ body {
 } 
 
 .house-bedroomnumber { 
-    display: inline;
+    display: inline-block;
     padding: 5px;
     margin-left: 10px;
     width: 50px;
