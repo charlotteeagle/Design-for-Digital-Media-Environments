@@ -258,6 +258,17 @@ body {
     border-color: black; 
 } 
 
+.house-location { 
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+    width: auto;
+    height: 30px;
+    background: #fff;
+    border-style: solid; 
+    border-color: black; 
+} 
+
 .house-image { 
     width: 180px;
     height: 180px;
@@ -268,16 +279,6 @@ body {
 } 
 
 .house-title { 
-    padding: 5px;
-    margin-left: 10px;
-    width: auto;
-    height: 30px;
-    background: #fff;
-    border-style: solid; 
-    border-color: black; 
-} 
-
-.house-location { 
     padding: 5px;
     margin-left: 10px;
     width: auto;
