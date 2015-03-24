@@ -323,14 +323,6 @@ body {
     border-color: black; 
 } 
 
-.date-added { 
-    margin-left: 50px;
-    padding: 5px;
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border-style: solid; 
-    border-color: black; 
 } 
 .house-card:hover {
     border: 3px solid #009ACD;
