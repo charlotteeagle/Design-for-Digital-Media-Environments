@@ -7,7 +7,7 @@
                 <div class="house-price">
                 <p>£<?php echo $row ["house_price"]; ?></p>
                 </div>
-    
+           
                 <div class="house-location">
                 <p>Location: <?php echo $row["house_location"]; ?></p>
                 </div>
