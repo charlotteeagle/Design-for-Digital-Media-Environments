@@ -271,7 +271,6 @@ body {
 } 
 
 .house-image { 
-    float: left;
     width: 180px;
     height: 180px;
     padding: 10px ;
@@ -291,7 +290,7 @@ body {
 } 
 
 .house-type { 
-    float: left;
+    display: inline-block;
     padding: 5px;
     margin-left: 10px;
     width: 180px;
@@ -302,7 +301,7 @@ body {
 } 
 
 .house-bedroomnumber { 
-    float: left;
+    display: inline-block;
     padding: 5px;
     margin-left: 10px;
     width: 200px;
