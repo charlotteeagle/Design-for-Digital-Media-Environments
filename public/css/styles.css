@@ -271,6 +271,7 @@ body {
 } 
 
 .house-image { 
+    margin-top: 5px;
     width: 180px;
     height: 180px;
     padding: 10px ;
@@ -314,7 +315,7 @@ body {
 .house-description { 
     margin: auto;
     padding: 5px;
-    width: 200px;
+    width: 70%;
     height: 30px;
     background: #fff;
     border-style: solid; 
