@@ -12,10 +12,10 @@
             <option value="Westbourne">Westbourne</option>
             <option value="Parkstone">Parkstone</option>
             <option value="Northbourne">Northbourne</option>
-            </select><input name="search" value="Search!" type="submit">
+            </select>
     
     <select name="sort-by">
         <option value="new">New</option>
         <option value="old">Old</option>
-    </select>
+    </select><input name="search" value="Search!" type="submit">
 </form>

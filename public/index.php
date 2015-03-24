@@ -43,8 +43,6 @@
 <?php if(isset($_POST["location_id"])) { 
         while($row = mysqli_fetch_assoc($result)) {
             include '../include/house-card.php';
-            echo $order; 
-            echo $query; 
         }     
      }?>
 
