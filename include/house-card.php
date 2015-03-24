@@ -17,7 +17,7 @@
                 </div>
                 
                 <div class="house-location">
-                <?php echo $row["house_location"]; ?>
+                <p>Location: <?php echo $row["house_location"]; ?></p>
                 </div>
                 
                 <div class="house-type">
@@ -34,6 +34,6 @@
                 
                 
                 <div class="date-added">
-                <?php echo $row["date_added"]; ?>
+                <p>Date added: <?php echo $row["date_added"]; ?></p>
                 </div>
 </div>
