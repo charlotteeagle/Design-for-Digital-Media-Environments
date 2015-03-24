@@ -2,11 +2,13 @@
 
 
              
-$query1 = "SELECT * FROM posts WHERE user_id = $_SESSION["id"]";
+$query1 = "SELECT * FROM posts WHERE user_id = $_SESSION[id]";
 
-            $result = mysqli_query($connect, $query1);   
+$result1 = mysqli_query($connect, $query1);   
  
-
+/*$query1 = "SELECT * FROM posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_photo_path, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}','{$house_photo_path}','{$house_description}','{$date_added}')";
+            $result = mysqli_query($connect, $query);   
+*/
 ?>
 
 
