@@ -238,7 +238,7 @@ body {
 
 .user-id-box { 
     margin-bottom: 5px;
-    height: auto;
+    height: 30px;
     width: 80px;
     background: #fff;
     border-style: solid; 
@@ -266,6 +266,7 @@ body {
 } 
 
 .house-price { 
+    font-size: 2em;
     margin-left: 10px;
     width: auto;
     height: 30px;
