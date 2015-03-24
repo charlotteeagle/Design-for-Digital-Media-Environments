@@ -10,7 +10,7 @@
         }
      
      
-        $query = "SELECT * FROM posts WHERE house_location ='$location' ORDER BY id '{$order}'";
+        $query = "SELECT * FROM posts WHERE house_location ='$location' ORDER BY id DESC";
         $result = mysqli_query($connect, $query); 
         // If form request comes from Search Button
  } elseif(isset($_SESSION["location"])) {
