@@ -3,6 +3,10 @@
                 <div class="user-id-box">
                 <p>User ID: <?php echo $row["user_id"]; ?></p>
                 </div>
+    
+                <div class="date-added">
+                <p>Date added: <?php echo $row["date_added"]; ?></p>
+                </div>
                 
                 <div class="house-image">
                 <?php echo $row["house_photo"]; ?>
@@ -32,8 +36,4 @@
                 <?php echo $row["house_description"]; ?>
                 </div>
                 
-                
-                <div class="date-added">
-                <p>Date added: <?php echo $row["date_added"]; ?></p>
-                </div>
 </div>
