@@ -218,12 +218,9 @@ body {
 }
 
 /* ------------------------------------------- House Card -----------------------------------------------*/
-.house-card {
-	margin:auto; /* center div in the page */
-	width: 80%;	
-}
 
 .house-card {
+    width: 80%;	
     background: #F0F0F0;
     pacity: 0.8;
     margin-top: 10px;
