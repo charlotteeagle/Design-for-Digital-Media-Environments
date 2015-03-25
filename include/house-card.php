@@ -4,7 +4,7 @@
                     <p style="display:inline;">User ID: <?php echo $row["user_id"]; ?></p>
                     <p style="display:inline;"> Date added:<?php echo $row["date_added"]; ?></p>
                     
-                </div>
+                
                     <div class="house-price">
                         <?php echo $row ["house_price"]; ?>
                     </div>
@@ -12,7 +12,7 @@
                     <div class="house-location">
                         <p>Location: <?php echo $row["house_location"]; ?></p>
                     </div>
-                
+                </div>
                 
                 <div class="house-image">
                     <?php echo $row["house_photo"]; ?>
