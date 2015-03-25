@@ -1,12 +1,13 @@
 <div class="house-card">
                 
-                <div class="house-image">
-                        <?php echo $row["house_photo"]; ?>
+     <div class="house-card-position">
+        <div class="house-image">
+            <?php echo $row["house_photo"]; ?>
                     
-                    </div>
+        </div>
     
                 
-                  <div class="house-card-position">
+                 
                 
                 <div class="user-id-box">
                     <p style="display:inline;">User ID: <?php echo $row["user_id"]; ?></p>
