@@ -1,5 +1,11 @@
 <div class="house-card">
                 
+                <div class="house-image">
+                        <?php echo $row["house_photo"]; ?>
+                    
+                    </div>
+    
+                
                   <div class="house-card-position">
                 
                 <div class="user-id-box">
@@ -20,10 +26,7 @@
                 <div class="house-card-position">
               
     
-                    <div class="house-image">
-                        <?php echo $row["house_photo"]; ?>
                     
-                    </div>
                 
                     
                 <div class="clearfix">
@@ -44,12 +47,6 @@
                     <div class="house-bedroomnumber">
                         <p>Bedroom Number: <?php echo $row["house_bedroomnumber"]; ?></p>
                     </div>
-              
-                    
-                  
-                        <div class="house-description">
-                        <?php echo $row["house_description"]; ?>
-                        </div>  
                     </div>
                     
                 </div>    
