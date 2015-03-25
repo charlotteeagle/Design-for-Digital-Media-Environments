@@ -72,7 +72,8 @@ body {
 }
 
 .form-box{
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #F0F0F0;
     padding: 3px;
     opacity: 0.8;
