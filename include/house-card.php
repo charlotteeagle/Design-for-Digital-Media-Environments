@@ -25,7 +25,7 @@
                     
                     </div>
                 
-                    <div class="clearfix">
+                
                     <div class="house-title">
                         <?php echo $row["house_title"]; ?>
                     </div>
@@ -49,7 +49,7 @@
                         <div class="house-description">
                         <?php echo $row["house_description"]; ?>
                         </div>  
-                    </div>
+                    
                     
                 </div>    
                 
