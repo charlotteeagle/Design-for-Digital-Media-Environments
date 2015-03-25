@@ -27,11 +27,11 @@
                 <div class="house-bedroomnumber">
                 <p>Bedroom Number: <?php echo $row["house_bedroomnumber"]; ?></p>
                 </div>
-                    
-                </div>
                 
                 <div class="house-description">
                 <?php echo $row["house_description"]; ?>
+                </div>
+                    
                 </div>
                 
 </div>
