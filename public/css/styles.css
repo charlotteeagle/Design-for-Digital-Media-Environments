@@ -272,6 +272,7 @@ body {
 } 
 
 .house-location { 
+    margin-left: 200px;
     padding: 5px;
     float: left;
     margin-left: 30px;
