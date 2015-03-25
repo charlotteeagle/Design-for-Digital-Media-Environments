@@ -11,7 +11,7 @@
         
        <div class="container">  
             
-            <div class="box">
+            <div class="form-box">
                
             
                 <h2>Create Your Listing</h2>
