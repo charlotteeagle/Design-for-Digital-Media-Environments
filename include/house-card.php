@@ -17,22 +17,22 @@
                 <div class="house-image">
                     <?php echo $row["house_photo"]; ?>
                 
-    
                     <div class="house-title">
                         <?php echo $row["house_title"]; ?>
-                    </div>
+                    
 
-                    <div class="house-type">
-                        <p>House Type: <?php echo $row["house_type"]; ?></p>
-                    </div>
+                        <div class="house-type">
+                            <p>House Type: <?php echo $row["house_type"]; ?></p>
+                        </div>
 
-                    <div class="house-bedroomnumber">
-                        <p>Bedroom Number: <?php echo $row["house_bedroomnumber"]; ?></p>
-                    </div>
+                        <div class="house-bedroomnumber">
+                            <p>Bedroom Number: <?php echo $row["house_bedroomnumber"]; ?></p>
+                        </div>
 
-                    <div class="house-description">
-                        <?php echo $row["house_description"]; ?>
-                    </div>  
+                        <div class="house-description">
+                            <?php echo $row["house_description"]; ?>
+                        </div> 
+                    </div>
                     
                 </div>
                          
