@@ -284,7 +284,6 @@ body {
 } 
 
 .house-title { 
-    float: left;
     margin-bottom: 2px;
     margin-left: 385px;
     padding: 5px;
@@ -296,7 +295,6 @@ body {
 } 
 
 .house-type { 
-    float: left;
     margin-left: 400px;
     display: inline-block;
     padding: 5px;
@@ -308,7 +306,6 @@ body {
 } 
 
 .house-bedroomnumber { 
-    float: left;
     display: inline-block;
     padding: 5px;
     margin-left: 400px;
@@ -319,8 +316,7 @@ body {
     border-color: black; 
 } 
 
-.house-description {
-    float: left;
+.house-description { 
     margin-left: 400px;
     padding: 5px;
     min-width: 500px;
