@@ -28,6 +28,7 @@
                     <div class="house-title">
                         <?php echo $row["house_title"]; ?>
                     </div>
+                </div>
                 
                 <div class="house-card-position">
                     <div class="house-type">
