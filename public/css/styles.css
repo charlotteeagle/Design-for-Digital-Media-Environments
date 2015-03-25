@@ -77,9 +77,9 @@ body {
     background-color: #F0F0F0;
     padding: 3px;
     opacity: 0.8;
-    text-align: center;
+    text-align: left;
     border-radius: 10px; /* button roundness */
-    width: 30%;
+    width: 40%;
     margin-left: 33%;
 }
 
