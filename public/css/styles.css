@@ -67,13 +67,12 @@ body {
 
 /* -------------------------------------------Form Display -----------------------------------------------*/
 
-
 .error {
     color: red;
 }
 
 .form-box{
-    margin-top: 100px;
+    margin-top: 30px;
     background-color: #F0F0F0;
     padding: 3px;
     opacity: 0.8;
