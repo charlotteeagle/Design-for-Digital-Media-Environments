@@ -38,8 +38,9 @@
     
 </div>
 
-<?php if(isset($_POST["location_id"])) { ?>
+<?php if(isset($_SESSION["location_id"])) { ?>
 <div class="results-box">
+<h2 style="display:inline;">Your Results:</h2>
 <?php } ?>
 
 </div>
