@@ -285,10 +285,6 @@ body {
 } 
 
 .house-title {
-    display: -webkit-flex;       /* Places elements next to eachother */
-    -webkit-align-items: center; /* Places elements next to eachother */
-    display: flex;
-    align-items: left;
     border-style: solid; 
     border-color: black; 
 } 
