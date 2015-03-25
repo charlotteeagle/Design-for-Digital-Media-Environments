@@ -264,11 +264,12 @@ body {
 .house-image { 
     margin-top: 67px;
     width: 180px;
-    height: 180px;
+    height: 200px;
     padding: 10px ;
     background: #fff;
     border-style: solid; 
     border-color: black; 
+    margin-bottom: 10px;
 } 
 
 .house-location { 
@@ -316,10 +317,9 @@ body {
 } 
 
 .house-description { 
-    margin-top: 5px;
-    margin: auto;
+    margin-left: auto;
     padding: 5px;
-    width: 70%;
+    min-width: 40%;
     height: 30px;
     background: #fff;
     border-style: solid; 
