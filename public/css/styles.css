@@ -285,21 +285,25 @@ body {
 } 
 
 .house-title {
+    display:inline-block;
     border-style: solid; 
     border-color: black; 
 } 
 
 .house-type { 
+    display:inline-block;
     border-style: solid; 
     border-color: black; 
 } 
 
 .house-bedroomnumber { 
+    display:inline-block;
     border-style: solid; 
     border-color: black; 
 } 
 
 .house-description { 
+    display:inline-block;
     border-style: solid; 
     border-color: black; 
 } 
