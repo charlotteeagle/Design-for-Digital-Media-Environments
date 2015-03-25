@@ -14,8 +14,8 @@
 
 $id = $_GET["id"];
 
- $qy = "SELECT * FROM posts (user_id, house_title, house_price, house_location, house_type, house_bedroomnumber, house_photo, house_photo_path, house_description, date_added) VALUES ('{$_SESSION["id"]}','{$house_title}', '{$house_price}', '{$house_location}', '{$house_type}', '{$house_bedroomnumber}', '{$house_photo}','{$house_photo_path}','{$house_description}','{$date_added}')";
-            $result = mysqli_query($connect, $query);
+ $qy = "SELECT * FROM posts"; 
+ $result = mysqli_query($connect, $qy);
 
 
 $house_photo = $value->house_photo;
