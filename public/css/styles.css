@@ -220,11 +220,6 @@ body {
 }
 
 /* ------------------------------------------- House Card -----------------------------------------------*/
-.house-card {
-	margin:auto; /* center div in the page */
-	width: 80%;	
-}
-
 
 .house-card {
     background: #dfdfdf;
@@ -236,6 +231,11 @@ body {
     min-width: 100%;
 }
 
+.house-card-image {
+    max-width: 200px;
+    float: left;
+    margin-right: 15px;
+}
 
 
 .user-id-box { 
