@@ -316,6 +316,7 @@ body {
 } 
 
 .house-description { 
+    margin-top: 5px;
     margin: auto;
     padding: 5px;
     width: 70%;
