@@ -235,6 +235,8 @@ body {
     max-width: 200px;
     float: left;
     margin-right: 15px;
+    border-style: solid; 
+    border-color: black;
 }
 
 
