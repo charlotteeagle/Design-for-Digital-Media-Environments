@@ -1,5 +1,7 @@
 <div class="house-card">
-                    
+                
+                  <div class="house-card-position">
+                
                 <div class="user-id-box">
                     <p style="display:inline;">User ID: <?php echo $row["user_id"]; ?></p>
                     <p style="display:inline;"> Date added:<?php echo $row["date_added"]; ?></p>
@@ -11,6 +13,8 @@
 
                 <div class="house-location">
                         <?php echo $row["house_location"]; ?>
+                </div>
+                    
                 </div>
                 
                 <div class="house-card-position">
