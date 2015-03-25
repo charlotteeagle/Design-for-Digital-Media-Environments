@@ -227,14 +227,13 @@ body {
 
 
 .house-card {
-    background: #F0F0F0;
-    pacity: 0.8;
-    margin-top: 10px;
-    margin-bottom: 25px; 
+    background: #dfdfdf;
+    float: left;
+    margin-bottom: 15px; 
     border: 3px solid #fff;
-    padding: 20px;
+    padding: 10px;
     opacity: 0.9;
-    height: 340px;
+    min-width: 100%;
 }
 
 
