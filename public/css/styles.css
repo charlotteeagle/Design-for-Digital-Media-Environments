@@ -290,19 +290,16 @@ body {
 } 
 
 .house-type { 
-    float: left;
     border-style: solid; 
     border-color: black; 
 } 
 
 .house-bedroomnumber { 
-    float: left;
     border-style: solid; 
     border-color: black; 
 } 
 
 .house-description { 
-    float: left;
     border-style: solid; 
     border-color: black; 
 } 
