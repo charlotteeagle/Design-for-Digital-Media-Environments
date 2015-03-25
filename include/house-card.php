@@ -13,15 +13,20 @@
                         <?php echo $row["house_location"]; ?>
                 </div>
                 
-                <div class="house-image">
-                    <?php echo $row["house_photo"]; ?>
+                <div class="house-card-position">
+              
+    
+                    <div class="house-image">
+                        <?php echo $row["house_photo"]; ?>
                     
-                </div>
+                    </div>
                 
                     <div class="house-title">
                         <?php echo $row["house_title"]; ?>
                     </div>
 
+                </div>    
+                      
                     <div class="house-type">
                         <p>House Type: <?php echo $row["house_type"]; ?></p>
                     </div>

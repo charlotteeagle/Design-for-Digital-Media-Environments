@@ -284,6 +284,13 @@ body {
     margin-bottom: 10px;
 } 
 
+.house-card-position {
+    display: -webkit-flex;       /* Places elements next to eachother */
+    -webkit-align-items: center; /* Places elements next to eachother */
+    display: flex;
+    align-items: left;
+}
+
 .house-title {
     display:inline-block;
     border-style: solid; 
