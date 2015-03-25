@@ -15,8 +15,7 @@
                 
                 <div class="house-image">
                     <?php echo $row["house_photo"]; ?>
-                        <a href="house-card-info.php?id=<?php echo $row[id];?>">
-                
+                    <a href="house-card-info.php?id= <?php echo $row["id"]; ?> ">
                 
                     <div class="house-title">
                         <?php echo $row["house_title"]; ?>
