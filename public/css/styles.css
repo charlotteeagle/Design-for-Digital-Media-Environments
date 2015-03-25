@@ -249,7 +249,7 @@ body {
     border-color: black; 
 } 
 
-/*.house-price { 
+.house-price { 
     margin-left: 80px;
     float: left;
     padding: 5px;
@@ -259,7 +259,7 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black; 
-} */
+} 
 
 .house-image { 
     margin-top: 67px;
