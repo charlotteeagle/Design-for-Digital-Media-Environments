@@ -16,6 +16,8 @@
                 
                 <div class="house-image">
                     <?php echo $row["house_photo"]; ?>
+                    
+                </div>
                 
                     <div class="house-title">
                         <?php echo $row["house_title"]; ?>
@@ -33,6 +35,6 @@
                         <?php echo $row["house_description"]; ?>
                     </div>  
                     
-                </div>
+                
                          
 </div>
