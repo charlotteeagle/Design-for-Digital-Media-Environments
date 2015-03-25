@@ -38,6 +38,12 @@
     
 </div>
 
+<?php if(isset($_POST["location_id"])) { ?>
+<div class="results-box">
+<?php } ?>
+
+</div>
+
 <?php if(isset($_POST["location_id"])) { 
         while($row = mysqli_fetch_assoc($result)) {
             include '../include/house-card.php';
