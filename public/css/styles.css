@@ -285,7 +285,7 @@ body {
 
 .house-title { 
     margin-bottom: 2px;
-    margin-left: 390px;
+    margin-left: 387px;
     float: left;
     padding: 5px;
     min-width: 200px;
@@ -320,8 +320,8 @@ body {
 .house-description { 
     margin-left: 400px;
     padding: 5px;
-    min-width: 100px;
-    height: 30px;
+    min-width: 500px;
+    height: 100px;
     background: #fff;
     border-style: solid; 
     border-color: black; 
