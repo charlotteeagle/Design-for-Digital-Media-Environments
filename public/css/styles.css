@@ -236,12 +236,14 @@ body {
     height: 260px;
 }
 
+
+
 .user-id-box { 
     padding: 5px;
     float: left;
     margin-bottom: 5px;
     height: 40px;
-    width: 300px;
+    min-width: 300px;
     background: #fff;
     border-style: solid; 
     border-color: black; 
@@ -252,18 +254,7 @@ body {
     float: left;
     padding: 5px;
     font-size: 2em;
-    width: 70px;
-    height: 30px;
-    background: #fff;
-    border-style: solid; 
-    border-color: black; 
-} 
-
-.house-location { 
-    padding: 5px;
-    float: left;
-    margin-left: 30px;
-    width: auto;
+    min-width: 70px;
     height: 30px;
     background: #fff;
     border-style: solid; 
@@ -275,6 +266,17 @@ body {
     width: 180px;
     height: 180px;
     padding: 10px ;
+    background: #fff;
+    border-style: solid; 
+    border-color: black; 
+} 
+
+.house-location { 
+    padding: 5px;
+    float: left;
+    margin-left: 30px;
+    width: auto;
+    height: 30px;
     background: #fff;
     border-style: solid; 
     border-color: black; 
