@@ -225,6 +225,10 @@ body {
 	width: 80%;	
 }
 
+.clearfix {
+    clear: both;
+}
+
 .house-card {
     background: #F0F0F0;
     pacity: 0.8;

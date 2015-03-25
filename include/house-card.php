@@ -30,6 +30,8 @@
                     </div>
                 </div>
                 
+                <div class="clearfix"></div>
+                
                 <div class="house-card-position">
                     <div class="house-type">
                         <p>House Type: <?php echo $row["house_type"]; ?></p>
