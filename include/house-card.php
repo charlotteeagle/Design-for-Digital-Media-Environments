@@ -5,14 +5,13 @@
                     <p style="display:inline;"> Date added:<?php echo $row["date_added"]; ?></p>
                     
                 </div>
-                    <div class="house-price">
+                <div class="house-price">
                         <?php echo $row ["house_price"]; ?>
-                    </div>
+                </div>
 
-                    <div class="house-location">
+                <div class="house-location">
                         <?php echo $row["house_location"]; ?>
-                    </div>
-                
+                </div>
                 
                 <div class="house-image">
                     <?php echo $row["house_photo"]; ?>
