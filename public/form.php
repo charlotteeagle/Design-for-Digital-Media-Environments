@@ -71,12 +71,14 @@
 
                     <br><br>
                     <!-- text area creates a larger box to fit description in -->
-                Full Description: <textarea name="house_description" rows="5" cols="40" value="<?php if(isset($house_description)) 
+                Full Description: 
+                    <br><br>
+                    <textarea name="house_description" rows="5" cols="40" value="<?php if(isset($house_description)) 
                 {echo $house_description;}?>"></textarea>                
                 <span class="error">*<?php if(isset($descriptionerr)) {echo $descriptionerr;}?></span>
                     
                     <br><br>
-                    <input type="submit" name="add_property" value="Submit" />
+                    <input type="submit" name="add_property" value="Submit Property" />
             </form>
  
             
