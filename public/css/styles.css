@@ -274,6 +274,7 @@ body {
 } 
 
 .house-image { 
+    float: left;
     margin-top: 67px;
     width: 290px;
     height: 250px;
