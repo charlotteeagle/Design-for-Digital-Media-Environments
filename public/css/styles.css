@@ -263,7 +263,7 @@ body {
 
 .house-image { 
     margin-top: 67px;
-    width: 300px;
+    width: 290px;
     height: 250px;
     padding: 10px ;
     background: #fff;
@@ -284,10 +284,11 @@ body {
 } 
 
 .house-title { 
-    margin-left: 400px;
+    margin-bottom: 2px;
+    margin-left: 390px;
     float: left;
     padding: 5px;
-    width: 100px;
+    min-width: 200px;
     height: 30px;
     background: #fff;
     border-style: solid; 
