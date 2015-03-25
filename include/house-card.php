@@ -10,7 +10,7 @@
                     </div>
 
                     <div class="house-location">
-                        <p>Location: <?php echo $row["house_location"]; ?></p>
+                        <?php echo $row["house_location"]; ?>
                     </div>
                 
                 
