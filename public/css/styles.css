@@ -273,7 +273,6 @@ body {
 } 
 
 .house-location { 
-    display: inline-block;
     padding: 5px;
     margin-left: 30px;
     min-width: 300px;
@@ -284,7 +283,6 @@ body {
 } 
 
 .house-title { 
-    display: inline-block;
     margin-bottom: 2px;
     margin-left: 385px;
     padding: 5px;
