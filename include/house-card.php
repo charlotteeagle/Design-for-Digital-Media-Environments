@@ -29,7 +29,7 @@
                         <?php echo $row["house_title"]; ?>
                     </div>
 
-                </div>    
+                  
                       
                     <div class="house-type">
                         <p>House Type: <?php echo $row["house_type"]; ?></p>
@@ -43,6 +43,6 @@
                         <?php echo $row["house_description"]; ?>
                     </div>  
                     
-                
+                </div>  
                          
 </div>
