@@ -48,3 +48,4 @@
                         </div>
                       
                         </div> -->          
+<!-- <INPUT TYPE="button" onClick="house-card-info.php?id=<?/*php echo $row["id"];*/?>"> -->
