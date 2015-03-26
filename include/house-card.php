@@ -32,7 +32,8 @@
                 </div>
     
              
-                    <div style="cursor: pointer;" class="more-info">
+                    <div class="more-info">
+                        <p style="cursor:pointer;"> Click Me!</p>
                    
                     </div>
               
