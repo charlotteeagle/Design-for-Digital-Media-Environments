@@ -271,7 +271,8 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black; 
-     margin-left: 150%;
+    margin-left: 150%;
+    margin-bottom: 5px;
 
 } 
 
@@ -284,6 +285,7 @@ body {
     border-style: solid; 
     border-color: black;
     margin-left: 150%;
+    margin-bottom: 5px;
 } 
 
 
@@ -295,6 +297,7 @@ body {
     border-style: solid; 
     border-color: black; 
     margin-left: 150%;
+    margin-bottom: 5px;
 } 
 
 .house-type { 
@@ -305,6 +308,7 @@ body {
     border-style: solid; 
     border-color: black; 
     margin-left: 150%;
+    margin-bottom: 5px;
 } 
 
 .house-bedroomnumber { 
