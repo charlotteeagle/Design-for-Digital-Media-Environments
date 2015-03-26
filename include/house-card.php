@@ -1,7 +1,7 @@
 <div class="house-card">
     
                 <div class="house-image">
-                    <?php echo $row["house_photo"]; ?>   
+                   <img src="../public/images/backgrounds/b1.jpg"> <?php echo $row["house_photo"]; ?>   
                 
     
                 <div class="user-id-box">
