@@ -4,7 +4,7 @@
                    <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
                 
                 <div class="more-info">
-                    <a href="house-card-info.php?id= <?php echo $row ["id"]; ?>">  
+                    <a href="house-card-info.php?id= <?php echo $row ["id"]; ?>">  </a>
                 </div>
     
                 <div class="user-id-box">
