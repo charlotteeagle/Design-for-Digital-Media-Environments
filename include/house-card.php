@@ -32,7 +32,7 @@
                 </div>
     
                 <div class="more-info">
-                    <a href="house-card-info.php"> <?php echo $row ["id"];?></a>
+                    <a href="house-card-info.php"> <?php $row ["id"];?></a>
                 </div>
                 
 </div>
