@@ -287,25 +287,21 @@ body {
 .house-title {
     border-style: solid; 
     border-color: black; 
-    display: inline-block;
 } 
 
 .house-type { 
     border-style: solid; 
     border-color: black; 
-    display: inline-block;
 } 
 
 .house-bedroomnumber { 
     border-style: solid; 
     border-color: black; 
-    display: inline-block;
 } 
 
 .house-description { 
     border-style: solid; 
     border-color: black; 
-    display: inline-block;
 } 
 
 } 
