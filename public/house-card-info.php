@@ -4,7 +4,6 @@
     include_once("../include/templates/header.php");
     include_once("../include/templates/menuheader.php"); 
     require_once("../include/house-card-sql.php");
-    require_once("../include/house-card.php");
     /*include '../include/house-card-sql.php';*/
 ?>
 
@@ -28,7 +27,8 @@ $house_location = $value->house_location;
 $house_type = $value->house_type;
 $house_bedroomnumber = $value->house_bedroomnumber;
 $house_description = $value->house_description;
-$house_photo_path = $value->house_photo_path;    
+$house_photo_path = $value->house_photo_path; 
+require_once("../include/house-card.php");
 ?>  
 
     
