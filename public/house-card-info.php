@@ -32,7 +32,7 @@ $house_photo_path = $value->house_photo_path;
 ?>  
 
 
-<div class="house-card">
+<div class="house-card2">
     
     
                 <div class="house-image">
