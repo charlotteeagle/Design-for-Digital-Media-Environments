@@ -67,8 +67,8 @@ $house_photo_path = $value->house_photo_path;
                  
                 </div>
     
-               <div class="house-description">
-                        <?php echo $house_description; ?>
+               <!-- <div class="house-description">
+                        <?php/* echo $house_description;*/ ?> -->
                   
                 </div>
            
