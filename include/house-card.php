@@ -4,7 +4,7 @@
                    <img style="display: inline-block;"src="../public/images/Search-50.png"> <?php echo $row["house_photo"]; ?>   
                 
     
-                    <p style="display:inline; margin-left: 50px">User ID: <?php echo $row["user_id"]; ?></p>
+                    <p style="display:inline; margin-left: 250px">User ID: <?php echo $row["user_id"]; ?></p>
                     <p style="display:inline;"> Date added:<?php echo $row["date_added"]; ?></p>
             
     
