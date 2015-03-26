@@ -287,18 +287,30 @@ body {
 
 
 .house-title {
+    padding: 5px;
+    min-width: 300px;
+    height: 30px;
+    background: #fff;
     border-style: solid; 
     border-color: black; 
     margin-left: 150%;
 } 
 
 .house-type { 
+    padding: 5px;
+    min-width: 300px;
+    height: 30px;
+    background: #fff;
     border-style: solid; 
     border-color: black; 
     margin-left: 150%;
 } 
 
 .house-bedroomnumber { 
+    padding: 5px;
+    min-width: 300px;
+    height: 30px;
+    background: #fff;
     border-style: solid; 
     border-color: black;
     margin-left: 150%;
