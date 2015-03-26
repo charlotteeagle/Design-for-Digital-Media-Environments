@@ -247,7 +247,7 @@ body {
     float: left;
 } 
 
-.more-info>a {
+.more-info {
     background: #fff;
     border-style: solid; 
     border-color: black; 
