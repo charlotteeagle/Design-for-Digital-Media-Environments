@@ -240,7 +240,6 @@ body {
     padding: 20px;
     opacity: 0.9;
     height: 340px;
-    display: inline-block;
 }
 
 .user-id-box { 
@@ -261,6 +260,7 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black; 
+    display: inline-block;
 } 
 
 .house-location { 
@@ -270,7 +270,8 @@ body {
     height: 30px;
     background: #fff;
     border-style: solid; 
-    border-color: black; 
+    border-color: black;
+    display: inline-block;
 } 
 
 .house-image { 
@@ -286,21 +287,25 @@ body {
 .house-title {
     border-style: solid; 
     border-color: black; 
+    display: inline-block;
 } 
 
 .house-type { 
     border-style: solid; 
     border-color: black; 
+    display: inline-block;
 } 
 
 .house-bedroomnumber { 
     border-style: solid; 
     border-color: black; 
+    display: inline-block;
 } 
 
 .house-description { 
     border-style: solid; 
     border-color: black; 
+    display: inline-block;
 } 
 
 } 
