@@ -2,7 +2,7 @@
     
                 <div class="house-image">
                     <?php echo $row["house_photo"]; ?>   
-                </div>
+                
     
                 <div class="user-id-box">
                     <p style="display:inline;">User ID: <?php echo $row["user_id"]; ?></p>
@@ -29,5 +29,6 @@
                         <p>Bedroom Number: <?php echo $row["house_bedroomnumber"]; ?></p>
                 </div>
                  
+                </div>
                 
 </div>

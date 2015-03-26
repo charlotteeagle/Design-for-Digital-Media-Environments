@@ -242,6 +242,16 @@ body {
     height: 340px;
 }
 
+.house-image { 
+    width: 290px;
+    height: 250px;
+    padding: 10px ;
+    background: #fff;
+    border-style: solid; 
+    border-color: black; 
+    display: inline-block;
+} 
+
 .user-id-box { 
     padding: 5px;
     height: 40px;
@@ -249,7 +259,6 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black;
-    display: inline-block;
 } 
 
 .house-price { 
@@ -260,7 +269,7 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black; 
-    display: inline-block;
+
 } 
 
 .house-location { 
@@ -271,18 +280,8 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black;
-    display: inline-block;
 } 
 
-.house-image { 
-    width: 290px;
-    height: 250px;
-    padding: 10px ;
-    background: #fff;
-    border-style: solid; 
-    border-color: black; 
-    display: inline-block;
-} 
 
 .house-title {
     border-style: solid; 
