@@ -31,7 +31,7 @@
                 </div>
     
                 <div class="more-info">
-                  <input  link="house-card-info.php?" id=<?php echo $row ["id"];?> value="More Info" type="submit">
+                  <input  link="house-card-info.php" id=<?php echo $row ["id"];?> value="More Info" type="submit">
                 </div>
                 
 </div>
