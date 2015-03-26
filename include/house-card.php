@@ -41,3 +41,10 @@
 </div>
 
 
+<!--<div> <a href="house-card-info.php?id=<?/*php echo $row["id"];*/?>"> 
+                      <div  class="house-location">
+                        <?php /*echo $row["house_location"];*/ ?>
+                   </a>
+                        </div>
+                      
+                        </div> -->          

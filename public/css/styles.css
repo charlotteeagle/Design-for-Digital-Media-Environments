@@ -240,6 +240,7 @@ body {
     padding: 20px;
     opacity: 0.9;
     height: 340px;
+    overflow: auto;
 }
 
 .house-card:hover {
