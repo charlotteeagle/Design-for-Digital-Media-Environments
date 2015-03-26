@@ -3,11 +3,9 @@
                 <div class="house-image">
                    <img style="display: inline-block"src="../public/images/Search-50.png"> <?php echo $row["house_photo"]; ?>   
                 
-    
-                <div class="user-id-box">
                     <p style="display:inline;">User ID: <?php echo $row["user_id"]; ?></p>
                     <p style="display:inline;"> Date added:<?php echo $row["date_added"]; ?></p>
-                </div>
+                
     
                 <div class="house-price">
                         <?php echo $row ["house_price"]; ?>
