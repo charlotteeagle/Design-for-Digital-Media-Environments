@@ -243,8 +243,9 @@ body {
 }
 
 .house-image { 
-    max-width: 290px;
-    max-height: 310px;
+    width: 290px;
+    height: 310px;
+    padding: 10px ;
     background: #fff;
     border-style: solid; 
     border-color: black; 
