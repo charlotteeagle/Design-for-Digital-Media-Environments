@@ -3,8 +3,6 @@
                 <div class="house-image">
                    <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
                 
-               
-    
                 <div class="user-id-box">
                     <p style="display:inline;">User ID: <?php echo $row["user_id"]; ?></p>
                     <p style="display:inline;"> Date added:<?php echo $row["date_added"]; ?></p>
@@ -33,8 +31,7 @@
                 </div>
     
                 <div class="more-info">
-                  <input name="search" href="house-card-info.php?id=><?php echo $row ["id"];?>" value="More Info" type="submit">
-                    
+                  <input  link="house-card-info.php? id=><?php echo $row ["id"];?>" value="More Info" type="submit">
                 </div>
                 
 </div>
