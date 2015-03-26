@@ -38,7 +38,7 @@ $house_photo_path = $value->house_photo_path;
                 <div class="house-image">
                   <a href="<?php echo $house_photo_path; ?>">
                         
-                    <img style="width: 290px; height: 230;" alt="OOPS the Image is Missing" src="<?php echo $house_photo_path; ?>"> 
+                    <img style="width: 290px; height: 230; float:left;" alt="OOPS the Image is Missing" src="<?php echo $house_photo_path; ?>"> 
                 
                 <div class="user-id-box">
                     <p style="display:inline;">User ID: <?php echo $user_id; ?></p>
