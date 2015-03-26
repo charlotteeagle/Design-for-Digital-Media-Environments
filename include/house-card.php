@@ -1,7 +1,7 @@
 <div class="house-card">
     
                 <div class="house-image">
-                   <img src="../public/images/Search-50.png"> <?php echo $row["house_photo"]; ?>   
+                   <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
                 
     
                 <div class="user-id-box">
