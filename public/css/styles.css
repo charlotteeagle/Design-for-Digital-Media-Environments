@@ -288,6 +288,7 @@ body {
     border-style: solid; 
     border-color: black; 
     margin-bottom: 10px;
+    display: inline-block;
 } 
 
 .house-title {
