@@ -31,8 +31,8 @@
                  
                 </div>
     
-                <div><a href="house-card-info.php?id=<?php echo $row["id"];?>">
-                    <div class="more-info" text="Click">
+                <div><p>Click</p><a href="house-card-info.php?id=<?php echo $row["id"];?>">
+                    <div class="more-info">
                     </a>
                     </div>
                 </div>
