@@ -3,6 +3,9 @@
                 <div class="house-image">
                    <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
                 
+                <div class="more-info">
+                    <a href="house-card-info.php?id= <?php echo $row ["id"]; ?>">  
+                </div>
     
                 <div class="user-id-box">
                     <p style="display:inline;">User ID: <?php echo $row["user_id"]; ?></p>
