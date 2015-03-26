@@ -32,7 +32,7 @@
                 </div>
     
              
-                    <div style= cursor: pointer; class="more-info">
+                    <div style="cursor: pointer;" class="more-info">
                    
                     </div>
               
