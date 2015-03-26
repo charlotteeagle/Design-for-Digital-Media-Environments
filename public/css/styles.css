@@ -240,7 +240,6 @@ body {
     padding: 20px;
     opacity: 0.9;
     height: 340px;
-    float: left;
 }
 
 .house-image { 
@@ -250,7 +249,6 @@ body {
     border-style: solid; 
     border-color: black; 
     float: left;
-    margin-right: 15px;
 } 
 
 .user-id-box { 
