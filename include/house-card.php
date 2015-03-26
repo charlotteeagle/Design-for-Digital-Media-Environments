@@ -32,7 +32,7 @@
                  
                 </div>
     
-                <div class="more-info">
+                <div>
                   <input name="search" href="house-card-info.php?id=><?php echo $row ["id"];?>" value="More Info" type="submit">
                     
                 </div>
