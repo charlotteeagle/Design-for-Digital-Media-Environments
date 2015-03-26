@@ -1,5 +1,5 @@
 <div class="house-card">
-    <a href="house-card-info.php" id="<?php echo $row ["id"];?>" > </a>
+   
     
                 <div class="house-image">
                    <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
@@ -31,8 +31,10 @@
                  
                 </div>
     
-                <div class="more-info">
-                  
-                </div>
                 
+                
+</div>
+
+<div class="more-info">
+     <a href="house-card-info.php" id="<?php echo $row ["id"];?>"> </a>               
 </div>
