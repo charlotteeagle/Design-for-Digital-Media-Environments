@@ -282,22 +282,26 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black;
+    margin-left: 150%;
 } 
 
 
 .house-title {
     border-style: solid; 
     border-color: black; 
+    margin-left: 150%;
 } 
 
 .house-type { 
     border-style: solid; 
     border-color: black; 
+    margin-left: 150%;
 } 
 
 .house-bedroomnumber { 
     border-style: solid; 
-    border-color: black; 
+    border-color: black;
+    margin-left: 150%;
 } 
 
 .house-description { 
