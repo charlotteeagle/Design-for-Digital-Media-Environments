@@ -249,7 +249,7 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black; 
-    display: inline-block;
+    float: left;
 } 
 
 .user-id-box { 
