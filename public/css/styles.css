@@ -242,6 +242,11 @@ body {
     height: 340px;
 }
 
+.house-card:hover {
+    border: 3px solid #009ACD;
+    opacity: 1.0;
+}
+
 .house-image { 
     padding: 10px ;
     float: left;
@@ -332,10 +337,6 @@ body {
 } 
 
 } 
-.house-card:hover {
-    border: 3px solid #009ACD;
-    opacity: 1.0;
-}
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
 
