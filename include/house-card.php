@@ -31,11 +31,12 @@
                  
                 </div>
     
-             
+             <div> <a href="house-card-info.php?id=<?php echo $row["id"];?>">
                     <div class="more-info">
                         <p style="cursor:pointer;"> Click Me!</p>
                    
                     </div>
+            </div>
               
 </div>
 
