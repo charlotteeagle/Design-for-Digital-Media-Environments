@@ -240,6 +240,7 @@ body {
     padding: 20px;
     opacity: 0.9;
     height: 340px;
+    display: inline-block;
 }
 
 .user-id-box { 
@@ -248,7 +249,8 @@ body {
     min-width: 300px;
     background: #fff;
     border-style: solid; 
-    border-color: black; 
+    border-color: black;
+    display: inline-block;
 } 
 
 .house-price { 
