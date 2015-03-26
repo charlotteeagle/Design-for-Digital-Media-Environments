@@ -10,7 +10,7 @@
 
 
 <?php
-include("../include/house-card.php");
+
 
 $id = $_GET["id"];
 
@@ -30,6 +30,7 @@ $house_bedroomnumber = $value->house_bedroomnumber;
 $house_description = $value->house_description;
 $house_photo_path = $value->house_photo_path; 
 
+include("../include/house-card.php");
 ?>  
 
 
