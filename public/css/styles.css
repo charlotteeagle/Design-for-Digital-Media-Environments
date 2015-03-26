@@ -243,12 +243,7 @@ body {
 }
 
 .house-image { 
-    width: 290px;
-    height: 310px;
     padding: 10px ;
-    background: #fff;
-    border-style: solid; 
-    border-color: black; 
     float: left;
 } 
 
