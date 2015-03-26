@@ -28,9 +28,14 @@ $house_type = $value->house_type;
 $house_bedroomnumber = $value->house_bedroomnumber;
 $house_description = $value->house_description;
 $house_photo_path = $value->house_photo_path; 
-require_once("../include/house-card.php");
+
 ?>  
 
+
+<?php 
+include("../include/house-card.php");
+
+?>
     
  
     
