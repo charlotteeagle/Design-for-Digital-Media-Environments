@@ -40,7 +40,7 @@
 
 <?php if(isset($_POST["location_id"])) { ?>
 <div class="results-box">
-<h2 style="display:inline;"><a name="results"></a> Your Results:</h2>
+<h2 style="display:inline;"> Your Results:</h2>
 <?php } ?>
 
 </div>
