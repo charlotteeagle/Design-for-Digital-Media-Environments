@@ -265,6 +265,7 @@ body {
 }
 
 .house-image { 
+    background: #fff;
     padding: 10px ;
     float: left;
 } 
@@ -279,6 +280,7 @@ body {
 }
 
 .user-id-box { 
+    background: #fff;
     padding: 5px;
     height: 40px;
     min-width: 300px;
@@ -287,6 +289,7 @@ body {
 } 
 
 .house-price { 
+    background: #fff;
     padding: 5px;
     font-size: 2em;
     min-width: 200px;
@@ -297,6 +300,7 @@ body {
 } 
 
 .house-location { 
+    background: #fff;
     font-size: 2em;
     padding: 5px;
     min-width: 300px;
@@ -307,6 +311,7 @@ body {
 
 
 .house-title {
+    background: #fff;
     padding: 5px;
     min-width: 300px;
     height: 30px;
@@ -315,6 +320,7 @@ body {
 } 
 
 .house-type { 
+    background: #fff;
     padding: 5px;
     min-width: 300px;
     height: 30px;
@@ -323,6 +329,7 @@ body {
 } 
 
 .house-bedroomnumber { 
+    background: #fff;
     padding: 5px;
     min-width: 300px;
     height: 30px;
