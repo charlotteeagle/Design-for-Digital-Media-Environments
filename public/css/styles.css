@@ -256,7 +256,7 @@ body {
     border: 3px solid #fff;
     padding: 20px;
     opacity: 0.9;
-    height: 720px;
+    height: 520px;
     overflow: auto;
 }
 
@@ -356,7 +356,7 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black;
-    margin-left: 50%;
+    margin-left: 20%;
     margin-top: 400px;
     text-align: center;
 }  
