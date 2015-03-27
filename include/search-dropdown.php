@@ -17,5 +17,5 @@
     <select name="sort-by">
         <option value="new">New</option>
         <option value="old">Old</option>
-    </select><input name="search" href="#results" value="Find!" type="submit">
+    </select><input name="search" a href="#results" value="Find!" type="submit">
 </form>
