@@ -2,10 +2,6 @@
     
     
                 <div class="house-image">
-                    <div> 
-            <a href="house-card-info.php?id=<?php echo $row["id"];?>"></a>
-                   
-            </div>
                    <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
     
                 <div class="house-price">
@@ -33,7 +29,15 @@
                 </div>
                     
                  
-                </div>
+                
+    
+             <div> <a href="house-card-info.php?id=<?php echo $row["id"];?>">
+            
+                        <p style="cursor:pointer;"> Click Me!</p>
+                   </a>
+                   
+            </div>
+        </div>
               
 </div>
 
