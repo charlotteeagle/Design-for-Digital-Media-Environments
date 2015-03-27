@@ -47,7 +47,7 @@ $house_photo_path = $value->house_photo_path;
                 </div>
     
                 <div class="house-price">
-                £<?php echo $house_price; ?>
+                <?php echo $house_price; ?>
                 </div>
 
                 <div class="house-location">
