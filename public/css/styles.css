@@ -282,8 +282,8 @@ body {
     padding: 5px;
     height: 40px;
     min-width: 300px;
-    background-color: blue; 
-    background-color: transparent;
+    background-color: red; 
+    opacity: 1.0;
     border-style: solid; 
     border-color: black;
     margin-left: 150%;
