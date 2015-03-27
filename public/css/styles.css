@@ -356,8 +356,9 @@ body {
     background: #fff;
     border-style: solid; 
     border-color: black;
-    margin-left: 50px;
+    margin-left: 100px;
     margin-top: 400px;
+    text-align: center;
 }  
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
