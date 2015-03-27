@@ -42,12 +42,12 @@ $house_photo_path = $value->house_photo_path;
                     <img style="width: 290px; height: 230; float:left;" alt="OOPS the Image is Missing" src="<?php echo $house_photo_path; ?>"> 
                 
                 <div class="user-id-box">
-                    <p style="display:inline;">User ID: <?php echo $user_id; ?></p>
-                    <p style="display:inline;"> Date added:<?php echo $date_added; ?></p>
+                     User ID: <?php echo $user_id; ?>
+                     Date added:<?php echo $date_added; ?>
                 </div>
     
                 <div class="house-price">
-                        £ &nbsp;<?php echo $house_price; ?>
+                        £<?php echo $house_price; ?>
                 </div>
 
                 <div class="house-location">
@@ -59,11 +59,11 @@ $house_photo_path = $value->house_photo_path;
                 </div>
 
                 <div class="house-type">
-                        <p>House Type: <?php echo $house_type; ?></p>
+                        House Type: <?php echo $house_type; ?>
                 </div>
                 
                 <div class="house-bedroomnumber">
-                       <p>Number of Bedrooms: <?php echo $house_bedroomnumber; ?></p>
+                       Number of Bedrooms: <?php echo $house_bedroomnumber; ?>
                 </div>
                  
                 </div>

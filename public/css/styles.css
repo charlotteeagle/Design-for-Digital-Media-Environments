@@ -265,7 +265,6 @@ body {
 }
 
 .house-image { 
-    box-shadow: 2px 2px black;
     padding: 10px ;
     float: left;
 } 

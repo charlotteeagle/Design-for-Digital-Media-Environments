@@ -3,14 +3,9 @@
     
                 <div class="house-image">
                    <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
-                
-                <div class="user-id-box">
-                   User ID: <?php echo $row["user_id"]; ?>
-                   Date added:<?php echo $row["date_added"]; ?>
-                </div>
     
                 <div class="house-price">
-                        <?php echo $row ["house_price"]; ?>
+                        £<?php echo $row ["house_price"]; ?>
                 </div>
 
                 <div class="house-location">
@@ -28,6 +23,12 @@
                 <div class="house-bedroomnumber">
                         Bedroom Number: <?php echo $row["house_bedroomnumber"]; ?>
                 </div>
+                
+                <div class="user-id-box">
+                   User ID: <?php echo $row["user_id"]; ?>
+                   Date added:<?php echo $row["date_added"]; ?>
+                </div>
+                    
                  
                 </div>
     
