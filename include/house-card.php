@@ -6,7 +6,6 @@
                     
                    </a>       
         </div>
-        </div>
     
                 <div class="house-price">
                 <?php echo $row ["house_price"]; ?></div>
