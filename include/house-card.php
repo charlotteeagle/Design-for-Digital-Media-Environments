@@ -4,9 +4,7 @@
                 <div class="house-image">
                    <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">   
     
-                <div class="house-price">
-                &nbsp;£<?php echo $row ["house_price"]; ?>
-                </div>
+                <div class="house-price">&nbsp;£<?php echo $row ["house_price"]; ?></div>
 
                 <div class="house-location">
                         <?php echo $row["house_location"]; ?>
