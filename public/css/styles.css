@@ -282,8 +282,7 @@ body {
     padding: 5px;
     height: 40px;
     min-width: 300px;
-    background-color: red; 
-    opacity: 0.5;
+    text-shadow:2px 2px black;
     border-style: solid; 
     border-color: black;
     margin-left: 150%;
