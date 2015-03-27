@@ -351,12 +351,13 @@ body {
 .house-description { 
     padding: 5px;
     min-width: 300px;
-    height: 30px;
+    max-width: 500px;
+    min-height: 30px;
     background: #fff;
     border-style: solid; 
     border-color: black;
     margin-left: 50px;
-    margin-top: 500px;
+    margin-top: 400px;
 }  
 
 /* -------------------------------------------responsiveness -----------------------------------------------*/
