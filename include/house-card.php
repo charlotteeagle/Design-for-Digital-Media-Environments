@@ -33,7 +33,7 @@
     
              <div> <a href="house-card-info.php?id=<?php echo $row["id"];?>">
             
-                        <p style="cursor:pointer;"> Click Me!</p>
+                        <p style="cursor:pointer;"> More Info</p>
                    </a>
                    
             </div>
