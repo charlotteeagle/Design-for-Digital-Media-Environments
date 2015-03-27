@@ -245,7 +245,6 @@ body {
     padding: 20px;
     opacity: 0.9;
     height: 340px;
-    overflow: auto;
 }
 
 .house-card2 {
@@ -257,7 +256,7 @@ body {
     padding: 20px;
     opacity: 0.9;
     height: 520px;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 
 .house-card:hover {
