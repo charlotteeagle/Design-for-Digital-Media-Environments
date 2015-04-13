@@ -20,7 +20,7 @@ $value = mysqli_fetch_object($result);
 
 
 $user_id = $value->user_id;
-$date_added = $value->house_photo;
+$date_added = $value->date_added;
 $house_photo = $value->house_photo;
 $house_price = $value->house_price;
 $house_title = $value->house_title;
