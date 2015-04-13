@@ -56,11 +56,11 @@ body {
 }
 
 .listed {
-	width: 900px;	
+	width: 1100px;	
     padding-top: 10%;
     font-size:1.4em;
     float-right: 50px;
-    /*color: #08E852;*/
+    color: white;
     /*font-family: Impact, Charcoal, sans-serif;*/
     
 }
@@ -267,6 +267,11 @@ body {
 }
 
 .house-card:hover {
+    border: 3px solid #009ACD;
+    opacity: 1.0;
+}
+
+.house-card2:hover {
     border: 3px solid #009ACD;
     opacity: 1.0;
 }
