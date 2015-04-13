@@ -55,7 +55,7 @@ $date_added = date("Y-m-d H:i:s");
             
             $result = mysqli_query($connect, $query);   
             if($result) {                             
-                $dbmessage = "Success! Your property has been listed!";   
+               /* $dbmessage = "Success! Your property has been listed!";   
             } else {
                 $house_title = "";                                 // Get user to fill in fields required 
                 $house_price = ""; 
@@ -63,13 +63,16 @@ $date_added = date("Y-m-d H:i:s");
                 $house_type ="";
                 $house_bedroomnumber = "";
                 $house_photo = "";
-                $house_description = "";
+                $house_description = ""; */
+                
+                header('Location: congrats.php');
             }
         }
     }
 ?>
  
-<?php 
+<?php /* echo for testing form
+                
                 echo $house_title;
                 echo "&nbsp &nbsp";
                 echo $house_price;
@@ -84,6 +87,7 @@ $date_added = date("Y-m-d H:i:s");
                 echo "&nbsp &nbsp";
                 echo $house_description;
                 echo "&nbsp &nbsp";
+                */
 
             ?>
 
@@ -95,5 +99,5 @@ $date_added = date("Y-m-d H:i:s");
 
 ?>
 
-<?php if(isset($dbmessage)) {echo $dbmessage;}?> 
+<?php if(isset($dbmessage)) {echo $dbmessage;}?> 
    
