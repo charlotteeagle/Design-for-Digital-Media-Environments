@@ -16,7 +16,7 @@
             
                 <h2>Create Your Listing</h2>
                 <p><span class="error">* required field.</span></p> 
-                <form enctype="multipart/form-data" action="form.php" method="post"> <!-- action="form.php" = form data sent for processing to form php file -->
+                <form enctype="multipart/form-data" action="form.php" method="post"> <!-- action = where the form will be processed -->
                     Listing Title: <input type="text" name="house_title" value="<?php if(isset($house_title)) {echo $house_title;}?>">
                     <span class="error">*<?php if(isset($titleerr)) {echo $titleerr;}?></span>
                     
