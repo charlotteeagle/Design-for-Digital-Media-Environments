@@ -11,8 +11,5 @@
 </div>
 
 <!-- Begin Footer -->
-
-
 <?php include_once("../include/templates/footer.php"); ?> 
-
 <!-- End Footer -->

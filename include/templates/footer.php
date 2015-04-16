@@ -1,4 +1,3 @@
-
     <div class="footer">
         <div class="icon-container">
             <a href="https://en-gb.facebook.com/login"><img src="images/facebooklogo.png"></a>

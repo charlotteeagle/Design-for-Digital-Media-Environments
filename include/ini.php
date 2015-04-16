@@ -1,1 +1,1 @@
-<?php phpinfo() ?>
+<?php phpinfo() ?> <!-- Had issues with image upload. This page allows us to view all the server php settings and information -->

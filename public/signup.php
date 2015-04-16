@@ -2,18 +2,18 @@
     require_once("../include/session.php");   
     require_once("../include/connect.php"); 
     include_once("../include/templates/header.php");
-    include_once("../include/templates/menuheader.php"); /* THE NEW NAV*/  
+    include_once("../include/templates/menuheader.php");  
 ?>
 
 <div class="main">
+<!-- If signup field is empty (when not logged in) display message box and relevant message --> 
  <?php  if(isset($_SESSION["message"])) { ?>
     
         <div class="message-box" >
             <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
         </div>
    <?php   } ?>
-         
-         
+            
     <div class="background-position" >            
          <div class="signup-box">
             <form action="../include/signup-sql" method="post">
@@ -28,6 +28,5 @@
         </div>
     </div> 
 </div>
-
 
 <?php include_once("../include/templates/footer.php"); ?> 

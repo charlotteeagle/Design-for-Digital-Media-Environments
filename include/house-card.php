@@ -1,9 +1,9 @@
 <div class="house-card">
     
-    
+    <!-- House card styling. Divs created, which is where the data is echoed, when fetched. -->
                 <div class="house-image">
                     <a href="house-card-info.php?id=<?php echo $row["id"];?>">
-                   <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">  
+                        <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">  
                     </a>
     
                 <div class="house-price">
@@ -30,25 +30,10 @@
                    Date added:<?php echo $row["date_added"]; ?>
                 </div>
                     
-                 
-                
-    
-             <div> <a href="house-card-info.php?id=<?php echo $row["id"];?>">
-            
+                <div> <a href="house-card-info.php?id=<?php echo $row["id"];?>">
                         <p style="cursor:pointer;"> More Info</p>
                    </a>
                    
-            </div>
-        </div>
-              
+                </div>
+        </div>     
 </div>
-
-
-<!--<div> <a href="house-card-info.php?id=<?/*php echo $row["id"];*/?>"> 
-                      <div  class="house-location">
-                        <?php /*echo $row["house_location"];*/ ?>
-                   </a>
-                        </div>
-                      
-                        </div> -->          
-<!-- <INPUT TYPE="button" onClick="house-card-info.php?id=<?/*php echo $row["id"];*/?>"> -->

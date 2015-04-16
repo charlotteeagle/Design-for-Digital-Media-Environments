@@ -1,3 +1,4 @@
+<!-- Home page dropdown options for user to select -->
 <form action="index.php" method="post"> 
  Search:<select style="font-size: 16px" name="location_id">
             <option value="Bournemouth Centre">Bournemouth Centre</option>
@@ -14,8 +15,8 @@
             <option value="Northbourne">Northbourne</option>
             </select>
     
-    <select name="sort-by">
-        <option value="new">New</option>
-        <option value="old">Old</option>
-    </select><input name="search" value="Find!" type="submit"> 
+            <select name="sort-by">
+                <option value="new">New</option>
+                <option value="old">Old</option>
+            </select><input name="search" value="Find!" type="submit"> 
 </form>

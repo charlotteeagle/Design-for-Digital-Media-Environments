@@ -4,21 +4,17 @@
     include_once("../include/templates/header.php");
     include_once("../include/templates/menuheader.php"); 
     require_once("../include/house-card-sql.php");
-    /*include '../include/house-card-sql.php';*/
 ?>
 
-
-
 <?php
-
-
+/* Get house-card id and display relevant data */
 $id = $_GET["id"];
 
 $sql = "SELECT * FROM posts Where id='$id'";
 $result = mysqli_query($connect, $sql);
 $value = mysqli_fetch_object($result);
 
-
+/* set variables */
 $user_id = $value->user_id;
 $date_added = $value->date_added;
 $house_photo = $value->house_photo;
@@ -31,10 +27,8 @@ $house_description = $value->house_description;
 $house_photo_path = $value->house_photo_path; 
 ?>  
 
-
 <div class="house-card2">
-    
-    
+                <!-- echo fetched data and display in house card divs -->
                 <div class="house-image">
                   <a href="<?php echo $house_photo_path; ?>">
                         
@@ -69,19 +63,5 @@ $house_photo_path = $value->house_photo_path;
     
                <div class="house-description">
                         <?php echo $house_description; ?>
-                </div>
-           
-              
+               </div>           
 </div>
-
- 
-    
-    
-  
-    
-    
-    
-
-
-
-
