@@ -20,14 +20,6 @@
     
     <?php } ?>
     
-       <!-- If user doesn't input username/password, or inputs incorrect credentials, a message will appear-->
-     <?php  if(isset($_SESSION["message"])) { ?>
-    
-        <div class="message-box" >
-            <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
-        </div>
-   <?php   } ?>
-    
     <div class="background-position" >
 <?php 
     include '../include/loginform.php'; //include login form
