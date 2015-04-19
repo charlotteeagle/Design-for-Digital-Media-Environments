@@ -6,9 +6,9 @@
     include("../include/add_property-sql.php");   //SQL for this form
 ?>
 
-       <div class="container">  
-            
-            <div class="form-box">
+<div class="container">  
+    <div class="background-position" >  
+        <div class="form-box">
         <!-- Form for adding a property. Reports an error if fields are empty. -->
                
                 <h2>Create Your Listing</h2>
@@ -83,6 +83,7 @@
             </form>
         </div>
     </div>
+</div>
  
 <!-- Begin Footer -->
 <?php include_once("../include/templates/footer.php"); ?>                      
