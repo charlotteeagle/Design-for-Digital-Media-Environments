@@ -7,7 +7,7 @@
             <option value="Kinson">Kinson</option>
             <option value="Throop">Throop</option>
             <option value="Wallisdown">Wallisdown</option>
-            <option value="Southnourne">Southnourne</option>
+            <option value="Southnourne">Southbourne</option>
             <option value="Iford">Iford</option>
             <option value="Christchurch">Christchurch</option>
             <option value="Westbourne">Westbourne</option>

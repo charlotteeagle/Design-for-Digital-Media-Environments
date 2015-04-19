@@ -60,7 +60,7 @@ body {
     padding-top: 10%;
     font-size:1.4em;
     float-right: 50px;
-    color: white;
+    color: black;
     /*font-family: Impact, Charcoal, sans-serif;*/
     
 }
@@ -235,12 +235,12 @@ body {
 /* ------------------------------------------- House Card -----------------------------------------------*/
 .house-card {
 	margin:auto; /* center div in the page */
-	width: 70%;	
+	width: 60%;	
 }
 
 .house-card2 {
 	margin:auto; /* center div in the page */
-	width: 70%;	
+	width: 60%;	
 }
 
 .house-card {
@@ -262,7 +262,7 @@ body {
     border: 3px solid #fff;
     padding: 20px;
     opacity: 0.9;
-    height: 520px;
+    min-height: 420px
     /*overflow: auto;*/
 }
 
@@ -295,7 +295,7 @@ body {
     padding: 5px;
     height: 40px;
     min-width: 300px;
-    margin-left: 150%;
+    margin-left: 130%;
     margin-bottom: 5px;
 } 
 
@@ -305,7 +305,7 @@ body {
     font-size: 2em;
     min-width: 300px;
     height: 30px;
-    margin-left: 150%;
+    margin-left: 130%;
     margin-bottom: 5px;
 
 } 
@@ -316,7 +316,7 @@ body {
     padding: 5px;
     min-width: 300px;
     height: 30px;
-    margin-left: 150%;
+    margin-left: 130%;
     margin-bottom: 5px;
 } 
 
@@ -326,7 +326,7 @@ body {
     padding: 5px;
     min-width: 300px;
     height: 30px;
-    margin-left: 150%;
+    margin-left: 130%;
     margin-bottom: 5px;
 } 
 
@@ -335,7 +335,7 @@ body {
     padding: 5px;
     min-width: 300px;
     height: 30px;
-    margin-left: 150%;
+    margin-left: 130%;
     margin-bottom: 5px;
 } 
 
@@ -345,7 +345,7 @@ body {
     padding: 5px;
     min-width: 300px;
     height: 30px;
-    margin-left: 150%;
+    margin-left: 130%;
 } 
 
 .house-description { 
@@ -355,7 +355,7 @@ body {
     min-height: 30px;
     background: #fff;
     margin-left: 20%;
-    margin-top: 400px;
+    margin-top: 350px;
     text-align: center;
 }  
 

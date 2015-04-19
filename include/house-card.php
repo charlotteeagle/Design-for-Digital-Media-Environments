@@ -3,7 +3,7 @@
     <!-- House card styling. Divs created, which is where the data is echoed, when fetched. -->
                 <div class="house-image">
                     <a href="house-card-info.php?id=<?php echo $row["id"];?>">
-                        <img style="width: 290px; height: 230px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">  
+                        <img style="width: 320px; height: 260px; float:left;" alt="Oops the image is missing!" src="<?php echo $row["house_photo_path"]; ?> ">  
                     </a>
     
                 <div class="house-price">

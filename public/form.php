@@ -32,7 +32,7 @@
                             <option>Kinson</option>
                             <option>Throop</option>
                             <option>Wallisdown</option>
-                            <option>Southnourne</option>
+                            <option>Southbourne</option>
                             <option>Iford</option>
                             <option>Christchurch</option>
                             <option>Westbourne</option>
