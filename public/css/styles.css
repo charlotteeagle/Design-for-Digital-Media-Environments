@@ -76,7 +76,7 @@ body {
     margin-bottom: 20px;
     background-color: #F0F0F0;
     padding: 3px;
-    opacity: 1;
+    opacity: 0.85;
     text-align: left;
     border-radius: 10px; /* button roundness */
     width: 40%;
