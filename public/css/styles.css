@@ -246,14 +246,14 @@ body {
 /* ------------------------------------------- House Card -----------------------------------------------*/
 .house-card {
 	margin:auto; /* center div in the page */
-	min-width: 50%;
-    max-width: 50%;
+	min-width: 800px;
+    max-width: 800px;
 }
 
 .house-card2 {
 	margin:auto; /* center div in the page */
-	min-width: 50%;
-    max-width: 50%;	
+	min-width: 800px;
+    max-width: 800px;	
 }
 
 .house-card {
