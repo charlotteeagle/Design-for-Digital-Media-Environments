@@ -37,10 +37,10 @@
             $result = mysqli_query($connect, $query);   
         
             if($result) {  //If the data is saved successfully, display message:                 
-                $_SESSION['message'] = "Success! You've been registered to Bournemouth Homes";   
+                $_SESSION['signupmessage'] = "Success! You've been registered to Bournemouth Homes";   
                 header("Location: ../public/signup.php");//keeps them onto signup.php, to hold session
             } else {    //Otherwise, display message:                                
-                $_SESSION['message'] = "Error! You missed something!";
+                $_SESSION['signupmessage'] = "Error! You missed something!";
                 header("Location: ../public/signup.php"); //keeps them onto signup.php, to hold session
             }
         }
