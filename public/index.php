@@ -19,7 +19,14 @@
         </div>
     
     <?php } ?>
+    <!-- MESSAGE TEST -->
+    <?php  if(isset($_SESSION["message"])) { ?>
     
+        <div class="message-box" >
+            <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
+        </div>
+   <?php   } ?>
+    <!-- -->
     <div class="background-position" >
 <?php 
     include '../include/loginform.php'; //include login form
