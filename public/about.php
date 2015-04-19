@@ -57,5 +57,3 @@
 		</div>
     </div>
 </div>
-
-<?php include_once("../include/templates/footer.php"); ?> 
