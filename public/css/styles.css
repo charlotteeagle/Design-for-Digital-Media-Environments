@@ -76,7 +76,7 @@ body {
     margin-bottom: 20px;
     background-color: #F0F0F0;
     padding: 3px;
-    opacity: 0.8;
+    opacity: 0.6;
     text-align: left;
     border-radius: 10px; /* button roundness */
     width: 40%;
@@ -94,7 +94,6 @@ body {
     background-color: #fff; /* body background colour*/
     
 }
-
 
 .background-position {
     margin: auto;
@@ -116,6 +115,7 @@ body {
     height: 856px;
     background-repeat:no-repeat;
     background-size: cover;
+    opacity: 0.8;
 }
 
 .search-box {
