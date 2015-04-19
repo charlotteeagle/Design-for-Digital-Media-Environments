@@ -19,7 +19,7 @@
             $_SESSION["id"] = $user["id"];
             $_SESSION["user"] = $user["username"];      // Equal to login details on the database
             $_SESSION["name"] = $user["firstname"];
-            $_SESSION["message"] = "Successfully logged in. Welcome back {$user["username"]}.";
+            $_SESSION["loginmessage"] = "Successfully logged in. Welcome back {$user["username"]}.";
         } else {
             $_SESSION["loginmessage"] = "Wrong username/password.";
         }  
