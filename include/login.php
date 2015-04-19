@@ -6,9 +6,9 @@
         $password = $_POST["password"];
         
         if(empty($username)) {    // If any empty fields, display an error message
-            $_SESSION['message'] =  "Please enter your username.";
+            $_SESSION['loginmessage'] =  "Please enter your username.";
         } else if(empty($password)) {
-             $_SESSION['message'] =  "Please enter your password.";
+             $_SESSION['loginmessage'] =  "Please enter your password.";
         } else {
             
         $query = "SELECT * FROM users WHERE username='{$username}' AND password='{$password}' LIMIT 1"; // Get username and password from the 'users' table and check if correct. 

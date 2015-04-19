@@ -7,7 +7,7 @@
 
 <div class="main">
 <!-- If signup field is empty (when not logged in) display message box and relevant message --> 
- <?php  if(isset($_SESSION["message"])) { ?>
+ <?php  if(isset($_SESSION["signupmessage"])) { ?>
     
         <div class="message-box" >
             <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>

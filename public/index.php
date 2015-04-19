@@ -20,10 +20,10 @@
     
     <?php } ?>
     <!-- MESSAGE TEST -->
-    <?php  if(isset($_SESSION["message"])) { ?>
+    <?php  if(isset($_SESSION["loginmessage"])) { ?>
     
         <div class="message-box" >
-            <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
+            <p style="display:inline;"><?php echo ($_SESSION["loginmessage"]) ?></p>
         </div>
    <?php   } ?>
     <!-- -->
