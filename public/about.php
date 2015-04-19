@@ -4,7 +4,7 @@
     include_once("../include/templates/header.php");
     include_once("../include/templates/menuheader.php"); 
 ?>
-<body>
+
 <div class="main">
     <div class="about">
         <h2 align="center" style= "font-size: 3em"> About Us </h2>
@@ -57,5 +57,5 @@
 		</div>
     </div>
 </div>
-</body>
+
 <?php include_once("../include/templates/footer.php"); ?> 

@@ -362,7 +362,7 @@ body {
 /* -------------------------------------------about -----------------------------------------------*/
 
 .about {
-    width: 1700px;
+    width: 100%;
     height: auto;
     background-color:#fff;
     margin: 0 auto;
@@ -579,15 +579,7 @@ body {
     	width:50%;
     	background-color:inherit;
     }
-    .button>a:hover {
-    	background-color:inherit;
-    	color:inherit;
-    }
-    .button>a.on {
-    	background-color: #000;
-    	color:#fff;
-    }
-
+  
     .search-box {
         font-family: 'Lobster', cursive; 
         font-size: 
