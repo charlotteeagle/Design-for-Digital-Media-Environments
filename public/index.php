@@ -15,20 +15,20 @@
             <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
             <?php  if(isset($_SESSION["name"])) { ?>
             <p style="display:inline;">Welcome back <?php echo $_SESSION['name']; ?>!</p>
-            <?php } else {   
-              if(isset($_SESSION["loginmessage"])) { ?>
+            <?php } else {  
+              if(isset($_SESSION["loginmessage"])) ?>
             <p style="display:inline;"><?php echo ($_SESSION["loginmessage"]) }?></p>
     </div>
-        }
+    
     <?php } ?>
-    <!-- MESSAGE TEST 
+    <!-- MESSAGE TEST -->
     <?php  if(isset($_SESSION["loginmessage"])) { ?>
     
         <div class="message-box" >
             <p style="display:inline;"><?php echo ($_SESSION["loginmessage"]) ?></p>
         </div>
    <?php   } ?>
-    -->
+    <!-- -->
     <div class="background-position" >
 <?php 
     include '../include/loginform.php'; //include login form
