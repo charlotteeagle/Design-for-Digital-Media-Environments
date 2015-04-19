@@ -15,9 +15,9 @@
             <p style="display:inline;"><?php echo ($_SESSION["message"]) ?></p>
             <?php  if(isset($_SESSION["name"])) { ?>
             <p style="display:inline;">Welcome back <?php echo $_SESSION['name']; ?>!</p>
-            <?php } else { 
-                if(isset($_SESSION["loginmessage"])) 
-                    <p style="display:inline;"><?php echo ($_SESSION["loginmessage"]) }?></p>
+            <?php } else {  
+              if(isset($_SESSION["loginmessage"])) ?>
+            <p style="display:inline;"><?php echo ($_SESSION["loginmessage"]) }?></p>
     </div>
     
     <?php } ?>
