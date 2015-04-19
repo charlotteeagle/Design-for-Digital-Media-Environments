@@ -18,7 +18,7 @@
 		                </div>
 
 		                <div class="back face center">
-		                    <p style= "font-size: 1.5em">I am from Bournemouth and currently studying for a BA (Hons) degree in Digital Media Design at Bournemouth University. Before this I studied Media and Journalism at The Bournemouth and Poole College. Some of my aspirations include, app development, creating projects using the Arduino/Raspberry Pi and web design. I am also keen to get started on my latest assignment creating a website using HTML, PHP and MySQL. Some other areas I am interested in are augmented reality, virtual reality and virtual retinal displays, in particular Oculus Rift, Avegant Glyph and Microsoft HoloLens. As far as interests such as sport go, I am an avid fan of Formula 1. The picture I have chosen to include with this bio was taken of me learning to surf when I was travelling down the east coast of Australia.</p>
+		                    <p style= "font-size: 1.5em">I am from Bournemouth and currently studying for a BA (Hons) degree in Digital Media Design at Bournemouth University. Before this I studied Media and Journalism at The Bournemouth and Poole College. Some of my aspirations include, app development, creating projects using the Arduino/Raspberry Pi and web design. I am also keen to get started on my latest assignment creating a website using HTML, PHP and MySQL. Some other areas I am interested in are augmented reality, virtual reality and virtual retinal displays, in particular Oculus Rift, Avegant Glyph and Microsoft HoloLens. As far as interests such as sport go, I am an avid fan of Formula 1.</p>
 		                </div>
 		            </div>
 				</div>
