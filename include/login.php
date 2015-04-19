@@ -21,7 +21,7 @@
             $_SESSION["name"] = $user["firstname"];
             $_SESSION["message"] = "Successfully logged in. Welcome back {$user["username"]}.";
         } else {
-            $_SESSION["message"] = "Wrong username/password.";
+            $_SESSION["loginmessage"] = "Wrong username/password.";
         }  
      }
   }
