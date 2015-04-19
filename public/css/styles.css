@@ -407,7 +407,7 @@ body {
 }
 #f1_card {
    width: 100%;
-  height: 744px;
+  height: 900px;
   transform-style: preserve-3d;
   transition: all 1.0s linear;
 }
