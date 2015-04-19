@@ -107,6 +107,17 @@ body {
     background-size: cover;
 }
 
+.background-position-form {
+    margin: auto;
+    background-image: url(../images/backgrounds/b7.jpg);
+	display:inline-block;
+	width:100%;	
+	vertical-align: top;
+    height: 856px;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
 .search-box {
     font-family: 'Lobster', cursive; 
     font-size: 3em;

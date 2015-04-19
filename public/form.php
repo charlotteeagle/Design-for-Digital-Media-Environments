@@ -7,7 +7,7 @@
 ?>
 
 <div class="container">  
-    <div class="background-position" >  
+    <div class="background-position-form" >  
         <div class="form-box">
         <!-- Form for adding a property. Reports an error if fields are empty. -->
                
