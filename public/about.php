@@ -5,16 +5,6 @@
     include_once("../include/templates/menuheader.php"); 
 ?>
 
-<head>
-<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-
-	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Abeezee:400|Open+Sans:400,600,700|Source+Sans+Pro:400,600">
-	<link rel="stylesheet" type="text/css" href="demo.css">
-
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="../public/js/help.js"></script>
-</head>
-
 <div class="main">
     <div class="about">
         <h2 align="center" style= "font-size: 3em"> About Us </h2>

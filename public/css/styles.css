@@ -420,8 +420,7 @@ body {
 /* flipper 1 */
 /* flipper 2 */
 #f2_container {
-    align-content: center;
-
+  align-content: center;
   display: inline-block;
   margin: 10px 10px;
   width: 100%;
