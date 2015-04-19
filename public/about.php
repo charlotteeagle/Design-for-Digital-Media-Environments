@@ -9,7 +9,6 @@
     <div class="about">
         <h2 align="center" style= "font-size: 3em"> About Us </h2>
 
-
 		<div class="col-3">
 			<div class="spacing">
 				<div id="f1_container">
@@ -56,6 +55,7 @@
 		        </div>
 	        </div>
 		</div>
+    </div>
 </div>
 
 <?php include_once("../include/templates/footer.php"); ?> 

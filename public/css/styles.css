@@ -472,11 +472,12 @@ body {
 
 /* -------------------------------------------help -----------------------------------------------*/
 
+/*
 body {
 	position:relative;
 	z-index:0;
-
 }
+*/
 
 .img-width1 {
 	width: 100%;
@@ -487,7 +488,7 @@ body {
   
 }
 
-.main:before {
+.helpmain:before {
 	width:100%;
 	height:100%;
 	position:absolute;
